@@ -10,6 +10,7 @@ class grid():
       self.grid.append(row)
 
     for food in board['food']:
+      print(type(self.grid[food['y']][food['x']]))
       self.grid[food['y']][food['x']].isFood()
 
     for snake in board['snakes']:
