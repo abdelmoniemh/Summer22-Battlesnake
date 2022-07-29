@@ -19,8 +19,8 @@ class grid():
         cell.isOtherSnakeBody = True
         cell.isObstacle = True
       head = snake['head']
-      self.grid[head['y']['x']].isOtherSnakeHead = True
-      self.grid[head['y']['x']].isObstacle = True
+      self.grid[head['y']][head['x']].isOtherSnakeHead = True
+      self.grid[head['y']][head['x']].isObstacle = True
 
     for part in board['you']['body']:
       self.grid[part['y']][part['x']].isSelf = True
