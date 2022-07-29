@@ -1,4 +1,4 @@
-import cell
+from cell import cell
 
 class grid():
   def __init__(self, gridSize, board):
