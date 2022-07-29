@@ -118,11 +118,11 @@ def choose_move(data: dict) -> str:
 
     # TODO: Step 4 - Find food.
     # Use information in `data` to seek out and find food.
-#    food = data['board']['food']
-#    if my_health < 100 and food:
-#      food_moves = moves_to(my_head, nearest_food(food, my_head))
-#      if len(food_moves) > 0:
-#        possible_moves = list(set(possible_moves).intersection(food_moves))
+    food = data['board']['food']
+    if my_health < 100 and food:
+      food_moves = moves_to(my_head, nearest_food(food, my_head))
+      if len(food_moves) > 0:
+        possible_moves = list(set(possible_moves).intersection(food_moves))
     
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
     move = random.choice(possible_moves)
