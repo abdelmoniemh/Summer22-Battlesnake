@@ -26,11 +26,11 @@ class gridCell:
     self.isObstacle = True
 
   def __str__(self):
+    if self.isHead:
+      return '&'
     if self.isObstacle:
       return '#'
     if self.isFood:
       return '*'
-    if self.isHead:
-      return '&'
     return '0'
     
