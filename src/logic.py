@@ -1,7 +1,10 @@
 import random
 import math
 from typing import List, Dict
-import grid
+
+from cell import cell
+from grid import grid
+
 """
 This file can be a nice home for your Battlesnake's logic and helper functions.
 
