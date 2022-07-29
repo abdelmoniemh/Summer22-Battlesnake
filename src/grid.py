@@ -1,7 +1,8 @@
 from cell import gridCell
 
 class grid():
-  def __init__(self, gridSize, board):
+  def __init__(self, gridSize, data):
+    board = data['board']
     self.grid = []
     for i in range(gridSize):
       row = []
@@ -22,11 +23,11 @@ class grid():
       self.grid[head['y']][head['x']].isOtherSnakeHead = True
       self.grid[head['y']][head['x']].isObstacle = True
 
-    for part in board['you']['body']:
+    for part in data['you']['body']:
       self.grid[part['y']][part['x']].isSelf = True
       self.grid[part['y']][part['x']].isObstacle = True
 
-    myHead = board['you']['head']
+    myHead = data['you']['head']
     self.grid[myHead['y']][myHead['x']].isHead = True
 
   def getGrid(self):

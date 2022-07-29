@@ -66,7 +66,7 @@ def choose_move(data: dict) -> str:
     board_height = board['height']
     board_width = board['width']
 
-    Grid = grid(board['height'], board)
+    Grid = grid(board['height'], data)
     Grid.serialize()
 
     if (my_head['x'] + 1 >= board_width):
