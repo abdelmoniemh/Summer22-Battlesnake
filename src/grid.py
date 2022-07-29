@@ -34,4 +34,7 @@ class grid():
     return self.grid
 
   def serialize(self):
-    print(self.grid)
+    for row in grid:
+      for item in row:
+        print(f"{item}, ")
+      print("\n")
