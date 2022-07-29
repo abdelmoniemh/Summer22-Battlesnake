@@ -2,7 +2,7 @@ import random
 import math
 from typing import List, Dict
 
-from cell import cell
+from cell import gridCell
 from grid import grid
 
 """

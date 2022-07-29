@@ -1,4 +1,4 @@
-from cell import cell
+from cell import gridCell
 
 class grid():
   def __init__(self, gridSize, board):
@@ -6,7 +6,7 @@ class grid():
     for i in range(gridSize):
       row = []
       for j in range(gridSize):
-        row.append(cell())
+        row.append(gridCell())
       self.grid.append(row)
 
     for food in board['food']:

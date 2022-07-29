@@ -1,4 +1,4 @@
-class cell:
+class gridCell:
   def __init__(self):
     self.isSelf = False
     self.isHead = False
@@ -12,7 +12,7 @@ class cell:
     self.isObstacle = True
 
   def isHead(self):
-    self.isHead()
+    self.isHead = True
 
   def isFood(self):
     self.isFood = True
