@@ -2,8 +2,7 @@ import random
 import math
 from typing import List, Dict
 
-from cell import gridCell
-from grid import grid
+from grid import grid, gridCell, flood_fill
 from grid import flood_fill
 
 """
@@ -67,10 +66,6 @@ def choose_move(data: dict) -> str:
     board = data['board']
     board_height = board['height']
     board_width = board['width']
-
-    Grid = grid(board['height'], data)
-    gridAs2DArray = Grid.serialize()
-    #print(gridAs2DArray)
 
     if (my_head['x'] + 1 >= board_width):
       possible_moves.remove('right')
@@ -136,8 +131,13 @@ def choose_move(data: dict) -> str:
         possible_moves = tail_moves
     
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
-    
-    movesWithMostSpace = flood_fill(grid,my_head)
+
+
+    Grid = grid(board['height'], data)
+    #gridAs2DArray = Grid.serialize()
+    #print(gridAs2DArray)
+  
+    movesWithMostSpace = flood_fill(Grid,my_head)
     del movesWithMostSpace['root']
     movesWithMostSpace = sorted(movesWithMostSpace.items(), key=lambda x:x[1],reverse=True)
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
