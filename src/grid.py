@@ -1,7 +1,7 @@
 # from yaml import serialize
 from cell import gridCell
 from queue import Queue
-# writing this to test a flood fill implementation 
+#flood fill implementation 
 class grid():
   def __init__(self, gridSize, data):
     board = data['board']
@@ -13,7 +13,6 @@ class grid():
       self.grid.append(row)
 
     for food in board['food']:
-      #print(type(self.grid[food['y']][food['x']].isFood))
       self.grid[food['y']][food['x']].isFood = True
 
     for snake in board['snakes']:
@@ -45,8 +44,7 @@ def flood_fill(grid, head):
     n = len(grid)
     m = len(grid[0])
     i, j = head['y'], head['x']
-    old_color = grid[i][j]
-    if old_color == '#':
+    if grid[i][j].isObstacle:
        return
 
     queue = Queue()
@@ -60,13 +58,9 @@ def flood_fill(grid, head):
           parent = queueInput[2]
         else:
           parent = queueInput[3]
-        #print(queueInput)
-        #i, j, parent = queue.get()
-        if i < 0 or i >= n or j < 0 or j >= m or grid[i][j] == "#" or (i,j) in used:
+        if i < 0 or i >= n or j < 0 or j >= m or grid[i][j].isObstacle or (i,j) in used:
             continue
         else:
-            #grid[i][j] = new_color
-            #print(parent)
             used.append((i,j))
             moves[parent] +=1
             queue.put((i+1, j, 'up', parent))
@@ -87,8 +81,5 @@ def main():
   head = {'x':1, 'y':0}
 
   moves = flood_fill(grid, head)
-  del moves['root']
   print(moves)
-  print(sorted(moves.items(), key=lambda x:x[1],reverse=True))
-  
-main()
+#main()
