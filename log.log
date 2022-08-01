@@ -1328,3 +1328,225 @@
 2022-08-01T15:51:26.642857+00:00 app[api]: Deploy f7c2d0c3 by user abdelmoniemmmh@gmail.com
 2022-08-01T15:51:26.642857+00:00 app[api]: Release v23 created by user abdelmoniemmmh@gmail.com
 2022-08-01T15:51:35.000000+00:00 app[api]: Build succeeded
+2022-08-01T15:52:11.461185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:11.461186+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:11.461186+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:11.461186+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:11.461187+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:11.461187+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:11.461187+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:11.461188+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:11.461188+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:11.811354+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=80b4a3c8-e308-4db7-9277-6a3aafe12bbd fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:11.816064+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:11.816071+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:11.816072+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:11.816072+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:11.816073+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:11.816073+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:11.816073+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:11.816074+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:11.816074+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:11.816075+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:11.816075+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:11.816076+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:11.816076+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:11.816076+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:11.816077+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:11.816077+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:11.816077+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:11.816077+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.152301+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2c32e05b-8e71-4027-a037-51c4fbf48daf fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:12.156962+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:12.156972+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:12.156973+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:12.156973+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:12.156974+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:12.156974+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:12.156974+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:12.156975+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:12.156975+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:12.156975+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:12.156976+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:12.156976+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:12.156977+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:12.156977+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:12.156977+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:12.156978+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:12.156978+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:12.156978+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.377562+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a4ced475-5080-4224-b291-5d173d4a13de fwd="143.198.42.44" dyno=web.1 connect=0ms service=7ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:12.382250+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:12.382252+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:12.382253+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:12.382254+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:12.382257+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:12.382257+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:12.382257+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:12.382258+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:12.382258+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:12.382259+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:12.382259+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:12.382260+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:12.382260+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:12.382260+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:12.382261+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:12.382261+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:12.382262+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:12.382262+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.661381+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cfda8bee-a177-49ef-9f49-95bba8b5d636 fwd="143.198.42.44" dyno=web.1 connect=0ms service=12ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:12.666040+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:12.666047+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:12.666047+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:12.666048+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:12.666048+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:12.666048+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:12.666049+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:12.666049+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:12.666050+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:12.666050+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:12.666050+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:12.666050+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:12.666051+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:12.666051+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:12.666051+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:12.666052+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:12.666052+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:12.666052+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.866917+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=6787d129-32cd-4595-9b5f-1458361caff1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=223 protocol=https
+2022-08-01T15:52:12.869501+00:00 app[web.1]: bef805cf-eead-444d-a912-3f91e4859163 END
+2022-08-01T15:53:50.680173+00:00 heroku[web.1]: Restarting
+2022-08-01T15:53:50.682891+00:00 heroku[web.1]: State changed from up to starting
+2022-08-01T15:53:51.513898+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-01T15:53:51.831026+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T15:53:53.975146+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T15:53:55.478245+00:00 app[web.1]: 
+2022-08-01T15:53:55.478268+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:35295
+2022-08-01T15:53:55.478410+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T15:53:55.478429+00:00 app[web.1]: * Environment: development
+2022-08-01T15:53:55.478443+00:00 app[web.1]: * Debug mode: on
+2022-08-01T15:53:55.675151+00:00 app[web.1]: 
+2022-08-01T15:53:55.675158+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:35295
+2022-08-01T15:53:55.747775+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T15:53:29.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T15:53:50.485781+00:00 app[api]: Deploy 7c8a566c by user abdelmoniemmmh@gmail.com
+2022-08-01T15:53:50.485781+00:00 app[api]: Release v24 created by user abdelmoniemmmh@gmail.com
+2022-08-01T15:54:19.895934+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=82b1f619-7ef4-4011-a8e4-423103357939 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T15:54:20.006748+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=eeed2a55-b44a-43f5-b01a-816ee464f2a3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=7ms status=500 bytes=15072 protocol=https
+2022-08-01T15:54:19.889220+00:00 app[web.1]: 91fd1023-dffb-40c5-b553-62b28a5596b2 START
+2022-08-01T15:54:20.000500+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:54:20.000504+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:54:20.000505+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:54:20.000505+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:54:20.000506+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:54:20.000506+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:54:20.000506+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:54:20.000507+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:54:20.000507+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:54:20.000508+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:54:20.000508+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:54:20.000508+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:54:20.000509+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:54:20.000509+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:54:20.000509+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:54:20.000510+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:54:20.000510+00:00 app[web.1]: if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
+2022-08-01T15:54:20.000511+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'keys'
+2022-08-01T15:54:20.241214+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7f9b3846-dde1-400a-bc1f-eea857114a93 fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=500 bytes=15072 protocol=https
+2022-08-01T15:54:20.401053+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a0975948-ffe2-48b5-9272-b5a9c9967b30 fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=15072 protocol=https
+2022-08-01T15:54:20.235118+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:54:20.235127+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:54:20.235128+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:54:20.235128+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:54:20.235129+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:54:20.235129+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:54:20.235129+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:54:20.235130+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:54:20.235130+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:54:20.235131+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:54:20.235131+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:54:20.235132+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:54:20.235132+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:54:20.235132+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:54:20.235133+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:54:20.235133+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:54:20.235133+00:00 app[web.1]: if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
+2022-08-01T15:54:20.235134+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'keys'
+2022-08-01T15:54:20.394671+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:54:20.394672+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:54:20.394672+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:54:20.394673+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:54:20.394673+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:54:20.394673+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:54:20.394673+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:54:20.394674+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:54:20.394675+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:54:20.394675+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:54:20.394675+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:54:20.394676+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:54:20.394676+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:54:20.394676+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:54:20.394676+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:54:20.394677+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:54:20.394678+00:00 app[web.1]: if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
+2022-08-01T15:54:20.394678+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'keys'
+2022-08-01T15:54:20.662772+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:54:20.662782+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:54:20.662783+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:54:20.662783+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:54:20.662783+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:54:20.662784+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:54:20.662784+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:54:20.662785+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:54:20.662785+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:54:20.662785+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:54:20.662786+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:54:20.662786+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:54:20.662786+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:54:20.662786+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:54:20.662787+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:54:20.662787+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:54:20.662788+00:00 app[web.1]: if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
+2022-08-01T15:54:20.662788+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'keys'
+2022-08-01T15:54:20.668976+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c94f36e2-f590-4e67-80e9-5a6c42f7a1ce fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=500 bytes=15072 protocol=https
+2022-08-01T15:54:20.982653+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=aa09e8d0-7d4e-42f8-b3eb-ef25d4da8ed0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=15072 protocol=https
+2022-08-01T15:54:20.976376+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:54:20.976387+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:54:20.976387+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:54:20.976388+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:54:20.976388+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:54:20.976388+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:54:20.976389+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:54:20.976391+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:54:20.976391+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:54:20.976392+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:54:20.976392+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:54:20.976392+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:54:20.976393+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:54:20.976393+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:54:20.976394+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:54:20.976394+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:54:20.976395+00:00 app[web.1]: if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
+2022-08-01T15:54:20.976395+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'keys'
+2022-08-01T15:53:58.000000+00:00 app[api]: Build succeeded
+2022-08-01T15:54:21.329030+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=94fb7d34-f1b0-436a-a952-114df264c627 fwd="143.198.42.44" dyno=web.1 connect=0ms service=8ms status=500 bytes=15072 protocol=https
+2022-08-01T15:54:21.322762+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:54:21.322774+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:54:21.322775+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:54:21.322775+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:54:21.322775+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:54:21.322776+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:54:21.322776+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:54:21.322777+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:54:21.322777+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:54:21.322777+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:54:21.322778+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:54:21.322778+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:54:21.322778+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:54:21.322779+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:54:21.322780+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:54:21.322780+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:54:21.322781+00:00 app[web.1]: if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
+2022-08-01T15:54:21.322781+00:00 app[web.1]: AttributeError: 'NoneType' object has no attribute 'keys'
+2022-08-01T15:54:21.552285+00:00 app[web.1]: 91fd1023-dffb-40c5-b553-62b28a5596b2 END
+2022-08-01T15:54:21.558973+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=1e99123e-d4a6-4c37-b84f-239270f9e368 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https

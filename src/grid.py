@@ -77,33 +77,33 @@ class grid():
     return serializedArray
 
 def flood_fill(grid, head):
-    n = len(grid)
-    m = len(grid[0])
-    i, j = head['y'], head['x']
-    if grid[i][j].isObstacle:
-       return
+  n = len(grid)
+  m = len(grid[0])
+  i, j = head['y'], head['x']
+  if grid[i][j].isObstacle:
+      return
 
-    queue = Queue()
-    queue.put((i, j, 'root', None))
-    used = []
-    moves = {'right':0, 'left':0, 'up':0, 'down':0, 'root':0}
-    while not queue.empty():
-        queueInput = queue.get()
-        i, j = queueInput[0], queueInput[1]
-        if queueInput[3] == None or queueInput[3] == 'root':
-          parent = queueInput[2]
-        else:
-          parent = queueInput[3]
-        if i < 0 or i >= n or j < 0 or j >= m or grid[i][j].isObstacle or (i,j) in used:
-            continue
-        else:
-            used.append((i,j))
-            moves[parent] +=1
-            queue.put((i+1, j, 'up', parent))
-            queue.put((i-1, j, 'down', parent))
-            queue.put((i, j+1, 'right', parent))
-            queue.put((i, j-1, 'left', parent))
-    return moves
+  queue = Queue()
+  queue.put((i, j, 'root', None))
+  used = []
+  moves = {'right':0, 'left':0, 'up':0, 'down':0, 'root':0}
+  while not queue.empty():
+      queueInput = queue.get()
+      i, j = queueInput[0], queueInput[1]
+      if queueInput[3] == None or queueInput[3] == 'root':
+        parent = queueInput[2]
+      else:
+        parent = queueInput[3]
+      if i < 0 or i >= n or j < 0 or j >= m or grid[i][j].isObstacle or (i,j) in used:
+          continue
+      else:
+          used.append((i,j))
+          moves[parent] +=1
+          queue.put((i+1, j, 'up', parent))
+          queue.put((i-1, j, 'down', parent))
+          queue.put((i, j+1, 'right', parent))
+          queue.put((i, j-1, 'left', parent))
+  return moves
 
 def main():
   print("start")
