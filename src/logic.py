@@ -137,7 +137,7 @@ def choose_move(data: dict) -> str:
     #gridAs2DArray = Grid.serialize()
     #print(gridAs2DArray)
   
-    movesWithMostSpace = flood_fill(Grid,my_head)
+    movesWithMostSpace = flood_fill(Grid.getGrid(),my_head)
     del movesWithMostSpace['root']
     movesWithMostSpace = sorted(movesWithMostSpace.items(), key=lambda x:x[1],reverse=True)
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
