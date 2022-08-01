@@ -162,9 +162,10 @@ def choose_move(data: dict) -> str:
         print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
         return move
     
+    
     # TODO: Explore new strategies for picking a move that are better than random
 
-
+    print(f"{data['game']['id']} MOVE {data['turn']}: {move} random picked from all valid options in {possible_moves}")
     return move
 
 

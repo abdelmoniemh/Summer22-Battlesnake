@@ -1,0 +1,698 @@
+2022-08-01T16:29:17.826870+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 237: up picked from all valid options in ['up', 'left']
+2022-08-01T16:29:17.828824+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=54f48ce2-8034-4d5b-99dd-efafb8ae201d fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:29:17.942355+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '#', '#', '#', '*', '0', '0'], ['*', '#', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '0', '0', '*', '0'], ['*', '&', '0', '*', '0', '*', '*'], ['0', '*', '*', '0', '*', '*', '0']]
+2022-08-01T16:29:17.943272+00:00 app[web.1]: [('right', 22), ('left', 9), ('up', 7), ('down', 0)]
+2022-08-01T16:29:17.943293+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 238: up picked from all valid options in ['up', 'left', 'right']
+2022-08-01T16:29:17.945262+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c5c8b1f1-f258-4f2a-94f5-2b070b965e44 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:29:18.066496+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '#', '#', '#', '*', '0', '0'], ['*', '#', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '0', '0', '*', '0'], ['*', '#', '0', '*', '0', '*', '*'], ['0', '&', '*', '0', '*', '*', '0']]
+2022-08-01T16:29:18.067313+00:00 app[web.1]: [('right', 27), ('left', 10), ('up', 0), ('down', 0)]
+2022-08-01T16:29:18.067330+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 239: right picked from all valid options in ['left', 'right']
+2022-08-01T16:29:18.069230+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fc0a0474-d8ac-4184-b937-da38d754aba7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:29:18.183656+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '#', '#', '#', '*', '0', '0'], ['*', '#', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '0', '0', '*', '0'], ['*', '#', '0', '*', '0', '*', '*'], ['0', '#', '&', '0', '*', '*', '0']]
+2022-08-01T16:29:18.184473+00:00 app[web.1]: [('down', 32), ('right', 4), ('left', 0), ('up', 0)]
+2022-08-01T16:29:18.184499+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 240: down picked from all valid options in ['down']
+2022-08-01T16:29:18.186381+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0800a13a-678e-4b83-96fa-1935ef25ddaa fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:29:18.300002+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '#', '#', '#', '*', '0', '0'], ['*', '#', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '0', '0', '*', '0'], ['*', '#', '&', '*', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:18.300768+00:00 app[web.1]: [('right', 35), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:29:18.300788+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 241: right picked from all valid options in ['right']
+2022-08-01T16:29:18.302715+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=32e66042-d127-43b0-aaf0-e12d0d00b0ae fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:29:18.419525+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '#', '#', '#', '*', '0', '0'], ['*', '0', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '0', '0', '*', '0'], ['*', '#', '#', '&', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:18.420333+00:00 app[web.1]: [('down', 29), ('up', 4), ('right', 3), ('left', 0)]
+2022-08-01T16:29:18.420339+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 242: down picked from all valid options in ['down']
+2022-08-01T16:29:18.422175+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=54cf7431-7d56-4048-adf1-86e341a51223 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:29:18.556384+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '#', '#', '#', '*', '0', '0'], ['*', '0', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '&', '0', '*', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:18.557194+00:00 app[web.1]: [('right', 35), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:29:18.557226+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 243: right picked from all valid options in ['right']
+2022-08-01T16:29:18.559233+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e93d4a0c-72be-4bed-adaf-bbb7690b02b9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:29:18.679835+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '#', '#', '*', '0', '0'], ['*', '0', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '0', '*', '0'], ['0', '#', '#', '#', '&', '*', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:18.680679+00:00 app[web.1]: [('down', 26), ('up', 7), ('right', 2), ('left', 0)]
+2022-08-01T16:29:18.680701+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 244: down picked from all valid options in ['down']
+2022-08-01T16:29:18.682653+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c55c59cd-ce5b-4767-94f5-41493831c8d7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:29:18.801715+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '#', '*', '0', '0'], ['*', '0', '0', '#', '0', '0', '*'], ['0', '0', '#', '#', '&', '*', '0'], ['0', '#', '#', '#', '#', '*', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:18.803041+00:00 app[web.1]: [('down', 24), ('right', 11), ('left', 0), ('up', 0)]
+2022-08-01T16:29:18.803058+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 245: down picked from all valid options in ['down']
+2022-08-01T16:29:18.805373+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8831ec7d-3d57-44c3-82d0-d17f15a4d8a5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-01T16:29:18.926312+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '#', '&', '0', '*'], ['0', '0', '#', '#', '#', '*', '0'], ['0', '#', '#', '#', '#', '*', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:18.927085+00:00 app[web.1]: [('down', 22), ('right', 13), ('left', 0), ('up', 0)]
+2022-08-01T16:29:18.927104+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 246: right picked from all valid options in ['down', 'right']
+2022-08-01T16:29:18.929100+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f5f248ef-9705-4c86-990a-67945526ee08 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:29:19.043966+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '0', '#', '&', '*'], ['0', '0', '#', '#', '#', '*', '0'], ['0', '#', '#', '#', '#', '*', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:19.044758+00:00 app[web.1]: [('down', 23), ('up', 11), ('right', 1), ('left', 0)]
+2022-08-01T16:29:19.044773+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 247: up picked from all valid options in ['up']
+2022-08-01T16:29:19.046759+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b167265c-76eb-488a-a664-88f5dcb1ddab fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:29:19.162143+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '0', '#', '#', '*'], ['0', '0', '#', '0', '#', '&', '0'], ['0', '#', '#', '#', '#', '*', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:19.162920+00:00 app[web.1]: [('right', 26), ('up', 9), ('left', 0), ('down', 0)]
+2022-08-01T16:29:19.162935+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 248: up picked from all valid options in ['up', 'right']
+2022-08-01T16:29:19.165025+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d862395d-98ac-487b-ba5d-548452577066 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:29:19.276440+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '0', '#', '#', '*'], ['0', '0', '#', '0', '#', '#', '0'], ['0', '#', '#', '#', '#', '&', '0'], ['*', '#', '#', '#', '0', '*', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:19.277247+00:00 app[web.1]: [('right', 27), ('up', 7), ('left', 0), ('down', 0)]
+2022-08-01T16:29:19.277251+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 249: up picked from all valid options in ['up', 'right']
+2022-08-01T16:29:19.279200+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3eb1702b-71ca-4762-914d-6e8e4b79857c fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:29:19.405770+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '0', '#', '#', '*'], ['0', '0', '#', '0', '#', '#', '0'], ['0', '#', '#', '#', '#', '#', '0'], ['*', '#', '#', '#', '0', '&', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:19.406512+00:00 app[web.1]: [('right', 28), ('up', 4), ('left', 1), ('down', 0)]
+2022-08-01T16:29:19.406518+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 250: left picked from all valid options in ['left']
+2022-08-01T16:29:19.408565+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=64f08447-aeb4-4cfd-aee0-976c698c8126 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:29:19.524246+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '*', '#', '#', '*'], ['0', '0', '#', '0', '#', '#', '0'], ['0', '#', '#', '#', '#', '#', '0'], ['*', '#', '#', '#', '&', '#', '*'], ['0', '#', '#', '0', '*', '*', '0']]
+2022-08-01T16:29:19.524965+00:00 app[web.1]: [('up', 32), ('right', 0), ('left', 0), ('down', 0)]
+2022-08-01T16:29:19.524977+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 251: up picked from all valid options in ['up']
+2022-08-01T16:29:19.526890+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=55578fa6-dbae-4d92-80e4-52dde68bada0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:29:19.640976+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '*', '#', '#', '*'], ['0', '0', '*', '0', '#', '#', '0'], ['0', '#', '#', '#', '#', '#', '0'], ['*', '#', '#', '#', '#', '#', '*'], ['0', '#', '#', '0', '&', '*', '0']]
+2022-08-01T16:29:19.641790+00:00 app[web.1]: [('right', 31), ('left', 1), ('up', 0), ('down', 0)]
+2022-08-01T16:29:19.641810+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c MOVE 252: left picked from all valid options in ['left']
+2022-08-01T16:29:19.643888+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c877e687-b564-4915-9bfe-24092238c5ea fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:29:19.760307+00:00 app[web.1]: [['*', '0', '*', '*', '*', '*', '*'], ['*', '0', '0', '0', '*', '0', '0'], ['*', '0', '0', '*', '#', '#', '*'], ['0', '0', '*', '0', '#', '#', '0'], ['0', '#', '#', '#', '#', '#', '0'], ['*', '#', '#', '#', '#', '#', '*'], ['0', '#', '#', '&', '#', '*', '0']]
+2022-08-01T16:29:19.760370+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:29:19.767357+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T16:29:19.767358+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T16:29:19.767359+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T16:29:19.767359+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T16:29:19.767359+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T16:29:19.767359+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T16:29:19.767360+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T16:29:19.767360+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T16:29:19.767360+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T16:29:19.767361+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T16:29:19.767361+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T16:29:19.767361+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T16:29:19.767361+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T16:29:19.767362+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T16:29:19.767364+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T16:29:19.767364+00:00 app[web.1]: File "/app/src/logic.py", line 147, in choose_move
+2022-08-01T16:29:19.767364+00:00 app[web.1]: move = random.choice(possible_moves)
+2022-08-01T16:29:19.767364+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/random.py", line 346, in choice
+2022-08-01T16:29:19.767365+00:00 app[web.1]: return seq[self._randbelow(len(seq))]
+2022-08-01T16:29:19.767365+00:00 app[web.1]: IndexError: list index out of range
+2022-08-01T16:29:19.769252+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7490076b-1c84-4878-aa15-b2d1afa9fe1b fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=500 bytes=16420 protocol=https
+2022-08-01T16:29:20.119629+00:00 app[web.1]: b4dd04a6-6e88-45fe-8c8e-c60b8bd3356c END
+2022-08-01T16:29:20.121405+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=b81d9a9e-e4c3-45bf-9eaf-b6792d0378ca fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T16:43:54.395052+00:00 heroku[web.1]: Restarting
+2022-08-01T16:43:54.400182+00:00 heroku[web.1]: State changed from up to starting
+2022-08-01T16:43:55.155574+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-01T16:43:55.376791+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T16:43:57.697592+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T16:43:59.067289+00:00 app[web.1]: 
+2022-08-01T16:43:59.067307+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:5716
+2022-08-01T16:43:59.067458+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T16:43:59.067477+00:00 app[web.1]: * Environment: development
+2022-08-01T16:43:59.067491+00:00 app[web.1]: * Debug mode: on
+2022-08-01T16:43:59.272858+00:00 app[web.1]: 
+2022-08-01T16:43:59.272864+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:5716
+2022-08-01T16:43:59.357725+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T16:43:31.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T16:43:52.884133+00:00 app[api]: Release v32 created by user abdelmoniemmmh@gmail.com
+2022-08-01T16:43:52.884133+00:00 app[api]: Deploy d13d53be by user abdelmoniemmmh@gmail.com
+2022-08-01T16:44:01.000000+00:00 app[api]: Build succeeded
+2022-08-01T16:44:36.590075+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=29b67c35-b29c-404a-87d6-a3cb31edee15 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T16:44:36.834556+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=db48fd11-7a9d-4cad-a4ed-f37c5409b2e0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:36.585510+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 START
+2022-08-01T16:44:36.697998+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:36.699124+00:00 app[web.1]: [('up', 35), ('down', 7), ('left', 5), ('right', 1)]
+2022-08-01T16:44:36.699163+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 0: up picked from all valid options in ['left', 'up', 'right', 'down']
+2022-08-01T16:44:36.828913+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '&', '*'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:36.830103+00:00 app[web.1]: [('up', 28), ('left', 15), ('right', 4), ('down', 0)]
+2022-08-01T16:44:36.830131+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 1: up picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:44:36.703578+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cda22820-53b5-449f-9f8d-ad1a7fc93f1c fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:36.962149+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=49775613-2811-4a64-9b41-4dd0e698d1ce fwd="143.198.42.44" dyno=web.1 connect=0ms service=7ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:37.096839+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=31fcd274-32d1-488c-9e83-54985e6c6fdf fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:37.219905+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c1fdde18-b6f4-4e69-9861-f82a9c415f85 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:36.956624+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '#', '*'], ['0', '0', '0', '*', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:36.957728+00:00 app[web.1]: [('up', 21), ('left', 20), ('right', 5), ('down', 0)]
+2022-08-01T16:44:36.957762+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 2: up picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:44:37.090831+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '*'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.092454+00:00 app[web.1]: [('left', 25), ('up', 14), ('right', 7), ('down', 0)]
+2022-08-01T16:44:37.092474+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 3: left picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:44:37.351336+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7215506b-63e7-470e-8356-92ff598ff0fc fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:37.481227+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0241b471-27db-46c3-bbc9-68184bc63934 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:37.475813+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '&', '0', '*'], ['0', '0', '0', '*', '#', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.476847+00:00 app[web.1]: [('left', 20), ('down', 14), ('right', 12), ('up', 0)]
+2022-08-01T16:44:37.476873+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 6: right picked from all valid options in ['left', 'right', 'down']
+2022-08-01T16:44:37.601269+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '&', '*'], ['0', '0', '0', '*', '#', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.602394+00:00 app[web.1]: [('up', 27), ('down', 18), ('right', 1), ('left', 0)]
+2022-08-01T16:44:37.602419+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 7: right picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:44:37.724968+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '&'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.606955+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e3138fde-fc27-46bf-bd5a-d3fdf0b2c3fb fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:37.730547+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cb215dda-9ecf-4b5b-a4df-836be456cdae fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:37.982590+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ea049363-41c1-403d-b6e5-23772bd43740 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:37.726051+00:00 app[web.1]: [('up', 32), ('down', 14), ('right', 0), ('left', 0)]
+2022-08-01T16:44:37.726090+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 8: up picked from all valid options in ['up', 'down']
+2022-08-01T16:44:37.844525+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '*', '0', '0', '&'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.845613+00:00 app[web.1]: [('left', 24), ('up', 21), ('right', 0), ('down', 0)]
+2022-08-01T16:44:37.845640+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 9: left picked from all valid options in ['left', 'up']
+2022-08-01T16:44:37.850073+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fcd1b97c-661a-4966-9a85-a7504c097835 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:37.976882+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '*', '0', '&', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.978057+00:00 app[web.1]: [('left', 24), ('up', 21), ('right', 0), ('down', 0)]
+2022-08-01T16:44:37.978084+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 10: up picked from all valid options in ['left', 'up']
+2022-08-01T16:44:38.135825+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '#'], ['0', '0', '0', '*', '0', '#', '#'], ['0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.136988+00:00 app[web.1]: [('left', 30), ('up', 14), ('right', 1), ('down', 0)]
+2022-08-01T16:44:38.137000+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 11: up picked from all valid options in ['right', 'left', 'up']
+2022-08-01T16:44:38.141460+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7e83057d-773c-419e-a902-5f9e045c940c fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:38.261957+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6b8b101d-3103-40f9-b038-f16278097d4e fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:38.256377+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '#'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.257471+00:00 app[web.1]: [('left', 36), ('up', 7), ('right', 2), ('down', 0)]
+2022-08-01T16:44:38.257501+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 12: right picked from all valid options in ['right', 'left', 'up']
+2022-08-01T16:44:38.372621+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '#', '&'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.373652+00:00 app[web.1]: [('down', 23), ('up', 22), ('right', 0), ('left', 0)]
+2022-08-01T16:44:38.373677+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 13: down picked from all valid options in ['down', 'up']
+2022-08-01T16:44:38.494615+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '&'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.495679+00:00 app[web.1]: [('down', 45), ('right', 0), ('left', 0), ('up', 0)]
+2022-08-01T16:44:38.495701+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 14: down picked from all valid options in ['down']
+2022-08-01T16:44:38.378044+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=29e054f4-e74b-4803-9f33-038874146765 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:38.733858+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=935ef713-c50b-41e3-b054-155ad4181f71 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:37.214269+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '&', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.215318+00:00 app[web.1]: [('down', 26), ('up', 16), ('left', 4), ('right', 0)]
+2022-08-01T16:44:37.215346+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 4: down picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:44:37.345865+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '*', '&', '0', '0'], ['0', '0', '0', '0', '#', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:37.346931+00:00 app[web.1]: [('down', 21), ('left', 18), ('right', 7), ('up', 0)]
+2022-08-01T16:44:37.346957+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 5: down picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:44:38.859196+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4901b5e3-d0f9-40de-8c19-dee81a4c3968 fwd="143.198.42.44" dyno=web.1 connect=0ms service=8ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:38.500140+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=60aebc6c-b56a-476e-86c7-0a482b6df495 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:38.976825+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=486b9f89-4f05-4c61-af94-194a5f6c40b3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:38.611752+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '&'], ['0', '0', '0', '0', '0', '0', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.612810+00:00 app[web.1]: [('left', 24), ('down', 21), ('right', 0), ('up', 0)]
+2022-08-01T16:44:38.612832+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 15: left picked from all valid options in ['left', 'down']
+2022-08-01T16:44:38.728147+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '&', '#'], ['0', '0', '0', '0', '0', '0', '#'], ['0', '0', '0', '0', '0', '0', '#'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.729372+00:00 app[web.1]: [('down', 21), ('up', 19), ('left', 5), ('right', 0)]
+2022-08-01T16:44:38.729398+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 16: up picked from all valid options in ['up', 'left', 'down']
+2022-08-01T16:44:38.848682+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '#'], ['0', '0', '0', '0', '0', '&', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.849721+00:00 app[web.1]: [('left', 31), ('up', 14), ('right', 0), ('down', 0)]
+2022-08-01T16:44:38.849732+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 17: left picked from all valid options in ['left', 'up']
+2022-08-01T16:44:38.617249+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8104c5d0-6ce9-4868-8c64-cdecbf9177ef fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:39.094608+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=be393a06-1df4-44ab-a8c9-9f2365f9cd82 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:39.221541+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=40cb364d-ddad-41e8-8a53-9ed77f261b79 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:38.971446+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '#'], ['0', '0', '0', '0', '&', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:38.972487+00:00 app[web.1]: [('down', 26), ('up', 15), ('left', 4), ('right', 0)]
+2022-08-01T16:44:38.972511+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 18: left picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:44:39.089183+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '&', '#', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:39.090197+00:00 app[web.1]: [('down', 26), ('up', 16), ('left', 3), ('right', 0)]
+2022-08-01T16:44:39.090218+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 19: up picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:44:39.214942+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '#', '#', '#', '0'], ['0', '0', '0', '&', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:39.216880+00:00 app[web.1]: [('left', 26), ('right', 12), ('up', 7), ('down', 0)]
+2022-08-01T16:44:39.216917+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 20: right picked from all valid options in ['right', 'left', 'up']
+2022-08-01T16:44:39.342415+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d9d1c07a-deba-427a-85e1-667266b2bd17 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:39.336931+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '#', '&', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:39.337944+00:00 app[web.1]: [('up', 25), ('right', 20), ('left', 0), ('down', 0)]
+2022-08-01T16:44:39.337969+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 21: up picked from all valid options in ['up', 'right']
+2022-08-01T16:44:39.459799+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '0', '&', '0', '0']]
+2022-08-01T16:44:39.460834+00:00 app[web.1]: [('right', 23), ('left', 22), ('up', 0), ('down', 0)]
+2022-08-01T16:44:39.460854+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 22: right picked from all valid options in ['left', 'right']
+2022-08-01T16:44:39.578270+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '0', '#', '&', '0']]
+2022-08-01T16:44:39.579308+00:00 app[web.1]: [('down', 44), ('right', 1), ('left', 0), ('up', 0)]
+2022-08-01T16:44:39.579339+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 23: down picked from all valid options in ['down', 'right']
+2022-08-01T16:44:39.465198+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6ce9e81f-8692-46b5-8dbb-f77be2f8537a fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:39.583772+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f26ef790-94fc-45df-8584-f64376627704 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:39.699403+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '&', '0'], ['0', '0', '0', '0', '#', '#', '0']]
+2022-08-01T16:44:39.700728+00:00 app[web.1]: [('down', 43), ('right', 2), ('left', 0), ('up', 0)]
+2022-08-01T16:44:39.700785+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 24: right picked from all valid options in ['right', 'down']
+2022-08-01T16:44:39.817131+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '&'], ['0', '0', '0', '0', '#', '#', '0']]
+2022-08-01T16:44:39.818830+00:00 app[web.1]: [('down', 44), ('up', 1), ('right', 0), ('left', 0)]
+2022-08-01T16:44:39.818862+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 25: down picked from all valid options in ['up', 'down']
+2022-08-01T16:44:39.942145+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '&'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '#', '0']]
+2022-08-01T16:44:39.943154+00:00 app[web.1]: [('down', 28), ('left', 16), ('right', 0), ('up', 0)]
+2022-08-01T16:44:39.943179+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 26: left picked from all valid options in ['left', 'down']
+2022-08-01T16:44:39.947665+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b9175ffd-dde5-469b-ba8b-d2bef61ce6e1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:39.705432+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=615acf35-e3f7-4df0-b292-ab77cbdb6429 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:40.063110+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.064235+00:00 app[web.1]: [('down', 28), ('left', 17), ('right', 0), ('up', 0)]
+2022-08-01T16:44:40.064254+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 27: down picked from all valid options in ['left', 'down']
+2022-08-01T16:44:40.181480+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '&', '0'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '0', '#'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.182481+00:00 app[web.1]: [('left', 23), ('down', 21), ('right', 1), ('up', 0)]
+2022-08-01T16:44:40.182503+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 28: down picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:44:40.310476+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.311665+00:00 app[web.1]: [('left', 29), ('down', 14), ('right', 2), ('up', 0)]
+2022-08-01T16:44:40.311686+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 29: left picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:44:39.823396+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=078bccfd-ca55-4ee5-8780-9ac27983805c fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:40.068747+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=08431294-a863-4d0e-a711-c6ee934e5c61 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:40.316052+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5e61fa3a-afb6-44d4-80c9-95a16dd387eb fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:40.431534+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=922625e5-cbbf-4da0-92cf-25233843c333 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:40.186842+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=de82f07c-8eba-4202-bac6-a314e4e82dfd fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:40.547146+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5a94d63d-bee2-451a-a1e7-9028bc0fa603 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:40.426042+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '&', '#', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.427068+00:00 app[web.1]: [('up', 25), ('down', 16), ('left', 4), ('right', 0)]
+2022-08-01T16:44:40.427093+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 30: left picked from all valid options in ['up', 'left', 'down']
+2022-08-01T16:44:40.541502+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '&', '#', '#', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.542723+00:00 app[web.1]: [('up', 27), ('down', 15), ('left', 3), ('right', 0)]
+2022-08-01T16:44:40.542740+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 31: up picked from all valid options in ['up', 'left', 'down']
+2022-08-01T16:44:40.662523+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '#', '#', '0'], ['0', '0', '0', '&', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.663703+00:00 app[web.1]: [('up', 21), ('left', 16), ('right', 8), ('down', 0)]
+2022-08-01T16:44:40.663738+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 32: right picked from all valid options in ['right', 'left', 'up']
+2022-08-01T16:44:40.789285+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=65253e0e-97a2-4475-a681-d991c60be9ab fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:40.668124+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4e1cfab1-2c62-4ecf-bccc-87d45c8ffc72 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:40.903287+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=91c39101-cf5c-424c-97bd-8177f65a97bf fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:41.047829+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ed09f040-d186-49f6-8c7e-2380b8b70ff7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:40.783802+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '#', '#', '0'], ['0', '0', '0', '#', '&', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.784888+00:00 app[web.1]: [('up', 35), ('right', 9), ('left', 0), ('down', 0)]
+2022-08-01T16:44:40.784916+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 33: up picked from all valid options in ['right', 'up']
+2022-08-01T16:44:40.897838+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '0', '&', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:40.898867+00:00 app[web.1]: [('left', 16), ('right', 14), ('up', 14), ('down', 0)]
+2022-08-01T16:44:40.898916+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 34: up picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:44:41.177417+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=72213e1d-a0f1-4966-9d84-96af792ab508 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:41.293137+00:00 app[web.1]: [('down', 43), ('right', 1), ('left', 0), ('up', 0)]
+2022-08-01T16:44:41.293160+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 37: down picked from all valid options in ['down', 'right']
+2022-08-01T16:44:41.408454+00:00 app[web.1]: [['0', '0', '0', '*', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '#', '&', '0'], ['0', '0', '0', '0', '#', '#', '0']]
+2022-08-01T16:44:41.409437+00:00 app[web.1]: [('down', 42), ('right', 2), ('left', 0), ('up', 0)]
+2022-08-01T16:44:41.409471+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 38: right picked from all valid options in ['down', 'right']
+2022-08-01T16:44:41.534980+00:00 app[web.1]: [['0', '0', '0', '*', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '&'], ['0', '0', '0', '0', '#', '#', '0']]
+2022-08-01T16:44:41.536080+00:00 app[web.1]: [('down', 43), ('up', 1), ('right', 0), ('left', 0)]
+2022-08-01T16:44:41.536102+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 39: up picked from all valid options in ['up', 'down']
+2022-08-01T16:44:41.042085+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '&', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:44:41.043339+00:00 app[web.1]: [('left', 20), ('right', 17), ('up', 7), ('down', 0)]
+2022-08-01T16:44:41.043365+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 35: up picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:44:41.171988+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '&', '0', '0']]
+2022-08-01T16:44:41.173061+00:00 app[web.1]: [('left', 24), ('right', 20), ('up', 0), ('down', 0)]
+2022-08-01T16:44:41.173089+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 MOVE 36: right picked from all valid options in ['left', 'right']
+2022-08-01T16:44:41.292066+00:00 app[web.1]: [['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '0', '#', '&', '0']]
+2022-08-01T16:44:41.413896+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=de4baeee-4058-4b8c-a29e-8728591de946 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:44:41.297535+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c537a4b8-75ec-4cbe-bccd-6e206f227fd6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:44:41.540473+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cde6a2be-32f2-4c50-8310-a3a7b7495793 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:44:41.676781+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=affcd6a2-a8c2-41c9-b183-4d35db6293cb fwd="143.198.42.44" dyno=web.1 connect=0ms service=15ms status=500 bytes=16302 protocol=https
+2022-08-01T16:44:41.658815+00:00 app[web.1]: [['0', '0', '0', '*', '0', '*', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '#', '#', '&']]
+2022-08-01T16:44:41.658887+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:44:41.665360+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T16:44:41.665361+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T16:44:41.665361+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T16:44:41.665362+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T16:44:41.665362+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T16:44:41.665362+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T16:44:41.665363+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T16:44:41.665363+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T16:44:41.665363+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T16:44:41.665364+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T16:44:41.665364+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T16:44:41.665364+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T16:44:41.665364+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T16:44:41.665365+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T16:44:41.665365+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T16:44:41.665365+00:00 app[web.1]: File "/app/src/logic.py", line 159, in choose_move
+2022-08-01T16:44:41.665365+00:00 app[web.1]: move = random.choice(possible_moves)
+2022-08-01T16:44:41.665365+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/random.py", line 346, in choice
+2022-08-01T16:44:41.665366+00:00 app[web.1]: return seq[self._randbelow(len(seq))]
+2022-08-01T16:44:41.665366+00:00 app[web.1]: IndexError: list index out of range
+2022-08-01T16:44:42.021811+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=7d5d836b-4960-4c7e-9be8-5ae066f6495f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T16:44:42.017519+00:00 app[web.1]: 3b836841-a52a-4912-b36a-f94f163100a8 END
+2022-08-01T16:51:27.435751+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=50d6a01e-af9b-4d26-9868-7981858714ff fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=223 protocol=https
+2022-08-01T16:51:27.543168+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=49ba24bc-0ffa-4b1e-b5d4-3c72abdb0872 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:27.778083+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=92ccdbb1-e086-42c1-972e-7d2c86a518a8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:27.663718+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=bef9e470-3217-45c4-b1f1-77b5befa6783 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:27.776623+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '&', '#', '0']]
+2022-08-01T16:51:27.777722+00:00 app[web.1]: [('down', 42), ('left', 4), ('right', 0), ('up', 0)]
+2022-08-01T16:51:27.777760+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 2: left picked from all valid options in ['down', 'left']
+2022-08-01T16:51:27.892909+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '&', '#', '#', '0']]
+2022-08-01T16:51:27.893969+00:00 app[web.1]: [('down', 43), ('left', 3), ('right', 0), ('up', 0)]
+2022-08-01T16:51:27.894005+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 3: down picked from all valid options in ['left', 'down']
+2022-08-01T16:51:28.010559+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '&', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0']]
+2022-08-01T16:51:28.011794+00:00 app[web.1]: [('down', 35), ('left', 6), ('right', 5), ('up', 0)]
+2022-08-01T16:51:28.011852+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 4: down picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:51:27.435308+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 START
+2022-08-01T16:51:27.541667+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:27.542759+00:00 app[web.1]: [('down', 35), ('up', 7), ('left', 5), ('right', 1)]
+2022-08-01T16:51:27.542801+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 0: up picked from all valid options in ['left', 'up', 'right', 'down']
+2022-08-01T16:51:27.662301+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '&', '0']]
+2022-08-01T16:51:27.663369+00:00 app[web.1]: [('left', 35), ('right', 12), ('up', 0), ('down', 0)]
+2022-08-01T16:51:27.663399+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 1: left picked from all valid options in ['left', 'right']
+2022-08-01T16:51:28.130363+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0b351cda-084c-4079-b734-ef3c48563922 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:27.894410+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ba7a462d-0c67-4521-b589-eaf7e7c2280c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.012240+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=43d03795-d4a4-464d-89b4-cdd74f712967 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.128966+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '&', '0', '0', '*'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0']]
+2022-08-01T16:51:28.130030+00:00 app[web.1]: [('down', 28), ('right', 9), ('left', 9), ('up', 0)]
+2022-08-01T16:51:28.130057+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 5: right picked from all valid options in ['left', 'right', 'down']
+2022-08-01T16:51:28.239437+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '#', '&', '0', '*'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:28.240516+00:00 app[web.1]: [('down', 31), ('up', 13), ('right', 2), ('left', 0)]
+2022-08-01T16:51:28.240544+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 6: up picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:28.357114+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '*'], ['0', '0', '0', '0', '&', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:28.358333+00:00 app[web.1]: [('right', 20), ('left', 19), ('up', 7), ('down', 0)]
+2022-08-01T16:51:28.358374+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 7: left picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:28.241054+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4ea77b80-47c1-43c9-9da5-f0c1c6caec77 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:28.358814+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ae82abd9-15a7-487a-aee6-5891990baf92 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.467462+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '*'], ['0', '0', '0', '&', '#', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:28.468534+00:00 app[web.1]: [('down', 32), ('up', 11), ('left', 3), ('right', 0)]
+2022-08-01T16:51:28.468555+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 8: left picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:51:28.584502+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '&', '#', '#', '0', '0'], ['0', '0', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:28.585676+00:00 app[web.1]: [('down', 35), ('up', 9), ('left', 2), ('right', 0)]
+2022-08-01T16:51:28.585704+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 9: up picked from all valid options in ['left', 'up', 'down']
+2022-08-01T16:51:28.705470+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '&', '0', '0', '0', '0']]
+2022-08-01T16:51:28.706495+00:00 app[web.1]: [('right', 27), ('left', 19), ('up', 0), ('down', 0)]
+2022-08-01T16:51:28.706519+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 10: left picked from all valid options in ['right', 'left']
+2022-08-01T16:51:28.468908+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a2a2b162-569e-445c-848b-fc30e1031fb9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.820848+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=30c1a8e3-8e4e-49b3-beef-54f9a0b4252f fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.586153+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3fddf285-1499-4bf8-892c-0d1b99b4d564 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:28.940333+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ff2c0fa4-5426-489a-ae67-dacbab748635 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.706841+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=42bc0c4c-2964-43bb-9136-7092e2e5e6ab fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:28.818226+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '&', '#', '0', '0', '0', '0']]
+2022-08-01T16:51:28.819274+00:00 app[web.1]: [('down', 45), ('left', 1), ('right', 0), ('up', 0)]
+2022-08-01T16:51:28.819300+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 11: down picked from all valid options in ['down', 'left']
+2022-08-01T16:51:28.938871+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '&', '0', '0', '0', '0', '0'], ['0', '#', '#', '0', '0', '0', '0']]
+2022-08-01T16:51:28.939962+00:00 app[web.1]: [('down', 35), ('right', 9), ('left', 2), ('up', 0)]
+2022-08-01T16:51:28.939992+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 12: left picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:51:29.052058+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['&', '#', '0', '0', '0', '0', '0'], ['0', '#', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:29.053367+00:00 app[web.1]: [('down', 45), ('up', 1), ('right', 0), ('left', 0)]
+2022-08-01T16:51:29.053401+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 13: down picked from all valid options in ['up', 'down']
+2022-08-01T16:51:29.302645+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2b988b52-fcad-4aab-bfb0-749b68a64a2a fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:29.053829+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=41f692ed-20ed-4ad6-ac40-874cd064dc7f fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:29.169108+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e33c199c-aa07-42ad-b441-c51eeac0d1da fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:29.570162+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cd5084f8-74dc-41c9-9e5f-853ccef28450 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:29.167692+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['&', '0', '0', '0', '0', '0', '*'], ['#', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:29.168752+00:00 app[web.1]: [('down', 28), ('right', 18), ('left', 0), ('up', 0)]
+2022-08-01T16:51:29.168776+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 14: right picked from all valid options in ['right', 'down']
+2022-08-01T16:51:29.301151+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['#', '&', '0', '0', '0', '0', '*'], ['#', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:29.302273+00:00 app[web.1]: [('down', 28), ('up', 13), ('right', 5), ('left', 0)]
+2022-08-01T16:51:29.302304+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 15: right picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:29.683243+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '#', '0', '0', '0', '*'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '0', '&', '0', '*', '0', '0']]
+2022-08-01T16:51:29.684506+00:00 app[web.1]: [('right', 32), ('left', 14), ('up', 0), ('down', 0)]
+2022-08-01T16:51:29.684539+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 18: left picked from all valid options in ['left', 'right']
+2022-08-01T16:51:29.794984+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '&', '#', '0', '*', '0', '0']]
+2022-08-01T16:51:29.796260+00:00 app[web.1]: [('down', 45), ('left', 1), ('right', 0), ('up', 0)]
+2022-08-01T16:51:29.796301+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 19: left picked from all valid options in ['down', 'left']
+2022-08-01T16:51:29.915575+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['&', '#', '#', '0', '*', '0', '0']]
+2022-08-01T16:51:29.916759+00:00 app[web.1]: [('down', 46), ('right', 0), ('left', 0), ('up', 0)]
+2022-08-01T16:51:29.916787+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 20: down picked from all valid options in ['down']
+2022-08-01T16:51:29.433817+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=12d85943-88f0-4cb7-8565-cdf63a4e338c fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:29.686190+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=002ff26c-e3ce-440f-b7c5-33cd41ef31f9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:29.432436+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['#', '#', '&', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:29.433489+00:00 app[web.1]: [('down', 28), ('up', 14), ('right', 4), ('left', 0)]
+2022-08-01T16:51:29.433522+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 16: up picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:29.568626+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '#', '#', '0', '0', '0', '*'], ['0', '0', '&', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:29.569661+00:00 app[web.1]: [('right', 32), ('left', 7), ('up', 7), ('down', 0)]
+2022-08-01T16:51:29.569686+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 17: up picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:29.796783+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8e981fe9-3b61-45e6-b176-c897b5480778 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:29.917147+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4655d46e-ed80-4ad0-8993-5cbaddbd02af fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:30.051276+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e0bfaa91-cb7f-4b51-b177-e69ed822c57c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:30.167481+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b190b15a-f62e-46ae-bfde-f036fddb55dc fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:30.296316+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6f43b6cd-453c-4a8e-bd5b-3a55321a133b fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:30.049853+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['&', '0', '0', '0', '0', '0', '0'], ['#', '#', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.050920+00:00 app[web.1]: [('down', 35), ('right', 11), ('left', 0), ('up', 0)]
+2022-08-01T16:51:30.050954+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 21: right picked from all valid options in ['right', 'down']
+2022-08-01T16:51:30.165127+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['#', '&', '0', '0', '0', '0', '0'], ['#', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.167086+00:00 app[web.1]: [('down', 35), ('up', 6), ('right', 5), ('left', 0)]
+2022-08-01T16:51:30.167113+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 22: up picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:30.294809+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['#', '#', '0', '0', '0', '0', '0'], ['0', '&', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.295913+00:00 app[web.1]: [('right', 45), ('left', 1), ('up', 0), ('down', 0)]
+2022-08-01T16:51:30.295930+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 23: left picked from all valid options in ['left', 'right']
+2022-08-01T16:51:30.407847+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '#', '0', '0', '0', '0', '0'], ['&', '#', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.408950+00:00 app[web.1]: [('down', 46), ('right', 0), ('left', 0), ('up', 0)]
+2022-08-01T16:51:30.408972+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 24: down picked from all valid options in ['down']
+2022-08-01T16:51:30.535037+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['&', '0', '0', '0', '0', '0', '0'], ['#', '#', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.536118+00:00 app[web.1]: [('down', 35), ('right', 11), ('left', 0), ('up', 0)]
+2022-08-01T16:51:30.536143+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 25: down picked from all valid options in ['right', 'down']
+2022-08-01T16:51:30.647865+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['&', '0', '0', '0', '0', '0', '*'], ['#', '0', '0', '0', '0', '0', '0'], ['#', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.649029+00:00 app[web.1]: [('down', 28), ('right', 18), ('left', 0), ('up', 0)]
+2022-08-01T16:51:30.649059+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 26: right picked from all valid options in ['right', 'down']
+2022-08-01T16:51:30.649686+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ab9dd8c9-4337-4d22-9a40-95eed001219e fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:30.536445+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d882342b-a455-4d39-a0b0-b83b1c3ffaac fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:30.415696+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7fba6172-f4eb-4628-8379-9dc48f9f08f4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:30.759279+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['#', '&', '0', '0', '0', '0', '*'], ['#', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.760612+00:00 app[web.1]: [('down', 28), ('up', 13), ('right', 5), ('left', 0)]
+2022-08-01T16:51:30.760645+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 27: up picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:30.872654+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['#', '#', '0', '0', '0', '0', '*'], ['0', '&', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.873821+00:00 app[web.1]: [('right', 38), ('up', 7), ('left', 1), ('down', 0)]
+2022-08-01T16:51:30.873863+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 28: right picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:30.984183+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '#', '0', '0', '0', '0', '*'], ['0', '#', '&', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:30.985633+00:00 app[web.1]: [('down', 33), ('up', 9), ('right', 4), ('left', 0)]
+2022-08-01T16:51:30.985637+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 29: down picked from all valid options in ['down', 'up', 'right']
+2022-08-01T16:51:30.874253+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=527c511d-5f80-4a9b-b8f4-610bb7360cbf fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:30.761178+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1488651c-da63-494d-be89-a01e6b7c95b8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:30.985979+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1f88112f-1365-4fe2-99d9-4c252a022158 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:31.108512+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '&', '0', '0', '0', '*'], ['0', '#', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:31.109561+00:00 app[web.1]: [('down', 28), ('right', 14), ('left', 4), ('up', 0)]
+2022-08-01T16:51:31.109583+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 30: left picked from all valid options in ['left', 'right', 'down']
+2022-08-01T16:51:31.217445+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '&', '#', '0', '0', '0', '*'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:31.218559+00:00 app[web.1]: [('down', 32), ('up', 13), ('left', 1), ('right', 0)]
+2022-08-01T16:51:31.218586+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 31: down picked from all valid options in ['up', 'left', 'down']
+2022-08-01T16:51:31.332957+00:00 app[web.1]: [['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '&', '0', '*', '0', '0', '0'], ['0', '#', '#', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:31.334009+00:00 app[web.1]: [('down', 21), ('right', 19), ('left', 6), ('up', 0)]
+2022-08-01T16:51:31.334034+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 32: down picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:51:31.109939+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=97c5d737-f72f-4bb7-9d82-197175d7ce78 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:31.219057+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=351a07f8-864d-40d3-a183-58a19bf716f3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:31.573502+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a723f288-a98c-47dc-9125-aea4b9a12af4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:31.334395+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2e3ed5e7-6469-466b-b19d-c205ea74f241 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:31.461158+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=44f65eca-1ac5-4a5d-bc0a-a03d9d52f356 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:31.688861+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8571db4a-82f7-462d-a065-795890974187 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:31.458243+00:00 app[web.1]: [['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '&', '*', '*', '0', '0', '0'], ['0', '#', '0', '*', '0', '0', '0'], ['0', '#', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0']]
+2022-08-01T16:51:31.459454+00:00 app[web.1]: [('right', 27), ('down', 14), ('left', 5), ('up', 0)]
+2022-08-01T16:51:31.459495+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 33: down picked from all valid options in ['left', 'right', 'down']
+2022-08-01T16:51:31.572093+00:00 app[web.1]: [['0', '0', '0', '*', '0', '0', '0'], ['0', '&', '0', '0', '0', '0', '0'], ['0', '#', '*', '*', '0', '0', '0'], ['0', '#', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:31.573177+00:00 app[web.1]: [('right', 33), ('down', 7), ('left', 6), ('up', 0)]
+2022-08-01T16:51:31.573199+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 34: right picked from all valid options in ['left', 'right', 'down']
+2022-08-01T16:51:31.687457+00:00 app[web.1]: [['0', '0', '0', '*', '0', '0', '0'], ['0', '#', '&', '0', '0', '0', '0'], ['0', '#', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:31.688522+00:00 app[web.1]: [('up', 34), ('down', 8), ('right', 4), ('left', 0)]
+2022-08-01T16:51:31.688544+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 35: down picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:31.808064+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d702112c-47c2-43a0-80c0-5cc1c7ff8e63 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:31.806606+00:00 app[web.1]: [['0', '0', '&', '*', '0', '0', '0'], ['0', '#', '#', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:31.807679+00:00 app[web.1]: [('right', 38), ('left', 8), ('up', 0), ('down', 0)]
+2022-08-01T16:51:31.807702+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 36: right picked from all valid options in ['left', 'right']
+2022-08-01T16:51:31.923819+00:00 app[web.1]: [['0', '0', '#', '&', '0', '0', '0'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:31.924885+00:00 app[web.1]: [('up', 43), ('right', 3), ('left', 0), ('down', 0)]
+2022-08-01T16:51:31.924891+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 37: right picked from all valid options in ['up', 'right']
+2022-08-01T16:51:32.044605+00:00 app[web.1]: [['0', '0', '#', '#', '&', '0', '0'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.045842+00:00 app[web.1]: [('up', 43), ('right', 2), ('left', 0), ('down', 0)]
+2022-08-01T16:51:32.045869+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 38: up picked from all valid options in ['up', 'right']
+2022-08-01T16:51:31.925210+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=79ab0943-5201-40af-af1a-c46125fc3672 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:32.046226+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=96094607-78b0-4af7-8660-263d6c346aeb fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:32.287904+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4848f08e-d99e-4584-907d-13858fd486af fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:32.174319+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c303c55e-1dbe-4693-a559-affe412245ce fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:32.405600+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=466a68ad-9c88-4739-8d40-59cf9b4bae2e fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:32.528775+00:00 app[web.1]: [['0', '0', '&', '0', '0', '0', '0'], ['0', '0', '#', '#', '#', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.529809+00:00 app[web.1]: [('left', 24), ('right', 21), ('up', 0), ('down', 0)]
+2022-08-01T16:51:32.529834+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 42: left picked from all valid options in ['right', 'left']
+2022-08-01T16:51:32.645596+00:00 app[web.1]: [['0', '&', '#', '0', '0', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.646640+00:00 app[web.1]: [('up', 44), ('left', 1), ('right', 0), ('down', 0)]
+2022-08-01T16:51:32.646664+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 43: up picked from all valid options in ['up', 'left']
+2022-08-01T16:51:32.767432+00:00 app[web.1]: [['0', '#', '#', '0', '0', '0', '0'], ['0', '&', '#', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.768610+00:00 app[web.1]: [('up', 43), ('left', 2), ('right', 0), ('down', 0)]
+2022-08-01T16:51:32.768642+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 44: up picked from all valid options in ['left', 'up']
+2022-08-01T16:51:32.646942+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5a79c4c6-0ef4-418c-a9ae-5295a7a2331a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:32.172967+00:00 app[web.1]: [['0', '0', '#', '#', '#', '0', '0'], ['0', '0', '0', '0', '&', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.173971+00:00 app[web.1]: [('up', 35), ('left', 6), ('right', 4), ('down', 0)]
+2022-08-01T16:51:32.173997+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 39: left picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:32.286529+00:00 app[web.1]: [['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '&', '#', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.287586+00:00 app[web.1]: [('up', 39), ('left', 6), ('right', 0), ('down', 0)]
+2022-08-01T16:51:32.287620+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 40: left picked from all valid options in ['left', 'up']
+2022-08-01T16:51:32.404188+00:00 app[web.1]: [['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '&', '#', '#', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.405200+00:00 app[web.1]: [('up', 39), ('down', 4), ('left', 2), ('right', 0)]
+2022-08-01T16:51:32.405227+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 41: down picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:51:32.530430+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7d4f0ff8-626d-4070-8508-bb5cdc924c31 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:32.768951+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fb83609a-b7d1-4565-b898-215bd3d92365 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:32.882262+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d596b161-0dd3-4faf-8a12-595766a81abc fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:33.001459+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1151eb22-7704-4800-8a8d-5788a13b1534 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:33.117408+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e84eaf56-eddf-4846-8fe8-b0fd77ef232f fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:33.354054+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=46dfd90d-c5f6-4b24-8e83-8075e803d2bd fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:32.880861+00:00 app[web.1]: [['0', '#', '#', '0', '0', '0', '0'], ['0', '#', '0', '0', '0', '0', '0'], ['0', '&', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:32.881878+00:00 app[web.1]: [('up', 28), ('right', 14), ('left', 3), ('down', 0)]
+2022-08-01T16:51:32.881904+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 45: left picked from all valid options in ['right', 'left', 'up']
+2022-08-01T16:51:33.000124+00:00 app[web.1]: [['0', '#', '0', '0', '0', '0', '0'], ['0', '#', '0', '0', '0', '0', '0'], ['&', '#', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.001153+00:00 app[web.1]: [('up', 43), ('down', 2), ('right', 0), ('left', 0)]
+2022-08-01T16:51:33.001184+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 46: down picked from all valid options in ['down', 'up']
+2022-08-01T16:51:33.115775+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['&', '#', '0', '0', '0', '0', '0'], ['#', '#', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.116877+00:00 app[web.1]: [('down', 45), ('right', 0), ('left', 0), ('up', 0)]
+2022-08-01T16:51:33.116908+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 47: down picked from all valid options in ['down']
+2022-08-01T16:51:33.237467+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=53aa5fd9-3595-49d1-bc68-1f73099121d6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:33.236059+00:00 app[web.1]: [['&', '0', '0', '0', '0', '0', '0'], ['#', '0', '0', '0', '0', '0', '0'], ['#', '#', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.237166+00:00 app[web.1]: [('right', 45), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:51:33.237198+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 48: right picked from all valid options in ['right']
+2022-08-01T16:51:33.352583+00:00 app[web.1]: [['#', '&', '0', '0', '0', '0', '0'], ['#', '0', '0', '0', '0', '0', '0'], ['#', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.353644+00:00 app[web.1]: [('up', 40), ('right', 5), ('left', 0), ('down', 0)]
+2022-08-01T16:51:33.353674+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 49: up picked from all valid options in ['up', 'right']
+2022-08-01T16:51:33.462784+00:00 app[web.1]: [['#', '#', '0', '0', '0', '0', '0'], ['#', '&', '0', '0', '0', '0', '0'], ['0', '0', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.463828+00:00 app[web.1]: [('up', 35), ('right', 10), ('left', 0), ('down', 0)]
+2022-08-01T16:51:33.463853+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 50: up picked from all valid options in ['up', 'right']
+2022-08-01T16:51:33.464178+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7dbadbeb-82a0-4262-bf24-da37fe45f2e0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:33.588803+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ac4162c8-2c74-4f69-8029-24a9308d9424 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:33.699810+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3c756eb1-79f4-4d0e-b82c-c1b832a6bb14 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:33.814182+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=da9a6764-e469-43fa-891a-534a93b500bd fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:33.586440+00:00 app[web.1]: [['#', '#', '0', '0', '0', '0', '0'], ['0', '#', '0', '0', '0', '0', '0'], ['0', '&', '*', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.588205+00:00 app[web.1]: [('up', 28), ('right', 15), ('left', 2), ('down', 0)]
+2022-08-01T16:51:33.588238+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 51: right picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:33.698276+00:00 app[web.1]: [['0', '#', '0', '0', '0', '0', '0'], ['0', '#', '0', '0', '0', '0', '0'], ['0', '#', '&', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.699335+00:00 app[web.1]: [('up', 31), ('down', 10), ('right', 4), ('left', 0)]
+2022-08-01T16:51:33.699359+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 52: down picked from all valid options in ['down', 'up', 'right']
+2022-08-01T16:51:33.812684+00:00 app[web.1]: [['0', '#', '0', '0', '0', '0', '0'], ['0', '#', '&', '0', '0', '0', '0'], ['0', '#', '#', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.813751+00:00 app[web.1]: [('right', 39), ('down', 5), ('left', 0), ('up', 0)]
+2022-08-01T16:51:33.813810+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 53: down picked from all valid options in ['down', 'right']
+2022-08-01T16:51:33.928214+00:00 app[web.1]: [['0', '0', '&', '0', '0', '0', '0'], ['0', '#', '#', '0', '0', '0', '0'], ['0', '#', '#', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:33.929278+00:00 app[web.1]: [('right', 36), ('left', 8), ('up', 0), ('down', 0)]
+2022-08-01T16:51:33.929320+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 54: left picked from all valid options in ['left', 'right']
+2022-08-01T16:51:34.049431+00:00 app[web.1]: [['0', '&', '#', '0', '0', '0', '0'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '#', '#', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.050702+00:00 app[web.1]: [('up', 43), ('left', 1), ('right', 0), ('down', 0)]
+2022-08-01T16:51:34.050731+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 55: left picked from all valid options in ['up', 'left']
+2022-08-01T16:51:33.929681+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=338d3b0a-c994-4f16-87bf-528b27647bcb fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:34.051317+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a3c5542a-57d1-4c7c-ac28-850ffa393693 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:34.298265+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fcc64632-dc50-42af-b3e9-06c23be14b64 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:34.184123+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=30706900-9d64-4cfd-b51a-ebd78fdd4e0a fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:34.182693+00:00 app[web.1]: [['&', '#', '#', '0', '0', '0', '0'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '0', '#', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.183780+00:00 app[web.1]: [('up', 44), ('right', 0), ('left', 0), ('down', 0)]
+2022-08-01T16:51:34.183804+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 56: up picked from all valid options in ['up']
+2022-08-01T16:51:34.296823+00:00 app[web.1]: [['#', '#', '#', '0', '0', '0', '0'], ['&', '0', '#', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.297892+00:00 app[web.1]: [('up', 43), ('right', 1), ('left', 0), ('down', 0)]
+2022-08-01T16:51:34.297927+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 57: right picked from all valid options in ['right', 'up']
+2022-08-01T16:51:34.408693+00:00 app[web.1]: [['#', '#', '#', '0', '0', '0', '0'], ['#', '&', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.409717+00:00 app[web.1]: [('up', 35), ('right', 9), ('left', 0), ('down', 0)]
+2022-08-01T16:51:34.409738+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 58: right picked from all valid options in ['right', 'up']
+2022-08-01T16:51:34.533011+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b399b1d3-e841-42ad-9c6b-cccd6381f23b fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:34.416805+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d07537b1-5c6c-4804-bfc9-9a9606ede8a1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:34.531343+00:00 app[web.1]: [['#', '#', '0', '0', '0', '0', '0'], ['#', '#', '&', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.532524+00:00 app[web.1]: [('up', 35), ('down', 5), ('right', 4), ('left', 0)]
+2022-08-01T16:51:34.532551+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 59: right picked from all valid options in ['down', 'up', 'right']
+2022-08-01T16:51:34.645578+00:00 app[web.1]: [['#', '0', '0', '0', '0', '0', '0'], ['#', '#', '#', '&', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.646577+00:00 app[web.1]: [('up', 35), ('down', 6), ('right', 3), ('left', 0)]
+2022-08-01T16:51:34.646601+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 60: right picked from all valid options in ['down', 'up', 'right']
+2022-08-01T16:51:34.765421+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['#', '#', '#', '#', '&', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.766968+00:00 app[web.1]: [('up', 35), ('down', 7), ('right', 2), ('left', 0)]
+2022-08-01T16:51:34.766986+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 61: up picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:34.647123+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5290c0d3-7305-437e-b3bb-ee38a502b9a7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:34.767311+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3ed1ddaf-a522-401e-a3a0-1fa2c3d7664b fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:35.009141+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=35a34b8c-e97a-4f62-b773-6f47ab9281b1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:34.884437+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '#', '#', '#', '#', '0', '0'], ['0', '0', '0', '*', '&', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:34.885434+00:00 app[web.1]: [('up', 28), ('right', 10), ('left', 6), ('down', 0)]
+2022-08-01T16:51:34.885472+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 62: right picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:34.999848+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '#', '#', '#', '0', '0'], ['0', '0', '0', '*', '#', '&', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:35.000822+00:00 app[web.1]: [('up', 34), ('down', 9), ('right', 1), ('left', 0)]
+2022-08-01T16:51:35.000849+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 63: up picked from all valid options in ['down', 'up', 'right']
+2022-08-01T16:51:35.118425+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '0', '*', '#', '#', '0'], ['0', '0', '0', '*', '0', '&', '0'], ['0', '0', '0', '0', '*', '0', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:35.119564+00:00 app[web.1]: [('up', 21), ('left', 15), ('right', 8), ('down', 0)]
+2022-08-01T16:51:35.119588+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 64: up picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:34.885823+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1fcd077f-cb5f-4082-92d9-b1c06f57eff4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:35.120033+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=080434a6-5531-4639-88f0-6a86b2dccd19 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:35.235916+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2798f4ac-32cc-46ae-b5b7-75f291eeef6f fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:35.347841+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a71c6134-440c-4a46-ad94-90ab427be41e fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:35.234387+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '0'], ['0', '0', '0', '*', '#', '#', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '*', '&', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:35.235395+00:00 app[web.1]: [('left', 22), ('up', 14), ('right', 8), ('down', 0)]
+2022-08-01T16:51:35.235424+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 65: left picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:35.346193+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '#', '#', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '&', '#', '*'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:35.347411+00:00 app[web.1]: [('down', 21), ('up', 19), ('left', 4), ('right', 0)]
+2022-08-01T16:51:35.347450+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 66: up picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:51:35.467811+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '#', '#', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '#', '#', '*'], ['0', '0', '0', '0', '&', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:35.469035+00:00 app[web.1]: [('left', 27), ('right', 9), ('up', 7), ('down', 0)]
+2022-08-01T16:51:35.469067+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 67: left picked from all valid options in ['left', 'up', 'right']
+2022-08-01T16:51:35.587021+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=089cba01-44b0-4275-9147-2facbd3273c5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:35.585668+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '#', '#', '*'], ['0', '0', '0', '&', '#', '0', '0'], ['0', '*', '0', '0', '*', '*', '0']]
+2022-08-01T16:51:35.586640+00:00 app[web.1]: [('down', 28), ('up', 12), ('left', 3), ('right', 0)]
+2022-08-01T16:51:35.586665+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 68: up picked from all valid options in ['down', 'left', 'up']
+2022-08-01T16:51:35.701091+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '#', '0'], ['0', '0', '0', '0', '#', '#', '*'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '*', '0', '&', '*', '*', '0']]
+2022-08-01T16:51:35.702145+00:00 app[web.1]: [('left', 30), ('right', 13), ('up', 0), ('down', 0)]
+2022-08-01T16:51:35.702170+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 69: right picked from all valid options in ['right', 'left']
+2022-08-01T16:51:35.818917+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '*'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '*', '0', '#', '&', '*', '0']]
+2022-08-01T16:51:35.819915+00:00 app[web.1]: [('right', 43), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:51:35.819933+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 70: right picked from all valid options in ['right']
+2022-08-01T16:51:35.469512+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=033e2a3e-283a-46cd-91dd-b15b15a4817b fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:35.702538+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2c970b5e-d210-4d01-94b1-5b7cf47304fc fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:36.051204+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d8940c42-ec72-4ba6-a6b4-7e5be4affc30 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:35.940870+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '*'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '*', '0', '#', '#', '&', '0']]
+2022-08-01T16:51:35.941890+00:00 app[web.1]: [('down', 41), ('right', 1), ('left', 0), ('up', 0)]
+2022-08-01T16:51:35.941912+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 71: down picked from all valid options in ['down', 'right']
+2022-08-01T16:51:36.049804+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '*'], ['0', '0', '0', '#', '#', '&', '0'], ['0', '*', '0', '#', '#', '#', '0']]
+2022-08-01T16:51:36.050788+00:00 app[web.1]: [('right', 41), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:51:36.050806+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 72: right picked from all valid options in ['right']
+2022-08-01T16:51:36.165060+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '*'], ['0', '0', '0', '#', '#', '#', '&'], ['0', '*', '0', '#', '#', '#', '0']]
+2022-08-01T16:51:36.165991+00:00 app[web.1]: [('down', 40), ('up', 1), ('right', 0), ('left', 0)]
+2022-08-01T16:51:36.166020+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 73: down picked from all valid options in ['down', 'up']
+2022-08-01T16:51:35.942189+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7a3a1b71-8e4f-48ac-b90a-08e44f30b68a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:35.820440+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fce1f264-31b1-46a5-a61e-7e0ef09b1988 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:36.168764+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=29410c1d-3e6c-4922-ba60-b3a8c938afde fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.420012+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=be78edc4-50b6-4cfa-b82d-e507f737e31a fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.300952+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d428cb2f-e55e-4ead-a4c9-04591db8c047 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.650789+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=61a588c6-1f40-4c59-aae2-b5908d6ca4a9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.533794+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6c085a70-f3a3-419c-ab57-4e9471395405 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.299493+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '&'], ['0', '0', '0', '#', '#', '#', '#'], ['0', '*', '0', '#', '#', '#', '0']]
+2022-08-01T16:51:36.300565+00:00 app[web.1]: [('down', 28), ('left', 12), ('right', 0), ('up', 0)]
+2022-08-01T16:51:36.300583+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 74: left picked from all valid options in ['left', 'down']
+2022-08-01T16:51:36.416535+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '#'], ['0', '0', '0', '#', '#', '#', '#'], ['0', '*', '0', '#', '#', '#', '0']]
+2022-08-01T16:51:36.417451+00:00 app[web.1]: [('down', 28), ('left', 11), ('right', 0), ('up', 0)]
+2022-08-01T16:51:36.417476+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 75: left picked from all valid options in ['left', 'down']
+2022-08-01T16:51:36.532463+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '0', '&', '#', '#'], ['0', '0', '0', '#', '0', '#', '#'], ['0', '*', '0', '#', '#', '#', '0']]
+2022-08-01T16:51:36.533437+00:00 app[web.1]: [('down', 28), ('left', 10), ('up', 1), ('right', 0)]
+2022-08-01T16:51:36.533469+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 76: left picked from all valid options in ['left', 'up', 'down']
+2022-08-01T16:51:36.767422+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8a077e80-8264-4271-a2f7-12c016009312 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.881097+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a5a5e4f0-9476-4973-9697-1bb7fe878f9d fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:36.994560+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=dbbb8ab0-87c0-4116-82d2-4708191f6871 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:36.649331+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '&', '#', '#', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '*', '0', '#', '#', '#', '0']]
+2022-08-01T16:51:36.650310+00:00 app[web.1]: [('down', 28), ('up', 8), ('left', 3), ('right', 0)]
+2022-08-01T16:51:36.650346+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 77: left picked from all valid options in ['up', 'left', 'down']
+2022-08-01T16:51:36.766084+00:00 app[web.1]: [['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '&', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '*', '0', '0', '#', '#', '0']]
+2022-08-01T16:51:36.766980+00:00 app[web.1]: [('down', 28), ('up', 9), ('left', 2), ('right', 0)]
+2022-08-01T16:51:36.767001+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 78: down picked from all valid options in ['up', 'left', 'down']
+2022-08-01T16:51:36.879735+00:00 app[web.1]: [['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '&', '*', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '*', '0', '0', '0', '#', '0']]
+2022-08-01T16:51:36.880700+00:00 app[web.1]: [('down', 21), ('left', 14), ('right', 4), ('up', 0)]
+2022-08-01T16:51:36.880728+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 79: right picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:51:37.381467+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1aa55898-5e88-4d1d-beb2-e7ad6bc66450 fwd="143.198.42.44" dyno=web.1 connect=7ms service=4ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:36.993124+00:00 app[web.1]: [['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '*', '0', '0', '0'], ['0', '0', '#', '&', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '*', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:36.994058+00:00 app[web.1]: [('down', 37), ('right', 3), ('left', 0), ('up', 0)]
+2022-08-01T16:51:36.994080+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 80: down picked from all valid options in ['right', 'down']
+2022-08-01T16:51:37.115215+00:00 app[web.1]: [['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0'], ['0', '0', '0', '&', '0', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '*', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:37.116096+00:00 app[web.1]: [('left', 19), ('down', 14), ('right', 6), ('up', 0)]
+2022-08-01T16:51:37.116152+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 81: down picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:51:37.231849+00:00 app[web.1]: [['0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '&', '0', '*', '0'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '#', '#'], ['0', '*', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:37.232705+00:00 app[web.1]: [('left', 22), ('right', 9), ('down', 7), ('up', 0)]
+2022-08-01T16:51:37.232735+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 82: down picked from all valid options in ['right', 'left', 'down']
+2022-08-01T16:51:37.379288+00:00 app[web.1]: [['0', '0', '*', '&', '0', '0', '0'], ['0', '0', '0', '#', '0', '*', '0'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '#'], ['0', '*', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:37.380934+00:00 app[web.1]: [('left', 26), ('right', 12), ('up', 0), ('down', 0)]
+2022-08-01T16:51:37.380984+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 83: right picked from all valid options in ['right', 'left']
+2022-08-01T16:51:37.500484+00:00 app[web.1]: [['0', '0', '*', '#', '&', '0', '0'], ['0', '0', '0', '#', '0', '*', '0'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '0', '0', '0', '0', '0']]
+2022-08-01T16:51:37.500766+00:00 app[web.1]: [('up', 9), ('right', 2), ('left', 0), ('down', 0)]
+2022-08-01T16:51:37.500792+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 84: up picked from all valid options in ['up', 'right']
+2022-08-01T16:51:37.620745+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '&', '*', '0'], ['0', '0', '0', '#', '0', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '#', '#', '#', '#', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:37.621682+00:00 app[web.1]: [('up', 34), ('right', 4), ('left', 0), ('down', 0)]
+2022-08-01T16:51:37.621704+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 85: up picked from all valid options in ['up', 'right']
+2022-08-01T16:51:37.116535+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d05c7a3e-0925-4c9b-b9a8-99ca0a76c33a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:37.233159+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ebe6e825-b99b-4eb5-915b-2408ece2e4ff fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:37.732630+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=de6bc1bc-7190-4f85-9460-fd2b246db5bc fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:37.501154+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=70ba0fc5-b99f-4ad0-a4b5-ea43ac349106 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:37.731331+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '*', '0'], ['0', '0', '0', '#', '&', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '#', '#', '#', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:37.732197+00:00 app[web.1]: [('up', 32), ('right', 6), ('left', 0), ('down', 0)]
+2022-08-01T16:51:37.732227+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 86: up picked from all valid options in ['up', 'right']
+2022-08-01T16:51:37.848534+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '*', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '#', '#', '&', '0', '0'], ['0', '0', '#', '#', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:37.849424+00:00 app[web.1]: [('up', 30), ('right', 8), ('left', 0), ('down', 0)]
+2022-08-01T16:51:37.849454+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 87: right picked from all valid options in ['up', 'right']
+2022-08-01T16:51:37.849884+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c31cea98-a288-47d1-8035-7fd6d54f3605 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:37.622147+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=166b0822-1bd1-44c9-8e8a-05b43a4a2789 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:37.988800+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3b4ad074-43d6-4745-bbc2-7c244e4a624c fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=200 bytes=236 protocol=https
+2022-08-01T16:51:38.220685+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=eff38f5d-46b3-4096-b6f4-4703d5bdd431 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:38.109803+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7106b544-004f-4201-8618-8a31312de74c fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:38.329624+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=59e08f51-21c3-48f9-99a7-307d6da67616 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:37.983834+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '*', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '#', '#', '#', '&', '0'], ['0', '0', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:37.984693+00:00 app[web.1]: [('up', 31), ('down', 6), ('right', 1), ('left', 0)]
+2022-08-01T16:51:37.984717+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 88: right picked from all valid options in ['up', 'right', 'down']
+2022-08-01T16:51:38.108430+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '*', '0'], ['0', '0', '0', '#', '#', '0', '0'], ['0', '0', '#', '#', '#', '#', '&'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:38.109456+00:00 app[web.1]: [('up', 32), ('down', 6), ('right', 0), ('left', 0)]
+2022-08-01T16:51:38.109481+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 89: down picked from all valid options in ['up', 'down']
+2022-08-01T16:51:38.220232+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '*', '0'], ['0', '0', '0', '#', '#', '0', '&'], ['0', '0', '0', '#', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:38.220400+00:00 app[web.1]: [('down', 4), ('left', 1), ('right', 0), ('up', 0)]
+2022-08-01T16:51:38.220422+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 90: down picked from all valid options in ['left', 'down']
+2022-08-01T16:51:38.441711+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6993b670-b3e1-4495-9e0b-115f0a69f36f fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:51:38.328966+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '0'], ['0', '0', '0', '#', '#', '*', '&'], ['0', '0', '0', '#', '#', '0', '#'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:38.329128+00:00 app[web.1]: [('left', 2), ('down', 2), ('right', 0), ('up', 0)]
+2022-08-01T16:51:38.329155+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 91: down picked from all valid options in ['left', 'down']
+2022-08-01T16:51:38.438394+00:00 app[web.1]: [['0', '0', '*', '#', '#', '0', '&'], ['0', '0', '0', '#', '#', '*', '#'], ['0', '0', '0', '0', '#', '0', '#'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:38.438516+00:00 app[web.1]: [('left', 3), ('right', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:51:38.438542+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 92: left picked from all valid options in ['left']
+2022-08-01T16:51:38.550693+00:00 app[web.1]: [['0', '0', '*', '#', '#', '&', '#'], ['0', '0', '0', '0', '#', '*', '#'], ['0', '0', '0', '0', '#', '0', '#'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '0', '0', '0', '0']]
+2022-08-01T16:51:38.550794+00:00 app[web.1]: [('up', 2), ('right', 0), ('left', 0), ('down', 0)]
+2022-08-01T16:51:38.550820+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 93: up picked from all valid options in ['up']
+2022-08-01T16:51:38.551326+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=da168a11-02b9-4f82-8b06-6e3f19534ae5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:38.660632+00:00 app[web.1]: [['0', '0', '*', '0', '#', '#', '#'], ['0', '0', '0', '0', '#', '&', '#'], ['0', '0', '0', '0', '#', '0', '#'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '*', '0', '0', '0']]
+2022-08-01T16:51:38.660718+00:00 app[web.1]: [('up', 1), ('right', 0), ('left', 0), ('down', 0)]
+2022-08-01T16:51:38.660745+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 MOVE 94: up picked from all valid options in ['up']
+2022-08-01T16:51:38.779211+00:00 app[web.1]: [['0', '0', '*', '0', '#', '#', '#'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '0', '#', '&', '#'], ['0', '0', '0', '0', '#', '#', '#'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0'], ['0', '*', '*', '*', '0', '0', '0']]
+2022-08-01T16:51:38.779273+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:51:38.784321+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T16:51:38.784323+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T16:51:38.784323+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T16:51:38.784324+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T16:51:38.784324+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T16:51:38.784324+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T16:51:38.784325+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T16:51:38.784325+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T16:51:38.784325+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T16:51:38.784326+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T16:51:38.784326+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T16:51:38.784326+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T16:51:38.784327+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T16:51:38.784327+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T16:51:38.784328+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T16:51:38.784328+00:00 app[web.1]: File "/app/src/logic.py", line 159, in choose_move
+2022-08-01T16:51:38.784328+00:00 app[web.1]: move = random.choice(possible_moves)
+2022-08-01T16:51:38.784329+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/random.py", line 346, in choice
+2022-08-01T16:51:38.784329+00:00 app[web.1]: return seq[self._randbelow(len(seq))]
+2022-08-01T16:51:38.784330+00:00 app[web.1]: IndexError: list index out of range
+2022-08-01T16:51:38.784258+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7b0146fa-fe89-4b88-970b-fc1af31932c8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=16302 protocol=https
+2022-08-01T16:51:38.661024+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a25f148f-faa0-4bcd-9b42-5b99812151a2 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:51:39.123367+00:00 app[web.1]: 12392efc-38d1-4822-a190-d72f489d2462 END
+2022-08-01T16:51:39.123886+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=39276ebc-e71b-40b3-9275-c810838ce65b fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=223 protocol=https
