@@ -80,13 +80,13 @@ def flood_fill(grid, head):
   n = len(grid)
   m = len(grid[0])
   i, j = head['y'], head['x']
+  moves = {'right':0, 'left':0, 'up':0, 'down':0, 'root':0}
   if grid[i][j].isObstacle:
-      return
+      return moves
 
   queue = Queue()
   queue.put((i, j, 'root', None))
   used = []
-  moves = {'right':0, 'left':0, 'up':0, 'down':0, 'root':0}
   while not queue.empty():
       queueInput = queue.get()
       i, j = queueInput[0], queueInput[1]
