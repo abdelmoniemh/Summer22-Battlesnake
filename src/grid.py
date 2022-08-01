@@ -4,32 +4,54 @@ from queue import Queue
 class gridCell:
   def __init__(self):
     self.isSelf = False
-    self.isHead = False
+    self.myHead = False
     self.isFood = False
     self.isOtherSnakeBody = False
     self.isOtherSnakeHead = False
     self.isObstacle = False
 
-  def isSelf(self):
+  def thisIsSelf(self):
     self.isSelf = True
+    self.myHead = False
+    self.isFood = False
+    self.isOtherSnakeBody = False
+    self.isOtherSnakeHead = False
     self.isObstacle = True
 
-  def isHead(self):
-    self.isHead = True
+  def thisIsHead(self):
+    self.isSelf = True
+    self.myHead = True
+    self.isFood = False
+    self.isOtherSnakeBody = False
+    self.isOtherSnakeHead = False
+    self.isObstacle = False
 
-  def isFood(self):
+  def thisIsFood(self):
+    self.isSelf = False
+    self.myHead = False
     self.isFood = True
+    self.isOtherSnakeBody = False
+    self.isOtherSnakeHead = False
+    self.isObstacle = False
 
-  def isOtherSnakeBody(self):
+  def thisIsOtherSnakeBody(self):
+    self.isSelf = False
+    self.myHead = False
+    self.isFood = False
     self.isOtherSnakeBody = True
+    self.isOtherSnakeHead = False
     self.isObstacle = True
     
-  def isOtherSnakeHead(self):
+  def thisIsOtherSnakeHead(self):
+    self.isSelf = False
+    self.myHead = False
+    self.isFood = False
+    self.isOtherSnakeBody = False
     self.isOtherSnakeHead = True
     self.isObstacle = True
 
   def __str__(self):
-    if self.isHead:
+    if self.myHead:
       return '&'
     if self.isObstacle:
       return '#'
@@ -49,7 +71,7 @@ class grid():
       self.grid.append(row)
 
     for food in board['food']:
-      self.grid[food['y']][food['x']].isFood()
+      self.grid[food['y']][food['x']].thisIsFood()
 
     for snake in board['snakes']:
       for part in snake['body']:
@@ -57,15 +79,15 @@ class grid():
         cell.isOtherSnakeBody = True
         cell.isObstacle = True
       head = snake['head']
-      self.grid[head['y']][head['x']].isOtherSnakeHead = True
-      self.grid[head['y']][head['x']].isObstacle = True
+      self.grid[head['y']][head['x']].thisIsOtherSnakeHead()
+      self.grid[head['y']][head['x']].thisIsObstacle()
 
     for part in data['you']['body']:
-      self.grid[part['y']][part['x']].isSelf = True
-      self.grid[part['y']][part['x']].isObstacle = True
+      self.grid[part['y']][part['x']].thisIsSelf()
+      self.grid[part['y']][part['x']].thisIsObstacle()
 
     myHead = data['you']['head']
-    self.grid[myHead['y']][myHead['x']].isHead = True
+    self.grid[myHead['y']][myHead['x']].thisIsHead()
 
   def getGrid(self):
     return self.grid
