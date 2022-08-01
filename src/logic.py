@@ -134,8 +134,8 @@ def choose_move(data: dict) -> str:
 
 
     Grid = grid(board['height'], data)
-    #gridAs2DArray = Grid.serialize()
-    #print(gridAs2DArray)
+    gridAs2DArray = Grid.serialize()
+    print(gridAs2DArray)
   
     movesWithMostSpace = flood_fill(Grid.getGrid(),my_head)
     if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']

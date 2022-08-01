@@ -49,7 +49,7 @@ class grid():
       self.grid.append(row)
 
     for food in board['food']:
-      self.grid[food['y']][food['x']].isFood = True
+      self.grid[food['y']][food['x']].isFood()
 
     for snake in board['snakes']:
       for part in snake['body']:

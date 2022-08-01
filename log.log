@@ -1672,3 +1672,699 @@
 2022-08-01T16:04:30.321295+00:00 app[web.1]: IndexError: list index out of range
 2022-08-01T16:04:30.546974+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=e06501ac-721f-440a-bc2b-ac7b1cb6c3d7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
 2022-08-01T16:04:30.545244+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd END
+2022-08-01T16:04:26.457989+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=37d27d95-cec2-4d8c-a15a-7fe5ed3c0972 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:26.568133+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 228: right picked from all valid options in ['right']
+2022-08-01T16:04:26.574080+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=94121807-b670-40bc-9117-f165805ece2d fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=236 protocol=https
+2022-08-01T16:04:26.690323+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 229: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:26.693043+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b3046b5d-f773-4344-a682-88da4d79d107 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:26.804601+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 230: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:26.807198+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7e211e6e-098b-4343-bfc0-34dce4f15491 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:26.922497+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 231: right picked from all valid options in ['right']
+2022-08-01T16:04:26.925101+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ada4e0de-0ef1-400a-8eb3-addbc6db78e4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:04:27.036966+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 232: up picked from all valid options in ['up']
+2022-08-01T16:04:27.039575+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c558e1b2-fec5-4e91-8c20-712fc802c51e fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:27.151980+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 233: up picked from all valid options in ['up']
+2022-08-01T16:04:27.154750+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=68054714-02df-405c-b2ef-6f4a00861e87 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:27.265891+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 234: up picked from all valid options in ['up']
+2022-08-01T16:04:27.268520+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9e8fef95-c8d7-44d1-b15f-943b8e03afa1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:27.382485+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 235: up picked from all valid options in ['up']
+2022-08-01T16:04:27.385113+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ddf0fa3a-c815-45ae-99d7-1994df5ad7d7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:27.504826+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 236: up picked from all valid options in ['up', 'right']
+2022-08-01T16:04:27.507411+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2bd7efe5-90bb-4875-8598-0e973c4f5fcf fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:27.619608+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 237: left picked from all valid options in ['left']
+2022-08-01T16:04:27.622260+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=955ceeee-71da-44cb-aa72-e231619819e4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:27.737102+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 238: down picked from all valid options in ['down']
+2022-08-01T16:04:27.739775+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=55808182-c81d-48d7-bca1-800d7cc1c8cd fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:27.856676+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 239: left picked from all valid options in ['left']
+2022-08-01T16:04:27.859414+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=235f7e71-a084-429c-955e-ce583bba4cc6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:27.966736+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 240: up picked from all valid options in ['up']
+2022-08-01T16:04:27.969390+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e31f9142-3cf7-4214-9ef7-b4c398a5e10d fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:28.081299+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 241: left picked from all valid options in ['left']
+2022-08-01T16:04:28.083888+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=97a6c52c-c9ee-4bff-874a-9ab03c488260 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:28.198834+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 242: up picked from all valid options in ['up', 'left']
+2022-08-01T16:04:28.201557+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=84581f5b-a8f9-40a6-8330-4dd6ce9bc47f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:28.390772+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 243: left picked from all valid options in ['left']
+2022-08-01T16:04:28.392810+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1f7f4159-cf11-4ed2-be09-161e2e4370a0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:28.507100+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 244: down picked from all valid options in ['down']
+2022-08-01T16:04:28.509104+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=80ff9227-bd73-43fc-ad98-c4450b5e1b9f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:28.630287+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 245: down picked from all valid options in ['down']
+2022-08-01T16:04:28.632102+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0398e9fc-e96a-454d-8f34-0cffc577d9a6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:28.794487+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 246: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:28.796472+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=bed1f46f-51f7-4d6e-bbbc-0c10cb9045e5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:28.921973+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 247: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:28.923891+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cc344182-c6da-4a11-a9ca-2e830dc841b2 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:29.041357+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 248: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:29.043176+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=30ad3a00-eece-4e67-b03c-d01f0bca31d3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:29.157560+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 249: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:29.159541+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=dec9bf68-bd02-4f2d-a2bb-18a792ebb1e5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:29.282464+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 250: right picked from all valid options in ['right']
+2022-08-01T16:04:29.284486+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f75142eb-4945-406f-a5c6-7045941467de fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:04:29.413142+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 251: up picked from all valid options in ['up']
+2022-08-01T16:04:29.415214+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2c8a11a4-f738-4c1c-a03b-6bca57cf2978 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:29.530982+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 252: up picked from all valid options in ['up']
+2022-08-01T16:04:29.532885+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=537f2256-dec2-431a-be51-ce02ea282ea7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:29.694092+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 253: up picked from all valid options in ['up']
+2022-08-01T16:04:29.695932+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6b592c2d-4b75-463d-b790-5768c0177449 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:04:29.813531+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 254: right picked from all valid options in ['right']
+2022-08-01T16:04:29.815367+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d0d84cab-5368-4f52-a4cf-37d69d660214 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:04:29.947951+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 255: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:29.949784+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=95c32b34-6712-4269-9b61-8c6ec010aa7d fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:30.073139+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 256: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:30.074999+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=49fcd468-f691-4949-8f39-f02b704effad fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:30.199027+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd MOVE 257: down picked from all valid options in ['down', 'right']
+2022-08-01T16:04:30.200879+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b70596a8-3238-434c-9a7e-47367210d028 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:04:30.321288+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T16:04:30.321289+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T16:04:30.321290+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T16:04:30.321290+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T16:04:30.321291+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T16:04:30.321291+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T16:04:30.321291+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T16:04:30.321292+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T16:04:30.321292+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T16:04:30.321292+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T16:04:30.321293+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T16:04:30.321293+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T16:04:30.321293+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T16:04:30.321293+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T16:04:30.321294+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T16:04:30.321294+00:00 app[web.1]: File "/app/src/logic.py", line 146, in choose_move
+2022-08-01T16:04:30.321294+00:00 app[web.1]: move = random.choice(possible_moves)
+2022-08-01T16:04:30.321295+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/random.py", line 346, in choice
+2022-08-01T16:04:30.321295+00:00 app[web.1]: return seq[self._randbelow(len(seq))]
+2022-08-01T16:04:30.321295+00:00 app[web.1]: IndexError: list index out of range
+2022-08-01T16:04:30.322801+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8f1429ea-b0e2-4151-8577-a918d7df3da5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=8ms status=500 bytes=16422 protocol=https
+2022-08-01T16:04:30.545244+00:00 app[web.1]: 842f88a0-6baa-4733-bdcc-c82701b6c1bd END
+2022-08-01T16:04:30.546974+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=e06501ac-721f-440a-bc2b-ac7b1cb6c3d7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T16:06:34.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T16:06:53.505008+00:00 app[api]: Release v27 created by user abdelmoniemmmh@gmail.com
+2022-08-01T16:06:53.505008+00:00 app[api]: Deploy b32e01f6 by user abdelmoniemmmh@gmail.com
+2022-08-01T16:06:53.901029+00:00 heroku[web.1]: Restarting
+2022-08-01T16:06:53.916131+00:00 heroku[web.1]: State changed from up to starting
+2022-08-01T16:06:54.656949+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-01T16:06:54.945464+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T16:06:57.555241+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T16:06:59.510633+00:00 app[web.1]: 
+2022-08-01T16:06:59.510649+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:51101
+2022-08-01T16:06:59.510801+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T16:06:59.510820+00:00 app[web.1]: * Environment: development
+2022-08-01T16:06:59.510835+00:00 app[web.1]: * Debug mode: on
+2022-08-01T16:06:59.709249+00:00 app[web.1]: 
+2022-08-01T16:06:59.709254+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:51101
+2022-08-01T16:06:59.827098+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T16:07:27.849617+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2d4201ba-fecf-46cc-9061-1406d3efa234 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:27.749231+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=46861041-0a69-482c-a0e1-f965293c1789 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T16:07:27.968150+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9cf7e29a-6dfb-40ea-b756-9017c43c2ca3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:28.084169+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=26c426f3-f756-4b81-87de-4e499812d364 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:28.082338+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.082346+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 2: down picked from all valid options in ['down', 'left', 'right']
+2022-08-01T16:07:28.196091+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.196094+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 3: down picked from all valid options in ['down', 'left', 'right']
+2022-08-01T16:07:28.312246+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.312250+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 4: down picked from all valid options in ['down', 'left', 'right']
+2022-08-01T16:07:27.747291+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 START
+2022-08-01T16:07:27.847871+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:27.847879+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 0: down picked from all valid options in ['up', 'down', 'left', 'right']
+2022-08-01T16:07:27.966443+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:27.966447+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 1: down picked from all valid options in ['down', 'left', 'right']
+2022-08-01T16:07:28.197932+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=bf67bff8-c27f-49f5-b32b-e98df07ef467 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:28.438243+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=89983028-5036-48e3-929e-614dec5f2fda fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:28.568882+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7a6940e6-38f7-4316-8379-f1a74a16ea47 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:28.436507+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.436515+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 5: left picked from all valid options in ['left', 'right']
+2022-08-01T16:07:28.567137+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.567140+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 6: up picked from all valid options in ['up']
+2022-08-01T16:07:28.681567+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.681572+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 7: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:28.315482+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b9b2e118-7dc2-4435-8d30-0870a8ae30c6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=7ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:28.683328+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=001d2eba-f41c-41dd-9dee-f8a5de3841e0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:28.808029+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=70ab1be8-e420-46f9-acd0-058457db6a8d fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:28.928049+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f5c058a3-1306-446f-9938-9f0bf1b9178c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:28.806255+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.806273+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 8: right picked from all valid options in ['right']
+2022-08-01T16:07:28.926342+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:28.926355+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 9: down picked from all valid options in ['down']
+2022-08-01T16:07:29.036624+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.036629+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 10: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:29.150676+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f243bcf6-66e9-443a-80fc-23021b414900 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:29.148795+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.148807+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 11: left picked from all valid options in ['left']
+2022-08-01T16:07:29.258868+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.258871+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 12: up picked from all valid options in ['up']
+2022-08-01T16:07:29.381852+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.381860+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 13: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:29.038343+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=70af3a34-389b-4a77-a891-d8fea1d1e803 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:29.260699+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d0dae62f-81a3-4841-9c07-542b2b6839e3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:29.383727+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=017c4f25-1193-4e6f-82b7-bffeaaf95388 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:29.684353+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.684362+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 14: right picked from all valid options in ['right']
+2022-08-01T16:07:29.800681+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.800682+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 15: down picked from all valid options in ['down']
+2022-08-01T16:07:29.916478+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:29.916493+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 16: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:29.686156+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=325e4e15-7d7d-4947-9018-2c466ec8fa26 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:29.802412+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e84b0c31-26f7-41a4-8323-a2503f649c96 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:29.918247+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=51e8d1ad-efac-4b84-bc29-22883e081082 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:30.033313+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3d238e4b-1267-4a30-8c61-0d0ebd8acd94 fwd="143.198.42.44" dyno=web.1 connect=3ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:30.031383+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.031394+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 17: left picked from all valid options in ['left']
+2022-08-01T16:07:30.142808+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.142811+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 18: up picked from all valid options in ['up']
+2022-08-01T16:07:30.259560+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.259563+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 19: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:30.261355+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=108c28b3-b002-4d92-8476-584967e290d9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:30.373398+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=98af3547-09ad-4a13-8b23-8a5fd26def80 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:30.371560+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.371571+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 20: right picked from all valid options in ['right']
+2022-08-01T16:07:30.496994+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.496997+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 21: down picked from all valid options in ['down']
+2022-08-01T16:07:30.606683+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.606686+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 22: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:30.608613+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d5a4193b-452d-4825-be67-3c72056f33e7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:30.498743+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e50b27d0-6b15-4b5e-9e81-3450d923aa26 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:30.721133+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=75c6bcd4-121f-49eb-8a35-22f4ebc67fc5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:30.144632+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1b621b1d-91e9-40aa-a575-99fcda54b1e3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:30.835223+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c0c107d1-8075-4bc9-8dad-456c24efc036 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:30.951861+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=60596292-aed2-4f2a-802c-85efc8cc5d08 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:31.068664+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9fb35429-5ced-4539-892d-8945926f23d4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:30.719399+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.719414+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 23: left picked from all valid options in ['left']
+2022-08-01T16:07:30.833530+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.833532+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 24: up picked from all valid options in ['up']
+2022-08-01T16:07:30.950178+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:30.950187+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 25: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:31.066873+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.066883+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 26: right picked from all valid options in ['right']
+2022-08-01T16:07:31.179639+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.179643+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 27: down picked from all valid options in ['down']
+2022-08-01T16:07:31.292938+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.292940+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 28: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:31.294634+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5aa32b79-707a-473b-9d65-20754a7f7c93 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:31.181396+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0d5fed2a-9c36-49e3-b520-9f68520b2d0e fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:31.405439+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.405450+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 29: left picked from all valid options in ['left']
+2022-08-01T16:07:31.524532+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.524536+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 30: up picked from all valid options in ['up']
+2022-08-01T16:07:31.642328+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.642335+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 31: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:31.407381+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=944d69d8-73dd-4f63-830f-2d5e1ec228f3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:31.528229+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=53182620-0d05-4e73-9f59-72459b7b5096 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:31.767459+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3481c437-6453-46d7-94c2-402bcb6aee8b fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:31.644116+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b435297d-2d71-458a-abfb-408cc59aa2d3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:31.765699+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.765710+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 32: right picked from all valid options in ['right']
+2022-08-01T16:07:31.879025+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.879028+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 33: down picked from all valid options in ['down']
+2022-08-01T16:07:31.996993+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:31.996997+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 34: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:32.002591+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=184c5f61-4486-415a-a7f1-a5b9e5e4cec0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:32.113902+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d65a542b-7b56-4c9c-905b-5491780c83f6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:31.885966+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=806e41c4-abe8-4d92-bc24-e657aa89c86f fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:32.238308+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2cbf3dab-9f22-4906-83ad-7c52f7c87284 fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:32.111117+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.111126+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 35: left picked from all valid options in ['left']
+2022-08-01T16:07:32.236555+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.236562+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 36: up picked from all valid options in ['up']
+2022-08-01T16:07:32.356539+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.356548+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 37: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:32.358337+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f0e2e689-cfe2-44f9-a710-bcaf5b3ab0a4 fwd="143.198.42.44" dyno=web.1 connect=1ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:32.483489+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=95e73cf1-4802-4ea5-96ed-78e7ceefd435 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:32.710536+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a1058577-0d2c-4c02-941a-bb45e591c619 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:32.481779+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.481789+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 38: right picked from all valid options in ['right']
+2022-08-01T16:07:32.595888+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.595890+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 39: down picked from all valid options in ['down']
+2022-08-01T16:07:32.708795+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.708798+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 40: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:32.939044+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4640fc49-a0e0-4cbd-8a10-b3804eacc81f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:32.820830+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.820839+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 41: left picked from all valid options in ['left']
+2022-08-01T16:07:32.937319+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:32.937322+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 42: up picked from all valid options in ['up']
+2022-08-01T16:07:33.050836+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.050838+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 43: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:32.822576+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e612f28f-a5de-495d-bf9f-95de15c69e4c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:32.597616+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=bcf7b324-4195-4f09-835d-dabc914538a3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:33.052622+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=06d3b810-1cfd-47bd-a150-5fcd8c4ceede fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:33.520099+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4fe54588-f7c7-49fe-b147-eaa1ada4ec57 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:33.518202+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.518217+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 47: left picked from all valid options in ['left']
+2022-08-01T16:07:33.637327+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.637331+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 48: up picked from all valid options in ['up']
+2022-08-01T16:07:33.747824+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.747827+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 49: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:33.170976+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f47d9641-a588-48d0-bcb8-33c6f6b5066c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:33.639100+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=57342100-ef99-4639-9ff6-c9ca38c2e167 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:33.169241+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.169251+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 44: right picked from all valid options in ['right']
+2022-08-01T16:07:33.288847+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.288853+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 45: down picked from all valid options in ['down']
+2022-08-01T16:07:33.404854+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.404856+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 46: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:33.290585+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=340d900f-d12d-486e-b658-e04ef21ba240 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:33.406599+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2ff1e371-c3e5-469e-8646-d3cb43a80d55 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:33.749505+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e1875e6a-f7a2-4aba-83f3-31a76f3b34e7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:33.860236+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.860246+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 50: right picked from all valid options in ['right']
+2022-08-01T16:07:33.987078+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:33.987088+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 51: down picked from all valid options in ['down']
+2022-08-01T16:07:34.099749+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.099752+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 52: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:33.861929+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f9b3e9ec-5f0a-4d4b-ae23-e79a957dd9d4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:33.988871+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=291ce185-2929-4129-8ca7-18848a1b37b3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:34.101447+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fda89d02-8b72-4ac9-a20e-12d65c23e405 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:34.327441+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=bce18d58-9179-4204-9d4c-cf3c3079e12f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:34.215177+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.215191+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 53: left picked from all valid options in ['left']
+2022-08-01T16:07:34.325757+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.325760+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 54: up picked from all valid options in ['up']
+2022-08-01T16:07:34.436296+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.436299+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 55: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:34.441844+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b10126d3-557c-4774-a899-8152f9777d1f fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:34.552186+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.552196+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 56: right picked from all valid options in ['right']
+2022-08-01T16:07:34.666911+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.666914+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 57: down picked from all valid options in ['down']
+2022-08-01T16:07:34.777133+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.777136+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 58: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:34.216927+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=23d15f9a-508e-4408-9de4-22eacf443e20 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:34.778900+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f20a05f1-54f3-4ce3-a6aa-ffb935f12ee3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:34.553908+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=12ead660-9c30-4fd6-8fa9-4a151c5d4f8a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:34.668722+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ab705568-41ca-4385-bfcc-ffab4ed0772f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:34.914740+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=81593cab-8607-45ba-80ee-81a6b6234185 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:35.038807+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=be923305-5593-48de-a388-a3dd0e5b875c fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:35.151155+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b49de51e-c541-4d40-82fa-b72b4e49f855 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:34.912944+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:34.912955+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 59: left picked from all valid options in ['left']
+2022-08-01T16:07:35.037028+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.037031+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 60: up picked from all valid options in ['up']
+2022-08-01T16:07:35.149308+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.149311+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 61: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:35.269089+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ed309ad3-17d9-49ba-8d13-9df71150d0fa fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:35.267395+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.267420+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 62: right picked from all valid options in ['right']
+2022-08-01T16:07:35.409468+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.409472+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 63: down picked from all valid options in ['down']
+2022-08-01T16:07:35.521744+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3ddd2e78-7f17-4fa5-902d-e6595a6e7839 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:35.632244+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=25f3fb2c-bf05-491f-9d24-8d0dd805399d fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:35.520021+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.520031+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 64: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:35.630410+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.630416+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 65: left picked from all valid options in ['left']
+2022-08-01T16:07:35.742760+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.742765+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 66: up picked from all valid options in ['up']
+2022-08-01T16:07:35.745078+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=712cbc76-22f4-48cf-8c60-73827b37a03e fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:35.411205+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e91e1932-cbfd-4477-8822-5f9af8a20096 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:35.859706+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a83823ca-090a-4e40-9efa-6bc88967738c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:35.857963+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.857972+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 67: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:35.974613+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:35.974615+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 68: right picked from all valid options in ['right']
+2022-08-01T16:07:36.089744+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.089748+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 69: down picked from all valid options in ['down']
+2022-08-01T16:07:35.976400+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=197bdf1b-7571-42c0-8537-8616a9c72228 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:36.091532+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7cdb3d1c-cb3c-4da9-b5f8-71a64b1b903e fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:36.210210+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0f727bdf-8532-4ac6-bdd8-855e6c5def27 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:36.326591+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4735219b-601a-41a6-911d-35eb6660a31d fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:36.208462+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.208471+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 70: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:36.324657+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.324709+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 71: left picked from all valid options in ['left']
+2022-08-01T16:07:36.442491+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.442495+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 72: up picked from all valid options in ['up']
+2022-08-01T16:07:36.448352+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=60f0b49b-a93b-40c8-8a5b-54b6c57c5f06 fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:36.666390+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c3c7efb9-8767-45d5-b3f9-e187af7791b6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:36.554939+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8ededec3-4fca-434f-9c43-bc0383ea3153 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:36.553158+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.553166+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 73: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:36.664662+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.664666+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 74: right picked from all valid options in ['right']
+2022-08-01T16:07:36.775793+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.775799+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 75: down picked from all valid options in ['down']
+2022-08-01T16:07:36.777561+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f8ef61e9-46cf-475f-9f53-aa24fa943c4f fwd="143.198.42.44" dyno=web.1 connect=1ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:36.894271+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=16dddaf9-10bb-4a88-ac26-3f82f7d6d3d9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:37.005151+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9470541c-15d3-47e2-a132-02cbbb0b4730 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:36.892522+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:36.892529+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 76: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:37.003424+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.003428+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 77: left picked from all valid options in ['left']
+2022-08-01T16:07:37.117417+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.117421+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 78: up picked from all valid options in ['up']
+2022-08-01T16:07:37.119151+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c38782d8-13df-4a88-8898-17ea0898213e fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:37.240998+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.241009+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 79: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:37.356805+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.356808+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 80: right picked from all valid options in ['right']
+2022-08-01T16:07:37.476163+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.476166+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 81: down picked from all valid options in ['down']
+2022-08-01T16:07:37.242716+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d6e3f70c-6fc0-46d3-869d-434fa7ab4e4f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:37.358546+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1010088e-b006-469d-83ff-0f560e041d1b fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:37.477848+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3f04b716-17cc-4dae-928e-8922dacf8d5b fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:37.598105+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8a1d10ef-fc32-4143-bbad-0d05d85267b2 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:37.596351+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.596361+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 82: down picked from all valid options in ['down', 'right']
+2022-08-01T16:07:37.709510+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.709537+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 83: right picked from all valid options in ['right']
+2022-08-01T16:07:37.821034+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.821035+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 84: right picked from all valid options in ['right']
+2022-08-01T16:07:37.711296+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c6616725-900b-44bc-9136-6d3c7732723a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:37.822731+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7fe301d0-032e-4004-8bd5-45eba13d5bdf fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:37.934526+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2f324463-1224-456d-a2f9-23b277d511a9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:37.932748+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:37.932757+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 85: up picked from all valid options in ['up']
+2022-08-01T16:07:38.083639+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.083643+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 86: left picked from all valid options in ['left']
+2022-08-01T16:07:38.085363+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=953557a0-f1a7-4b59-a5f3-861c149e2549 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:38.203206+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=737762b2-1fbd-4caf-a3f1-74ea8b93dde0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:38.317555+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=635f8317-3ea2-4d69-9338-1936508001b9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:38.458952+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e3822d2a-6955-4421-9132-3a19a371fc4d fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:38.457100+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.457108+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 89: right picked from all valid options in ['right']
+2022-08-01T16:07:38.568380+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.568382+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 90: right picked from all valid options in ['right']
+2022-08-01T16:07:38.681348+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.681356+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 91: up picked from all valid options in ['up']
+2022-08-01T16:07:38.570122+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f6c449c6-0f99-4ea6-afc7-6b1b04ac5b96 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:38.201450+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.201461+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 87: left picked from all valid options in ['left']
+2022-08-01T16:07:38.315790+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.315793+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 88: down picked from all valid options in ['down']
+2022-08-01T16:07:38.683055+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3f7bcc01-f2d4-4bdc-a2f9-9e490b5401cd fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:38.795716+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=571a6997-24b3-48f1-8cbb-40ad473d0aff fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:38.910293+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=dd257a6b-fb9f-4eda-81dd-72dd4cb82f46 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:38.793909+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.793929+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 92: left picked from all valid options in ['left']
+2022-08-01T16:07:38.908560+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:38.908561+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 93: left picked from all valid options in ['left']
+2022-08-01T16:07:39.017386+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.017389+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 94: down picked from all valid options in ['down']
+2022-08-01T16:07:39.131315+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3e95c7f7-0a5e-4f36-8ade-0796f96d9a25 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:39.019074+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9eecf822-a8a3-40b8-8b61-288f7b7763c9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:39.243010+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6cc315f9-5c86-4c46-88fe-6cf49535f9bd fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:39.129600+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.129612+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 95: right picked from all valid options in ['right']
+2022-08-01T16:07:39.241123+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.241150+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 96: right picked from all valid options in ['right']
+2022-08-01T16:07:39.356230+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.356233+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 97: up picked from all valid options in ['up']
+2022-08-01T16:07:39.467719+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.467729+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 98: left picked from all valid options in ['left']
+2022-08-01T16:07:39.661399+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.661406+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 99: left picked from all valid options in ['left']
+2022-08-01T16:07:39.358066+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=00ea108e-b8d1-430a-835f-0143b817d767 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:39.469647+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=85a4bbb1-9894-4914-9689-bebe63424202 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:39.665705+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=382b1558-c596-468b-840d-0fa6403e462f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:39.778932+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f7744d7a-17a3-4982-9677-8b7197aa5de5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:39.909103+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6fcd2759-385c-4fd2-ac83-4d0afb7c4401 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:40.133382+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c562217a-1b9f-4581-b3f3-30d9b46f5868 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:39.774646+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.774658+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 100: down picked from all valid options in ['down']
+2022-08-01T16:07:39.903444+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:39.903447+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 101: right picked from all valid options in ['right']
+2022-08-01T16:07:40.017913+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.017915+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 102: right picked from all valid options in ['right']
+2022-08-01T16:07:40.022197+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=96d615b6-bd26-4b9c-8175-6834e613a8c8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:40.248063+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=99d6ddc9-9b47-4ba4-bb54-4350e5cd42cd fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:40.368644+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d4a7e7d5-0248-4822-9a83-1c9e239060d8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:40.129068+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.129083+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 103: up picked from all valid options in ['up']
+2022-08-01T16:07:40.243734+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.243741+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 104: left picked from all valid options in ['left']
+2022-08-01T16:07:40.360836+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.360860+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 105: left picked from all valid options in ['left']
+2022-08-01T16:07:40.712558+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fa5b111b-9e47-4c25-bfe8-92725a52ac51 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:40.476920+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.476940+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 106: down picked from all valid options in ['down']
+2022-08-01T16:07:40.590620+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.590623+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 107: right picked from all valid options in ['right']
+2022-08-01T16:07:40.708289+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.708292+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 108: right picked from all valid options in ['right']
+2022-08-01T16:07:40.821496+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=70857aa1-4a6f-47b9-8151-a3b62e4efbf3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:40.595066+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e119fb0c-5690-45ff-a21e-5a8c792a0707 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:40.481225+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=623435d9-8d7b-49b3-a7b5-14009ca54c2b fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:41.063904+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3d088bab-30b3-4ecd-9aef-6fe0c1813619 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:40.931227+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7c33b7d8-b3d4-4814-aa8c-b0b84c32bc9c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:40.817171+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.817182+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 109: up picked from all valid options in ['up']
+2022-08-01T16:07:40.926874+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:40.926899+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 110: left picked from all valid options in ['left']
+2022-08-01T16:07:41.059502+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.059503+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 111: left picked from all valid options in ['left']
+2022-08-01T16:07:41.397650+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4c8f09de-fd93-4ec5-98bd-87a36c94be2e fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:41.177821+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=71095540-8f92-4801-a885-19ba8e79447b fwd="143.198.42.44" dyno=web.1 connect=1ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:41.173556+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.173565+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 112: down picked from all valid options in ['down']
+2022-08-01T16:07:41.284031+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.284033+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 113: right picked from all valid options in ['right']
+2022-08-01T16:07:41.393356+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.393360+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 114: right picked from all valid options in ['right']
+2022-08-01T16:07:41.288381+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e20f8873-5dc9-4f52-bbd0-cb3525c4da71 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:41.507677+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=894a12b4-16a8-4cb5-96bc-a90ddec2f8e8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:41.503182+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.503191+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 115: up picked from all valid options in ['up']
+2022-08-01T16:07:41.622385+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.622386+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 116: left picked from all valid options in ['left']
+2022-08-01T16:07:41.738055+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.738062+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 117: left picked from all valid options in ['left']
+2022-08-01T16:07:41.626766+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=73d40033-7d5e-47b2-bd84-47e66ab8b068 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:41.856905+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b0ced655-824e-4f4b-b357-3c670342991c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:41.742358+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=aff2f5d0-7d89-4697-9c9e-1bf786ad33f5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:41.968472+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a1d55b3c-9ab8-424e-8617-6bc154c43ec9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:41.852540+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.852551+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 118: down picked from all valid options in ['down']
+2022-08-01T16:07:41.963680+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:41.963691+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 119: right picked from all valid options in ['right']
+2022-08-01T16:07:42.073784+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.073785+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 120: right picked from all valid options in ['right']
+2022-08-01T16:07:42.078051+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=409bdd0d-7649-492f-accb-c49e92cc3ae9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:42.190365+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=739142ad-be35-480b-88f1-8e2a977e024a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:42.538294+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6dc402e2-e860-4e0b-a7e6-f911a6861641 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:42.185999+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.186008+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 121: up picked from all valid options in ['up']
+2022-08-01T16:07:42.302499+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.302502+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 122: left picked from all valid options in ['left']
+2022-08-01T16:07:42.413746+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.413755+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 123: left picked from all valid options in ['left']
+2022-08-01T16:07:42.533966+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.533978+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 124: down picked from all valid options in ['down']
+2022-08-01T16:07:42.649109+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.649116+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 125: right picked from all valid options in ['right']
+2022-08-01T16:07:42.762783+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.762787+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 126: right picked from all valid options in ['right']
+2022-08-01T16:07:42.653531+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9fa7f041-b286-4c6f-9fe0-8fe743eac7ad fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:42.767102+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d412daa9-1d4f-478b-9e80-b6fb58302610 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:42.306776+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b9b076e3-deae-44ba-9519-532a3ce1c81c fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:42.418153+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ce833f11-c2d0-4654-b6a6-4333fab8ce38 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:42.888653+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=857a2060-c9a2-467a-90b0-6dc01c5f9b01 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:43.003779+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=90a3e69c-76b3-4ddb-8dcf-67717975850f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:42.884335+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.884355+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 127: up picked from all valid options in ['up']
+2022-08-01T16:07:42.999415+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:42.999416+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 128: left picked from all valid options in ['left']
+2022-08-01T16:07:43.112621+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.112623+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 129: left picked from all valid options in ['left']
+2022-08-01T16:07:43.116953+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=75794c26-6795-45c9-8293-164c74908ed9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:43.229599+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=7ce4b13c-9b68-466b-9637-07d08452690a fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:43.346795+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5ecad060-1ea7-4389-bc8b-822872202631 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:43.462861+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=906210f8-1b34-4d02-80e2-cdf6349ee871 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:43.225064+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.225072+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 130: down picked from all valid options in ['down']
+2022-08-01T16:07:43.342489+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.342492+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 131: right picked from all valid options in ['right']
+2022-08-01T16:07:43.458443+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.458445+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 132: right picked from all valid options in ['right']
+2022-08-01T16:07:43.581784+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=32605e63-4654-46de-a511-0c83e8f2923e fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:43.577466+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.577475+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 133: up picked from all valid options in ['up']
+2022-08-01T16:07:43.692886+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.692891+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 134: left picked from all valid options in ['left']
+2022-08-01T16:07:43.806104+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.806108+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 135: left picked from all valid options in ['left']
+2022-08-01T16:07:43.697259+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b8982330-faf4-4792-ac97-0259b9c4ab15 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:43.921107+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=761c41ea-2555-4a10-b22f-5da21de904f8 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:44.034850+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3383e71e-a921-4dda-8449-88ec13870b65 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:43.810475+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=8465355c-3e4a-4c09-b672-b53d0e98d2e1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:43.916726+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:43.916735+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 136: down picked from all valid options in ['down']
+2022-08-01T16:07:44.030492+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.030496+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 137: right picked from all valid options in ['right']
+2022-08-01T16:07:44.148949+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.148952+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 138: right picked from all valid options in ['right']
+2022-08-01T16:07:44.153283+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cca38887-7ae1-4a65-8907-009edf3e0cb6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:44.265873+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=dfa27577-b810-436a-bd47-ce422baf3285 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:44.261612+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.261621+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 139: up picked from all valid options in ['up']
+2022-08-01T16:07:44.377662+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.377669+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 140: left picked from all valid options in ['left']
+2022-08-01T16:07:44.492081+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.492091+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 141: left picked from all valid options in ['left']
+2022-08-01T16:07:44.382011+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e6671ece-73e1-4c79-834e-c00c1b772482 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:44.496737+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1142b468-2a00-4bcd-be3e-b4988d64a9a0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:44.725718+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3a5ffae2-b131-490d-87c3-3a356b68e48c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:44.610125+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.610133+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 142: down picked from all valid options in ['down']
+2022-08-01T16:07:44.721350+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.721353+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 143: right picked from all valid options in ['right']
+2022-08-01T16:07:44.835003+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.835009+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 144: right picked from all valid options in ['right']
+2022-08-01T16:07:44.614416+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2ee921e2-6460-418a-8204-6a93667ec891 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:44.839404+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9f392e3d-e470-42cd-ae32-e7fe66c33338 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:44.952641+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=89ba34c1-65b3-46ac-bcf3-4f4be7299141 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:45.065020+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e69de227-11d6-44eb-92c0-748700baee56 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:44.948035+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:44.948043+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 145: up picked from all valid options in ['up']
+2022-08-01T16:07:45.060562+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.060565+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 146: left picked from all valid options in ['left']
+2022-08-01T16:07:45.176389+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.176390+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 147: left picked from all valid options in ['left']
+2022-08-01T16:07:45.181185+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e150a8e1-6114-4fe8-955d-e003b67b3f7b fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:45.294204+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.294216+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 148: down picked from all valid options in ['down']
+2022-08-01T16:07:45.415680+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.415691+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 149: right picked from all valid options in ['right']
+2022-08-01T16:07:45.525171+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.525174+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 150: right picked from all valid options in ['right']
+2022-08-01T16:07:45.298519+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1d70589a-82c3-4332-99f7-01b70f5d195e fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:45.635069+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.635077+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 151: up picked from all valid options in ['up']
+2022-08-01T16:07:45.751907+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.751910+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 152: left picked from all valid options in ['left']
+2022-08-01T16:07:45.871840+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.871841+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 153: left picked from all valid options in ['left']
+2022-08-01T16:07:45.639354+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=68f3e86b-c2b2-440a-bcec-154654565c21 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:45.420005+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b347b074-4c9a-47a7-9918-e60d13d84abc fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:45.529450+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f2620f13-25d2-4514-b971-e15e8aef4bf4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:45.758292+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c9518432-a40f-4767-a96a-daf248c6b5bb fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:45.876185+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4c164ff7-462d-4a89-a719-f3af67331690 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:45.989081+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:45.989091+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 154: down picked from all valid options in ['down']
+2022-08-01T16:07:46.102669+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.102671+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 155: right picked from all valid options in ['right']
+2022-08-01T16:07:46.232552+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.232556+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 156: right picked from all valid options in ['right']
+2022-08-01T16:07:45.993410+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d3dc81a8-06c6-4f6f-acc5-ec25572aaf15 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:46.236952+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=15d4ba8a-aa83-437c-87ea-b4888bdf22c2 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:46.107165+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5761753f-611c-4b1e-b0c9-66543c7b991b fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:46.693189+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a84fbbbc-cb00-4e47-a09a-421813ff6a32 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:46.355353+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=17e4c1ff-61dc-4c73-ac0f-ac74df19aed0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:46.581269+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=adef3937-34dd-44d6-8784-42d73498b3a7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:46.470576+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cf423baf-6f48-42d6-9a3d-a917cab0a168 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:46.351016+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.351026+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 157: up picked from all valid options in ['up']
+2022-08-01T16:07:46.466205+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.466206+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 158: left picked from all valid options in ['left']
+2022-08-01T16:07:46.576953+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.576958+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 159: left picked from all valid options in ['left']
+2022-08-01T16:07:46.688819+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.688830+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 160: down picked from all valid options in ['down']
+2022-08-01T16:07:46.818719+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.818723+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 161: right picked from all valid options in ['right']
+2022-08-01T16:07:46.936334+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:46.936336+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 162: right picked from all valid options in ['right']
+2022-08-01T16:07:46.940622+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=9b298691-dcc7-4240-9872-0ee156178c20 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:46.823004+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=ba8b1a90-ef6a-45a8-8135-25aa2deb3dfa fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:47.063856+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=fa08342d-ddf9-40c5-ab2c-cc96ae0a98c0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:47.057297+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.057312+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 163: up picked from all valid options in ['up']
+2022-08-01T16:07:47.174732+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.174734+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 164: left picked from all valid options in ['left']
+2022-08-01T16:07:47.285131+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.285134+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 165: left picked from all valid options in ['left']
+2022-08-01T16:07:47.289512+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=512c0265-f17a-470f-a92a-535d102358db fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:47.179169+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1353a472-ae30-4575-99a0-cffabb356db1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:47.403908+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=57ef9f75-7a90-4122-b983-fa2b915514ed fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:47.634333+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cfb418e7-26c9-40e0-8271-393397edcbd6 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:47.515799+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=944c4192-b66e-4a11-ba43-17ba94edc66c fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:47.399518+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.399529+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 166: left picked from all valid options in ['left']
+2022-08-01T16:07:47.509503+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.509505+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 167: down picked from all valid options in ['down']
+2022-08-01T16:07:47.630071+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.630072+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 168: right picked from all valid options in ['right']
+2022-08-01T16:07:47.754576+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e1461a16-9bb3-4578-b1f3-acdd78569729 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:47.866222+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0753abbd-22a3-4936-b2a9-39b07970a4c3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:47.985604+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c0ba8de0-c0a0-4c5d-afa0-28b12b7f7153 fwd="143.198.42.44" dyno=web.1 connect=3ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:47.750097+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.750108+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 169: right picked from all valid options in ['right']
+2022-08-01T16:07:47.861624+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.861672+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 170: right picked from all valid options in ['right']
+2022-08-01T16:07:47.981315+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:47.981319+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 171: up picked from all valid options in ['up']
+2022-08-01T16:07:48.102946+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=29ce2a0a-667e-4cf6-a6ec-80120a05b667 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:48.214025+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=03bbbe86-b129-49ca-bce6-fe930b5c764a fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:48.098649+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.098659+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 172: left picked from all valid options in ['left']
+2022-08-01T16:07:48.209735+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.209736+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 173: left picked from all valid options in ['left']
+2022-08-01T16:07:48.323166+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.323172+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 174: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:48.327662+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2f46b467-be8c-4ae4-ae7c-e86e55b48ee0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:48.447636+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=35bc7cd9-3802-4f91-ae3d-4ffdeae59fa1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:48.562094+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=401a17fa-a42d-4f20-83d0-00b44cce84ab fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:48.687620+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3e40b962-7bc3-4be5-a182-2873e49a8a9f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:48.803905+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=83c37387-0ae2-4280-ac2f-b719c770b24c fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:48.922557+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3cd6448d-72a1-41ba-ba87-feaf55cb84e5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:48.443363+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.443372+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 175: right picked from all valid options in ['right']
+2022-08-01T16:07:48.557737+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.557739+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 176: up picked from all valid options in ['up', 'right']
+2022-08-01T16:07:48.683293+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.683294+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 177: right picked from all valid options in ['right']
+2022-08-01T16:07:48.799490+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.799498+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 178: down picked from all valid options in ['down']
+2022-08-01T16:07:48.918086+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:48.918092+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 179: right picked from all valid options in ['right']
+2022-08-01T16:07:49.036752+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.036758+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 180: down picked from all valid options in ['down']
+2022-08-01T16:07:49.150916+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=99509f47-2692-469f-865b-65a63c88fdb5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:49.383221+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a1e157b7-da16-46b7-a70d-5fe0bf95f993 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:49.041089+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=bc5efb9e-08dd-4efa-8fb9-a044ce26cdcf fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:49.268293+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=106ff6a5-9ba9-4d07-9148-a505a80a6490 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:49.146634+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.146643+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 181: down picked from all valid options in ['down']
+2022-08-01T16:07:49.263977+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.263979+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 182: left picked from all valid options in ['left']
+2022-08-01T16:07:49.378879+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.378882+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 183: up picked from all valid options in ['up', 'left']
+2022-08-01T16:07:49.500756+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=3cddf0f5-9593-45ad-af20-9df17b71cd46 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:49.496390+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.496400+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 184: left picked from all valid options in ['left']
+2022-08-01T16:07:49.618709+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.618718+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 185: left picked from all valid options in ['left']
+2022-08-01T16:07:49.627334+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=0821a611-c0c1-4414-affe-5c9e61bf41f1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:49.765268+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2d48476a-d269-4e05-a2c3-ce3c6973b396 fwd="143.198.42.44" dyno=web.1 connect=0ms service=3ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:49.886414+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4451bdc8-3456-473b-9b26-0ded14eaafb9 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=233 protocol=https
+2022-08-01T16:07:49.759689+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.759699+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 186: up picked from all valid options in ['up']
+2022-08-01T16:07:49.882108+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.882111+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 187: up picked from all valid options in ['up', 'right']
+2022-08-01T16:07:49.998889+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:49.998892+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 188: right picked from all valid options in ['right']
+2022-08-01T16:07:50.112271+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:50.112286+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 MOVE 189: down picked from all valid options in ['up', 'down']
+2022-08-01T16:07:50.235239+00:00 app[web.1]: [('right', 0), ('left', 0), ('up', 0), ('down', 0)]
+2022-08-01T16:07:50.241792+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T16:07:50.241793+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T16:07:50.241793+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T16:07:50.241793+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T16:07:50.241794+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T16:07:50.241794+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T16:07:50.241794+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T16:07:50.241797+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T16:07:50.241797+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T16:07:50.241797+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T16:07:50.241798+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T16:07:50.241798+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T16:07:50.241798+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T16:07:50.241798+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T16:07:50.241799+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T16:07:50.241799+00:00 app[web.1]: File "/app/src/logic.py", line 147, in choose_move
+2022-08-01T16:07:50.241799+00:00 app[web.1]: move = random.choice(possible_moves)
+2022-08-01T16:07:50.241800+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/random.py", line 346, in choice
+2022-08-01T16:07:50.241800+00:00 app[web.1]: return seq[self._randbelow(len(seq))]
+2022-08-01T16:07:50.241800+00:00 app[web.1]: IndexError: list index out of range
+2022-08-01T16:07:50.003294+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=14250c44-0239-4b19-bc39-b1e375f52fd3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=236 protocol=https
+2022-08-01T16:07:50.116794+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1373b3cd-27e6-4fd4-ac78-0c8c685f64c3 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-08-01T16:07:50.245830+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=511855df-502f-47cd-b2f6-21b84e0c5c88 fwd="143.198.42.44" dyno=web.1 connect=4ms service=8ms status=500 bytes=16361 protocol=https
+2022-08-01T16:07:50.482019+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=159138dd-dd0b-4e63-a825-da0545edf387 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=223 protocol=https
+2022-08-01T16:07:50.477785+00:00 app[web.1]: d53b42fb-3bdd-40b6-93fb-7e8a423a66d2 END
