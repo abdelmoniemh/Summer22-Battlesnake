@@ -80,11 +80,11 @@ class grid():
         cell.isObstacle = True
       head = snake['head']
       self.grid[head['y']][head['x']].thisIsOtherSnakeHead()
-      self.grid[head['y']][head['x']].thisIsObstacle()
+      #self.grid[head['y']][head['x']].thisIsObstacle()
 
     for part in data['you']['body']:
       self.grid[part['y']][part['x']].thisIsSelf()
-      self.grid[part['y']][part['x']].thisIsObstacle()
+      #self.grid[part['y']][part['x']].thisIsObstacle()
 
     myHead = data['you']['head']
     self.grid[myHead['y']][myHead['x']].thisIsHead()
