@@ -114,25 +114,6 @@ def choose_move(data: dict) -> str:
       dont_collide(snake['head'])
        
 
-    # TODO: Step 4 - Find food.
-    # Use information in `data` to seek out and find food.
-    food = data['board']['food']
-    if my_health < 20 and food:
-      food_moves = moves_to(my_head, nearest_food(food, my_head))
-      food_moves = list(set(possible_moves).intersection(food_moves))
-      if len(food_moves) > 0:
-        possible_moves = food_moves
-
-    # if no food, or good on health, chase tail
-    else:
-      tail_moves = moves_to(my_head, my_tail)
-      tail_moves = list(set(possible_moves).intersection(tail_moves))
-      if len(tail_moves) > 0:
-        possible_moves = tail_moves
-    
-      # Choose a random direction from the remaining possible_moves to move in, and then return that move
-
-
     Grid = grid(board['height'], data)
     gridAs2DArray = Grid.serialize()
     print(gridAs2DArray)
@@ -141,6 +122,37 @@ def choose_move(data: dict) -> str:
     if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
     movesWithMostSpace = sorted(movesWithMostSpace.items(), key=lambda x:x[1],reverse=True)
     print(movesWithMostSpace)
+
+
+    # TODO: Step 4 - Find food.
+    # Use information in `data` to seek out and find food.
+
+    # I think it shouldnt rule out moves that arent in favour of food,
+    # Will add remaining moves at the end so they are still a option and instead of
+    # randomly picking the move will pick based on the one that
+    # has the most possible moves after.
+    food = data['board']['food']
+    if my_health < 20 and food:
+      food_moves = moves_to(my_head, nearest_food(food, my_head))
+      food_moves = list(set(possible_moves).intersection(food_moves)) 
+      for remainingMove in set(possible_moves).difference(food_moves):
+        food_moves.append(remainingMove)     
+      if len(food_moves) > 0:
+        possible_moves = food_moves
+
+    # if no food, or good on health, chase tail
+    else:
+      tail_moves = moves_to(my_head, my_tail)
+      tail_moves = list(set(possible_moves).intersection(tail_moves))
+      for remainingMove in set(possible_moves).difference(tail_moves):
+        tail_moves.append(remainingMove)
+      if len(tail_moves) > 0:
+        possible_moves = tail_moves
+    
+      # Choose a random direction from the remaining possible_moves to move in, and then return that move
+
+
+    
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
     # ideally instead of a random move we want to take the move that will put us in the most space
 
