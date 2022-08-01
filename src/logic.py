@@ -117,7 +117,7 @@ def choose_move(data: dict) -> str:
     # TODO: Step 4 - Find food.
     # Use information in `data` to seek out and find food.
     food = data['board']['food']
-    if my_health < 50 and food:
+    if my_health < 20 and food:
       food_moves = moves_to(my_head, nearest_food(food, my_head))
       food_moves = list(set(possible_moves).intersection(food_moves))
       if len(food_moves) > 0:
@@ -140,6 +140,7 @@ def choose_move(data: dict) -> str:
     movesWithMostSpace = flood_fill(Grid.getGrid(),my_head)
     if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
     movesWithMostSpace = sorted(movesWithMostSpace.items(), key=lambda x:x[1],reverse=True)
+    print(movesWithMostSpace)
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
     # ideally instead of a random move we want to take the move that will put us in the most space
 
