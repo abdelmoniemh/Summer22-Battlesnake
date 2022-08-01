@@ -147,11 +147,11 @@ def choose_move(data: dict) -> str:
     move = random.choice(possible_moves)
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
-        move = possibleMove
+        print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
+        return move
     
     # TODO: Explore new strategies for picking a move that are better than random
 
-    print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
 
     return move
 
