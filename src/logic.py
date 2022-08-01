@@ -4,6 +4,7 @@ from typing import List, Dict
 
 from cell import gridCell
 from grid import grid
+from grid import flood_fill
 
 """
 This file can be a nice home for your Battlesnake's logic and helper functions.
@@ -44,6 +45,7 @@ def choose_move(data: dict) -> str:
     my_head = my_snake["head"]  # A dictionary of coordinates like {"x": 0, "y": 0}
     my_body = my_snake["body"]  # A list of coordinate dictionaries like [{"x": 0, "y": 0}, {"x": 1, "y": 0}, {"x": 2, "y": 0}]
     my_health = my_snake['health']
+    my_tail = my_body[-1]
 
     # Uncomment the lines below to see what this data looks like in your output!
     # print(f"~~~ Turn: {data['turn']}  Game Mode: {data['game']['ruleset']['name']} ~~~")
@@ -51,7 +53,7 @@ def choose_move(data: dict) -> str:
     # print(f"My Battlesnake this turn is: {my_snake}")
     # print(f"My Battlesnakes head this turn is: {my_head}")
     # print(f"My Battlesnakes body this turn is: {my_body}")
-
+    
   
     
   
@@ -120,13 +122,32 @@ def choose_move(data: dict) -> str:
     # TODO: Step 4 - Find food.
     # Use information in `data` to seek out and find food.
     food = data['board']['food']
-    if my_health < 100 and food:
+    if my_health < 50 and food:
       food_moves = moves_to(my_head, nearest_food(food, my_head))
+      food_moves = list(set(possible_moves).intersection(food_moves))
       if len(food_moves) > 0:
-        possible_moves = list(set(possible_moves).intersection(food_moves))
+        possible_moves = food_moves
+
+    # if no food, or good on health, chase tail
+    else:
+      tail_moves = moves_to(my_head, my_tail)
+      tail_moves = list(set(possible_moves).intersection(tail_moves))
+      if len(tail_moves) > 0:
+        possible_moves = tail_moves
     
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
+    
+    movesWithMostSpace = flood_fill(grid,my_head)
+    del movesWithMostSpace['root']
+    movesWithMostSpace = sorted(movesWithMostSpace.items(), key=lambda x:x[1],reverse=True)
+    # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
+    # ideally instead of a random move we want to take the move that will put us in the most space
+
     move = random.choice(possible_moves)
+    for possibleMove, space in movesWithMostSpace:
+      if possibleMove in possible_moves:
+        move = possibleMove
+    
     # TODO: Explore new strategies for picking a move that are better than random
 
     print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
