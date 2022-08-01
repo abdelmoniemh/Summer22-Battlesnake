@@ -1106,3 +1106,225 @@
 2022-08-01T03:14:04.157245+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:19135
 2022-08-01T03:14:04.360774+00:00 heroku[web.1]: State changed from starting to up
 2022-08-01T03:14:08.000000+00:00 app[api]: Build succeeded
+2022-07-29T23:57:26.846091+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:26.846093+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:26.846124+00:00 app[web.1]: ['0', '0', '&', '#', '#']
+2022-07-29T23:57:26.846149+00:00 app[web.1]: 413ee32b-a6df-49a8-b7c1-b7df1ae03fc9 MOVE 96: left picked from all valid options in ['down', 'left']
+2022-07-29T23:57:26.847324+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=e6bd0a74-97fe-4e14-8970-ca5eb5f69ab5 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-07-29T23:57:26.972505+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:26.972506+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:26.972509+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:26.972512+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:26.972522+00:00 app[web.1]: ['0', '&', '#', '#', '0']
+2022-07-29T23:57:26.972548+00:00 app[web.1]: 413ee32b-a6df-49a8-b7c1-b7df1ae03fc9 MOVE 97: down picked from all valid options in ['down', 'left']
+2022-07-29T23:57:26.973630+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=16c7f0b6-8993-443f-ab98-d60d4e3438e2 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=235 protocol=https
+2022-07-29T23:57:27.085464+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:27.085472+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:27.085474+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:27.085475+00:00 app[web.1]: ['0', '&', '0', '0', '0']
+2022-07-29T23:57:27.086414+00:00 app[web.1]: ['0', '#', '#', '0', '0']
+2022-07-29T23:57:27.086415+00:00 app[web.1]: 413ee32b-a6df-49a8-b7c1-b7df1ae03fc9 MOVE 98: down picked from all valid options in ['down', 'left', 'right']
+2022-07-29T23:57:27.087076+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=deded767-923e-4b62-9c46-8fc1b065f3db fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-07-29T23:57:27.290654+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:27.290660+00:00 app[web.1]: ['0', '0', '0', '0', '0']
+2022-07-29T23:57:27.290661+00:00 app[web.1]: ['0', '&', '0', '0', '0']
+2022-07-29T23:57:27.290661+00:00 app[web.1]: ['0', '#', '0', '0', '0']
+2022-07-29T23:57:27.290673+00:00 app[web.1]: ['0', '#', '0', '0', '0']
+2022-07-29T23:57:27.290701+00:00 app[web.1]: 413ee32b-a6df-49a8-b7c1-b7df1ae03fc9 MOVE 99: down picked from all valid options in ['down', 'left', 'right']
+2022-07-29T23:57:27.292977+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=92d06f4f-329e-4747-9a99-a02c699c11a7 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=235 protocol=https
+2022-07-29T23:57:27.405313+00:00 app[web.1]: 413ee32b-a6df-49a8-b7c1-b7df1ae03fc9 END
+2022-07-29T23:57:27.407535+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=7e4f3109-59bc-43a4-86e4-a7934d7d10f4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-07-30T00:33:57.628262+00:00 heroku[web.1]: Idling
+2022-07-30T00:33:57.630336+00:00 heroku[web.1]: State changed from up to down
+2022-07-30T00:33:58.216285+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-07-30T00:33:58.423124+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T03:04:52.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T03:05:14.362589+00:00 app[api]: Release v20 created by user abdelmoniemmmh@gmail.com
+2022-08-01T03:05:14.362589+00:00 app[api]: Deploy ee753b1b by user abdelmoniemmmh@gmail.com
+2022-08-01T03:05:14.655462+00:00 heroku[web.1]: State changed from down to starting
+2022-08-01T03:05:17.301290+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T03:05:18.840609+00:00 app[web.1]: start
+2022-08-01T03:05:18.841393+00:00 app[web.1]: {'right': 30, 'left': 2, 'up': 0, 'down': 0}
+2022-08-01T03:05:18.841409+00:00 app[web.1]: [('right', 30), ('left', 2), ('up', 0), ('down', 0)]
+2022-08-01T03:05:18.844210+00:00 app[web.1]: 
+2022-08-01T03:05:18.844215+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:6345
+2022-08-01T03:05:18.844542+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T03:05:18.844558+00:00 app[web.1]: * Environment: development
+2022-08-01T03:05:18.844573+00:00 app[web.1]: * Debug mode: on
+2022-08-01T03:05:19.036590+00:00 app[web.1]: start
+2022-08-01T03:05:19.037328+00:00 app[web.1]: {'right': 30, 'left': 2, 'up': 0, 'down': 0}
+2022-08-01T03:05:19.037342+00:00 app[web.1]: [('right', 30), ('left', 2), ('up', 0), ('down', 0)]
+2022-08-01T03:05:19.040050+00:00 app[web.1]: 
+2022-08-01T03:05:19.040055+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:6345
+2022-08-01T03:05:19.166851+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T03:05:23.000000+00:00 app[api]: Build succeeded
+2022-08-01T03:05:36.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T03:05:56.277663+00:00 app[api]: Deploy 31a7de0c by user abdelmoniemmmh@gmail.com
+2022-08-01T03:05:56.277663+00:00 app[api]: Release v21 created by user abdelmoniemmmh@gmail.com
+2022-08-01T03:05:56.508598+00:00 heroku[web.1]: Restarting
+2022-08-01T03:05:56.522036+00:00 heroku[web.1]: State changed from up to starting
+2022-08-01T03:05:57.315226+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-01T03:05:57.501402+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T03:05:59.141743+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T03:06:00.905725+00:00 app[web.1]: 
+2022-08-01T03:06:00.905749+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:26935
+2022-08-01T03:06:00.905904+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T03:06:00.905925+00:00 app[web.1]: * Environment: development
+2022-08-01T03:06:00.905939+00:00 app[web.1]: * Debug mode: on
+2022-08-01T03:06:01.093768+00:00 app[web.1]: 
+2022-08-01T03:06:01.093774+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:26935
+2022-08-01T03:06:01.151048+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T03:06:04.000000+00:00 app[api]: Build succeeded
+2022-08-01T03:13:39.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T03:13:59.626162+00:00 app[api]: Deploy 5802821b by user abdelmoniemmmh@gmail.com
+2022-08-01T03:13:59.626162+00:00 app[api]: Release v22 created by user abdelmoniemmmh@gmail.com
+2022-08-01T03:13:59.876973+00:00 heroku[web.1]: Restarting
+2022-08-01T03:13:59.879580+00:00 heroku[web.1]: State changed from up to starting
+2022-08-01T03:14:00.575297+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-01T03:14:00.773455+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T03:14:02.594475+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T03:14:03.961861+00:00 app[web.1]: 
+2022-08-01T03:14:03.961895+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:19135
+2022-08-01T03:14:03.962038+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T03:14:03.962054+00:00 app[web.1]: * Environment: development
+2022-08-01T03:14:03.962068+00:00 app[web.1]: * Debug mode: on
+2022-08-01T03:14:04.157225+00:00 app[web.1]: 
+2022-08-01T03:14:04.157245+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:19135
+2022-08-01T03:14:04.360774+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T03:14:08.000000+00:00 app[api]: Build succeeded
+2022-08-01T03:46:05.452288+00:00 heroku[web.1]: Idling
+2022-08-01T03:46:05.454021+00:00 heroku[web.1]: State changed from up to down
+2022-08-01T03:46:06.128451+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-01T03:46:06.308360+00:00 heroku[web.1]: Process exited with status 0
+2022-08-01T15:51:26.851880+00:00 heroku[web.1]: State changed from down to starting
+2022-08-01T15:51:30.168718+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-01T15:51:31.656902+00:00 app[web.1]: 
+2022-08-01T15:51:31.656916+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:46394
+2022-08-01T15:51:31.657088+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-01T15:51:31.657107+00:00 app[web.1]: * Environment: development
+2022-08-01T15:51:31.657122+00:00 app[web.1]: * Debug mode: on
+2022-08-01T15:51:31.850247+00:00 app[web.1]: 
+2022-08-01T15:51:31.850261+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:46394
+2022-08-01T15:51:31.927424+00:00 heroku[web.1]: State changed from starting to up
+2022-08-01T15:51:06.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-01T15:52:11.003167+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=cfe4732a-a80e-434c-8361-1baac9b5e1dd fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-01T15:52:11.007331+00:00 app[web.1]: bef805cf-eead-444d-a912-3f91e4859163 START
+2022-08-01T15:52:11.118514+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:11.118532+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:11.118532+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:11.118533+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:11.118533+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:11.118533+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:11.118533+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:11.118538+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:11.118539+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:11.118539+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:11.118539+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:11.118539+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:11.118540+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:11.118540+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:11.118540+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:11.118540+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:11.118541+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:11.118541+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:11.113679+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=4e50ab03-c9e6-4748-839d-1cf504b65243 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:11.456308+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=17534bc0-cdb9-45be-96d5-9191e833f4af fwd="143.198.42.44" dyno=web.1 connect=0ms service=8ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:11.461150+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:11.461182+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:11.461183+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:11.461183+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:11.461184+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:11.461184+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:11.461184+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:11.461185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:11.461185+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:11.461185+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:11.461186+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:11.461186+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:11.461186+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:11.461187+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:11.461187+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:11.461187+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:11.461188+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:11.461188+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:11.811354+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=80b4a3c8-e308-4db7-9277-6a3aafe12bbd fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:11.816064+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:11.816071+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:11.816072+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:11.816072+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:11.816073+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:11.816073+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:11.816073+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:11.816074+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:11.816074+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:11.816075+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:11.816075+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:11.816076+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:11.816076+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:11.816076+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:11.816077+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:11.816077+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:11.816077+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:11.816077+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.152301+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=2c32e05b-8e71-4027-a037-51c4fbf48daf fwd="143.198.42.44" dyno=web.1 connect=0ms service=6ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:12.377562+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=a4ced475-5080-4224-b291-5d173d4a13de fwd="143.198.42.44" dyno=web.1 connect=0ms service=7ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:12.156962+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:12.156972+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:12.156973+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:12.156973+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:12.156974+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:12.156974+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:12.156974+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:12.156975+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:12.156975+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:12.156975+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:12.156976+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:12.156976+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:12.156977+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:12.156977+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:12.156977+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:12.156978+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:12.156978+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:12.156978+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.382250+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:12.382252+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:12.382253+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:12.382254+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:12.382257+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:12.382257+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:12.382257+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:12.382258+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:12.382258+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:12.382259+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:12.382259+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:12.382260+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:12.382260+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:12.382260+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:12.382261+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:12.382261+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:12.382262+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:12.382262+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.661381+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cfda8bee-a177-49ef-9f49-95bba8b5d636 fwd="143.198.42.44" dyno=web.1 connect=0ms service=12ms status=500 bytes=14917 protocol=https
+2022-08-01T15:52:12.666040+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-01T15:52:12.666047+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-01T15:52:12.666047+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-01T15:52:12.666048+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-01T15:52:12.666048+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-01T15:52:12.666048+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-01T15:52:12.666049+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-01T15:52:12.666049+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-01T15:52:12.666050+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-01T15:52:12.666050+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-01T15:52:12.666050+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-01T15:52:12.666050+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-01T15:52:12.666051+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-01T15:52:12.666051+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-01T15:52:12.666051+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-01T15:52:12.666052+00:00 app[web.1]: File "/app/src/logic.py", line 141, in choose_move
+2022-08-01T15:52:12.666052+00:00 app[web.1]: del movesWithMostSpace['root']
+2022-08-01T15:52:12.666052+00:00 app[web.1]: TypeError: 'NoneType' object does not support item deletion
+2022-08-01T15:52:12.869501+00:00 app[web.1]: bef805cf-eead-444d-a912-3f91e4859163 END
+2022-08-01T15:52:12.866917+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=6787d129-32cd-4595-9b5f-1458361caff1 fwd="143.198.42.44" dyno=web.1 connect=0ms service=4ms status=200 bytes=223 protocol=https
+2022-08-01T15:51:26.642857+00:00 app[api]: Deploy f7c2d0c3 by user abdelmoniemmmh@gmail.com
+2022-08-01T15:51:26.642857+00:00 app[api]: Release v23 created by user abdelmoniemmmh@gmail.com
+2022-08-01T15:51:35.000000+00:00 app[api]: Build succeeded

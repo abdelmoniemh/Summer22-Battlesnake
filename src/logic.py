@@ -138,7 +138,7 @@ def choose_move(data: dict) -> str:
     #print(gridAs2DArray)
   
     movesWithMostSpace = flood_fill(Grid.getGrid(),my_head)
-    del movesWithMostSpace['root']
+    if 'root' in movesWithMostSpace.keys(): del movesWithMostSpace['root']
     movesWithMostSpace = sorted(movesWithMostSpace.items(), key=lambda x:x[1],reverse=True)
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
     # ideally instead of a random move we want to take the move that will put us in the most space
