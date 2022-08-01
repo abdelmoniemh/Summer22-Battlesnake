@@ -67,7 +67,8 @@ def choose_move(data: dict) -> str:
     board_width = board['width']
 
     Grid = grid(board['height'], data)
-    Grid.serialize()
+    gridAs2DArray = Grid.serialize()
+    #print(gridAs2DArray)
 
     if (my_head['x'] + 1 >= board_width):
       possible_moves.remove('right')

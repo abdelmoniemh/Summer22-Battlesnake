@@ -1,5 +1,7 @@
+# from yaml import serialize
 from cell import gridCell
-
+from queue import Queue
+# writing this to test a flood fill implementation 
 class grid():
   def __init__(self, gridSize, data):
     board = data['board']
@@ -34,5 +36,59 @@ class grid():
     return self.grid
 
   def serialize(self):
+    serializedArray = []
     for row in self.grid:
-      print([str(x) for x in row])
+      serializedArray.append([str(x) for x in row])
+    return serializedArray
+
+def flood_fill(grid, head):
+    n = len(grid)
+    m = len(grid[0])
+    i, j = head['y'], head['x']
+    old_color = grid[i][j]
+    if old_color == '#':
+       return
+
+    queue = Queue()
+    queue.put((i, j, 'root', None))
+    used = []
+    moves = {'right':0, 'left':0, 'up':0, 'down':0, 'root':0}
+    while not queue.empty():
+        queueInput = queue.get()
+        i, j = queueInput[0], queueInput[1]
+        if queueInput[3] == None or queueInput[3] == 'root':
+          parent = queueInput[2]
+        else:
+          parent = queueInput[3]
+        #print(queueInput)
+        #i, j, parent = queue.get()
+        if i < 0 or i >= n or j < 0 or j >= m or grid[i][j] == "#" or (i,j) in used:
+            continue
+        else:
+            #grid[i][j] = new_color
+            #print(parent)
+            used.append((i,j))
+            moves[parent] +=1
+            queue.put((i+1, j, 'up', parent))
+            queue.put((i-1, j, 'down', parent))
+            queue.put((i, j+1, 'right', parent))
+            queue.put((i, j-1, 'left', parent))
+    return moves
+
+def main():
+  print("start")
+  grid = [['0','*','0','0','0','0',],
+          ['0','#','0','0','0','0',],
+          ['#','#','0','0','0','0',],
+          ['0','0','0','0','0','0',],
+          ['0','0','0','0','0','0',],
+          ['0','0','0','0','0','0',]]
+
+  head = {'x':1, 'y':0}
+
+  moves = flood_fill(grid, head)
+  del moves['root']
+  print(moves)
+  print(sorted(moves.items(), key=lambda x:x[1],reverse=True))
+  
+main()
