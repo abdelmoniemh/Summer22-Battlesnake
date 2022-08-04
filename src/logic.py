@@ -161,7 +161,13 @@ def choose_move(data: dict) -> str:
         print("chasing tail")
     
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
-
+    cellsToAvoid = []
+    for snake in data['board']['snakes']:
+      if snake['length'] < my_snake['length']:
+        continue
+      allPossibleMoves=headLocationAfterMove(snake['head'])
+      for move in allPossibleMoves:
+        cellsToAvoid.append((allPossibleMoves[move]['x'], allPossibleMoves[move]['y']))
 
     
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
@@ -170,9 +176,15 @@ def choose_move(data: dict) -> str:
     move = random.choice(possible_moves)
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
-        print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
+        possibleLocation = headLocationAfterMove(my_head)
+        if possibleLocation[possibleMove] not in cellsToAvoid:
+          print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
+          return possibleMove
+
+    for possibleMove, space in movesWithMostSpace:
+      if possibleMove in possible_moves:
+        print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves} in cells to avoid")
         return possibleMove
-    
     
     # TODO: Explore new strategies for picking a move that are better than random
 
@@ -230,7 +242,7 @@ def beAggressive(all_snakes, me): # maybe you could use something like this
   moves = iter(flood_fill(Grid.getGrid(), snake['head']))
   mostLikelyMove = next(moves)
   #next(iter()) will give the first one in the dict (the best move)
-  nextHeadLocation = possible_enemy_head(snake['head'])
+  nextHeadLocation = headLocationAfterMove(snake['head'])
   # check that most likely move is not its neck (just in case) -- unless that's already covered in grid
   if nextHeadLocation[mostLikelyMove] not in snake['body']:
     return moves_to(me['head'], nextHeadLocation[mostLikelyMove])
@@ -238,7 +250,7 @@ def beAggressive(all_snakes, me): # maybe you could use something like this
     # take next most likely move
     return moves_to(me['head'], nextHeadLocation[next(moves)])
 
-def possible_enemy_head(enemy_head):
+def headLocationAfterMove(enemy_head):
   return {
       'up':{'x':enemy_head['x'], 'y':enemy_head['y'] + 1 }, 
       'down':{'x':enemy_head['x'], 'y':enemy_head['y'] - 1 }, 
