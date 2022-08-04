@@ -133,7 +133,14 @@ def choose_move(data: dict) -> str:
     # randomly picking the move will pick based on the one that
     # has the most possible moves after.
     food = data['board']['food']
-    if my_health < 20 and food:
+    if  30 < my_health <= 100 :
+      agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+      agressive_moves = list(set(possible_moves).intersection(agressive_moves)) 
+      for remainingMove in set(possible_moves).difference(agressive_moves):
+        agressive_moves.append(remainingMove)     
+      if len(agressive_moves) > 0:
+        possible_moves = agressive_moves
+    elif my_health < 30 and food:
       food_moves = moves_to(my_head, nearest_food(food, my_head))
       food_moves = list(set(possible_moves).intersection(food_moves)) 
       for remainingMove in set(possible_moves).difference(food_moves):
@@ -222,7 +229,7 @@ def beAggressive(all_snakes, me): # maybe you could use something like this
   #next(iter()) will give the first one in the dict (the best move)
   nextHeadLocation = possible_enemy_head(snake['head'])
   # check that most likely move is not its neck (just in case) -- unless that's already covered in grid
-  if nextHeadLocation[mostLikelyMove] != snake['body'][1]:
+  if nextHeadLocation[mostLikelyMove] not in snake['body']:
     return moves_to(me['head'], nextHeadLocation[mostLikelyMove])
   else:
     # take next most likely move
