@@ -140,7 +140,7 @@ def choose_move(data: dict) -> str:
         agressive_moves.append(remainingMove)     
       if len(agressive_moves) > 0:
         possible_moves = agressive_moves
-        print("being agressive")
+        print(f"being agressive : {agressive_moves}")
     elif my_health < 30 and food:
       food_moves = moves_to(my_head, nearest_food(food, my_head))
       food_moves = list(set(possible_moves).intersection(food_moves)) 
@@ -148,7 +148,7 @@ def choose_move(data: dict) -> str:
         food_moves.append(remainingMove)     
       if len(food_moves) > 0:
         possible_moves = food_moves
-        print("getting food")
+        print(f"getting food : {food_moves}")
     # Maybe if a snake head of a smaller snake is within a certain distance from our head, start hunting it, if otherwise good on health
     # if no food, or good on health, chase tail
     else:
@@ -158,13 +158,12 @@ def choose_move(data: dict) -> str:
         tail_moves.append(remainingMove)
       if len(tail_moves) > 0:
         possible_moves = tail_moves
-        print("chasing tail")
+        print(f"chasing tail : {tail_moves}")
     
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
     cellsToAvoid = []
     for snake in data['board']['snakes']:
-      
-      if snake['length'] < my_snake['length']:
+      if snake['length'] < my_snake['length'] + 2:
         continue
 
       allPossibleMoves=headLocationAfterMove(snake['head'])
@@ -182,6 +181,8 @@ def choose_move(data: dict) -> str:
         if possibleLocation[possibleMove] not in cellsToAvoid:
           print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves} avoiding")
           return possibleMove
+        else:
+          print(f"avoided move {possibleMove} because of danger in cell {possibleLocation[possibleMove]}")
 
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
