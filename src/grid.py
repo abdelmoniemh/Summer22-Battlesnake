@@ -2,14 +2,15 @@ from queue import Queue
 #flood fill implementation 
 
 class gridCell:
-  def __init__(self):
-    self.isSelf = False
+  def __init__(self): #important attributes to know for each cell in the grid
+    self.isSelf = False 
     self.myHead = False
     self.isFood = False
     self.isOtherSnakeBody = False
     self.isOtherSnakeHead = False
     self.isObstacle = False
 
+  #setter functions
   def thisIsSelf(self):
     self.isSelf = True
     self.myHead = False
@@ -50,6 +51,8 @@ class gridCell:
     self.isOtherSnakeHead = True
     self.isObstacle = True
 
+
+  #str representation is nice for logs
   def __str__(self):
     if self.myHead:
       return '&'
@@ -62,6 +65,7 @@ class gridCell:
     
 class grid():
   def __init__(self, gridSize, data):
+    #we want to initialize a 2D array representation of the board given the game state
     board = data['board']
     self.grid = []
     for i in range(gridSize):
@@ -70,11 +74,11 @@ class grid():
         row.append(gridCell())
       self.grid.append(row)
 
-    for food in board['food']:
+    for food in board['food']: #add all food
       self.grid[food['y']][food['x']].thisIsFood()
 
-    for snake in board['snakes']:
-      for part in snake['body']:
+    for snake in board['snakes']: #add all enemy snakes
+      for part in snake['body']: 
         cell = self.grid[part['y']][part['x']]
         cell.isOtherSnakeBody = True
         cell.isObstacle = True
@@ -82,7 +86,7 @@ class grid():
       self.grid[head['y']][head['x']].thisIsOtherSnakeHead()
       #self.grid[head['y']][head['x']].thisIsObstacle()
 
-    for part in data['you']['body']:
+    for part in data['you']['body']: #add yourself to the board
       self.grid[part['y']][part['x']].thisIsSelf()
       #self.grid[part['y']][part['x']].thisIsObstacle()
 
@@ -92,13 +96,16 @@ class grid():
   def getGrid(self):
     return self.grid
 
-  def serialize(self):
+  def serialize(self): 
+    #turns 2D array of ojects into 2D array of strings
+    #grid.serialize() to see the gamestate at any point
     serializedArray = []
     for row in self.grid:
       serializedArray.append([str(x) for x in row])
     return serializedArray
 
 def flood_fill(grid, head):
+  #return the best move
   n = len(grid)
   m = len(grid[0])
   i, j = head['y'], head['x']

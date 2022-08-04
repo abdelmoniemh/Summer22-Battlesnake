@@ -40,6 +40,7 @@ def choose_move(data: dict) -> str:
     for each move of the game.
 
     """
+    print(data['board']['snakes'])
     my_snake = data["you"]      # A dictionary describing your snake's position on the board
     my_head = my_snake["head"]  # A dictionary of coordinates like {"x": 0, "y": 0}
     my_body = my_snake["body"]  # A list of coordinate dictionaries like [{"x": 0, "y": 0}, {"x": 1, "y": 0}, {"x": 2, "y": 0}]
@@ -139,7 +140,7 @@ def choose_move(data: dict) -> str:
         food_moves.append(remainingMove)     
       if len(food_moves) > 0:
         possible_moves = food_moves
-
+    # Maybe if a snake head of a smaller snake is within a certain distance from our head, start hunting it, if otherwise good on health
     # if no food, or good on health, chase tail
     else:
       tail_moves = moves_to(my_head, my_tail)
@@ -197,6 +198,7 @@ def nearest_food(food_list, head):
   dist = []
   for food in food_list:
     dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+    # could potentially return min distance as well if we want to hunt snakes based on a distance heuristic
   return food_list[dist.index(min(dist))]
 
 def moves_to(start, end):
@@ -210,3 +212,38 @@ def moves_to(start, end):
   elif end['y'] < start['y']:
     possible_moves.append('down')
   return possible_moves
+
+def beAggressive(all_snakes, me): # maybe you could use something like this
+  # closest snake (snake = food lol)
+  snake = nearest_food(smaller_snakes(all_snakes, me['length']), me['head'])
+  #flood_fill will return the most likely moves in order
+  moves = iter(flood_fill(Grid.getGrid(), snake['head']))
+  mostLikelyMove = next(moves)
+  #next(iter()) will give the first one in the dict (the best move)
+  nextHeadLocation = possible_enemy_head(snake['head'])
+  # check that most likely move is not its neck (just in case) -- unless that's already covered in grid
+  if nextHeadLocation[mostLikelyMove] != snake['body'][1]:
+    return moves_to(me['head'], nextHeadLocation[mostLikelyMove])
+  else:
+    # take next most likely move
+    return moves_to(me['head'], nextHeadLocation[next(moves)])
+
+def possible_enemy_head(enemy_head):
+  return {
+      'up':{'x':enemy_head['x'], 'y':enemy_head['y'] + 1 }, 
+      'down':{'x':enemy_head['x'], 'y':enemy_head['y'] - 1 }, 
+      'left':{'x':enemy_head['x'] - 1, 'y':enemy_head['y'] }, 
+      'right':{'x':enemy_head['x'] + 1, 'y':enemy_head['y'] }
+                       }
+
+# all snakes includes us, but we should be removed with length check
+def smaller_snakes(all_snakes, my_length):
+  smaller = []
+  for snake in all_snakes:
+    if snake['length'] < my_length:
+      smaller.append(snake)
+  return smaller
+
+# chase a snake's tail - could be useful in some circumstances
+def chase_snake(all_snakes, me):
+  pass
