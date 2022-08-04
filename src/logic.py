@@ -163,12 +163,12 @@ def choose_move(data: dict) -> str:
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
     cellsToAvoid = []
     for snake in data['board']['snakes']:
-      if snake['length'] < my_snake['length']:
+      if snake['length'] >= my_snake['length']:
         continue
       allPossibleMoves=headLocationAfterMove(snake['head'])
       for move in allPossibleMoves:
         cellsToAvoid.append((allPossibleMoves[move]['x'], allPossibleMoves[move]['y']))
-
+    print("cellsToAvoid: ", cellsToAvoid)
     
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
     # ideally instead of a random move we want to take the move that will put us in the most space
