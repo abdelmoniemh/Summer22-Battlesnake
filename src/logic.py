@@ -133,13 +133,14 @@ def choose_move(data: dict) -> str:
     # randomly picking the move will pick based on the one that
     # has the most possible moves after.
     food = data['board']['food']
-    if  30 < my_health <= 100 and smaller_snakes(data['board']['snakes'], my_snake['length']):
+    if  30 < my_health <= 100 and smaller_snakes(data['board']['snakes'], my_snake['length']+3):
       agressive_moves = beAggressive(data['board']['snakes'], my_snake)
       agressive_moves = list(set(possible_moves).intersection(agressive_moves)) 
       for remainingMove in set(possible_moves).difference(agressive_moves):
         agressive_moves.append(remainingMove)     
       if len(agressive_moves) > 0:
         possible_moves = agressive_moves
+        print("being agressive")
     elif my_health < 30 and food:
       food_moves = moves_to(my_head, nearest_food(food, my_head))
       food_moves = list(set(possible_moves).intersection(food_moves)) 
@@ -147,6 +148,7 @@ def choose_move(data: dict) -> str:
         food_moves.append(remainingMove)     
       if len(food_moves) > 0:
         possible_moves = food_moves
+        print("getting food")
     # Maybe if a snake head of a smaller snake is within a certain distance from our head, start hunting it, if otherwise good on health
     # if no food, or good on health, chase tail
     else:
@@ -156,6 +158,7 @@ def choose_move(data: dict) -> str:
         tail_moves.append(remainingMove)
       if len(tail_moves) > 0:
         possible_moves = tail_moves
+        print("chasing tail")
     
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
 
@@ -222,7 +225,7 @@ def moves_to(start, end):
 
 def beAggressive(all_snakes, me): # maybe you could use something like this
   # closest snake (snake = food lol)
-  snake = nearest_food(smaller_snakes(all_snakes, me['length']), me['head'])
+  snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
   #flood_fill will return the most likely moves in order
   moves = iter(flood_fill(Grid.getGrid(), snake['head']))
   mostLikelyMove = next(moves)
