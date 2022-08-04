@@ -133,7 +133,7 @@ def choose_move(data: dict) -> str:
     # randomly picking the move will pick based on the one that
     # has the most possible moves after.
     food = data['board']['food']
-    if  30 < my_health <= 100 and smaller_snakes(data['board']['snakes'], my_snake):
+    if  30 < my_health <= 100 and smaller_snakes(data['board']['snakes'], my_snake['length']-3):
       agressive_moves = beAggressive(data['board']['snakes'], my_snake)
       agressive_moves = list(set(possible_moves).intersection(agressive_moves)) 
       for remainingMove in set(possible_moves).difference(agressive_moves):
