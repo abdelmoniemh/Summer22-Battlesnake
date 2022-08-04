@@ -133,7 +133,7 @@ def choose_move(data: dict) -> str:
     # randomly picking the move will pick based on the one that
     # has the most possible moves after.
     food = data['board']['food']
-    if  30 < my_health <= 100 and smaller_snakes(data['board']['snakes'], my_snake['length']+3):
+    if  30 < my_health <= 100 and smaller_snakes(data['board']['snakes'], my_snake):
       agressive_moves = beAggressive(data['board']['snakes'], my_snake)
       agressive_moves = list(set(possible_moves).intersection(agressive_moves)) 
       for remainingMove in set(possible_moves).difference(agressive_moves):
@@ -225,7 +225,7 @@ def moves_to(start, end):
 
 def beAggressive(all_snakes, me): # maybe you could use something like this
   # closest snake (snake = food lol)
-  snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+  snake = nearest_food(smaller_snakes(all_snakes, me['length']-3), me['head'])
   #flood_fill will return the most likely moves in order
   moves = iter(flood_fill(Grid.getGrid(), snake['head']))
   mostLikelyMove = next(moves)

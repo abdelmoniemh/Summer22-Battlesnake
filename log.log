@@ -1,0 +1,367 @@
+2022-08-04T01:00:29.173796+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:00:29.173796+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:00:29.173797+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:00:29.173798+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:00:29.173798+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:00:29.173798+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:00:29.173799+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:00:29.173799+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:00:29.173799+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:00:29.173800+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:00:29.173800+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:00:29.173800+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:00:29.173801+00:00 app[web.1]: File "/app/src/logic.py", line 225, in beAggressive
+2022-08-04T01:00:29.173801+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']), me['head'])
+2022-08-04T01:00:29.173801+00:00 app[web.1]: File "/app/src/logic.py", line 209, in nearest_food
+2022-08-04T01:00:29.173802+00:00 app[web.1]: return food_list[dist.index(min(dist))]
+2022-08-04T01:00:29.173802+00:00 app[web.1]: ValueError: min() arg is an empty sequence
+2022-08-04T01:00:29.572900+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6065b1ff-5b63-4b3f-818e-fcc459f7390a fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=18221 protocol=https
+2022-08-04T01:00:29.573695+00:00 app[web.1]: [{'id': 'gs_YqqWKbDRwrbWYxgmfGTBGpH3', 'name': 'ExpT4', 'latency': '34', 'health': 91, 'body': [{'x': 9, 'y': 10}, {'x': 9, 'y': 9}, {'x': 9, 'y': 8}], 'head': {'x': 9, 'y': 10}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_MTDjgcCmfkTF3JkWYBPtcJtC', 'name': 'Devious Devin', 'latency': '417', 'health': 93, 'body': [{'x': 5, 'y': 6}, {'x': 4, 'y': 6}, {'x': 4, 'y': 7}, {'x': 4, 'y': 8}], 'head': {'x': 5, 'y': 6}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:00:29.573934+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '#', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '*', '&', '0']]
+2022-08-04T01:00:29.577263+00:00 app[web.1]: [('left', 95), ('right', 19), ('up', 0), ('down', 0)]
+2022-08-04T01:00:29.582764+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:00:29.582765+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:00:29.582766+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:00:29.582766+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:00:29.582767+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:00:29.582767+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:00:29.582767+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:00:29.582768+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:00:29.582768+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:00:29.582768+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:00:29.582768+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:00:29.582769+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:00:29.582769+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:00:29.582769+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:00:29.582769+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:00:29.582770+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:00:29.582770+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:00:29.582770+00:00 app[web.1]: File "/app/src/logic.py", line 225, in beAggressive
+2022-08-04T01:00:29.582770+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']), me['head'])
+2022-08-04T01:00:29.582771+00:00 app[web.1]: File "/app/src/logic.py", line 209, in nearest_food
+2022-08-04T01:00:29.582771+00:00 app[web.1]: return food_list[dist.index(min(dist))]
+2022-08-04T01:00:29.582771+00:00 app[web.1]: ValueError: min() arg is an empty sequence
+2022-08-04T01:00:30.020632+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=c91a3127-b470-4999-b288-e1052ebcb864 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=223 protocol=https
+2022-08-04T01:00:30.030349+00:00 app[web.1]: 686b9d50-8128-40cc-b139-a2e5f3faa2e4 END
+2022-08-04T01:07:10.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-04T01:07:33.260615+00:00 app[api]: Deploy c488d665 by user abdelmoniemmmh@gmail.com
+2022-08-04T01:07:33.260615+00:00 app[api]: Release v37 created by user abdelmoniemmmh@gmail.com
+2022-08-04T01:07:33.518437+00:00 heroku[web.1]: Restarting
+2022-08-04T01:07:33.532143+00:00 heroku[web.1]: State changed from up to starting
+2022-08-04T01:07:34.252351+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-04T01:07:34.475628+00:00 heroku[web.1]: Process exited with status 0
+2022-08-04T01:07:36.704577+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-04T01:07:37.994390+00:00 app[web.1]: 
+2022-08-04T01:07:37.994398+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:31565
+2022-08-04T01:07:37.994574+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-04T01:07:37.994700+00:00 app[web.1]: * Environment: development
+2022-08-04T01:07:37.994716+00:00 app[web.1]: * Debug mode: on
+2022-08-04T01:07:38.190311+00:00 app[web.1]: 
+2022-08-04T01:07:38.190313+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:31565
+2022-08-04T01:07:38.309459+00:00 heroku[web.1]: State changed from starting to up
+2022-08-04T01:07:41.000000+00:00 app[api]: Build succeeded
+2022-08-04T01:08:24.276121+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=18f56633-edcf-40f6-9768-e6182ee39179 fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-04T01:08:24.276347+00:00 app[web.1]: b66e5c3c-5f64-4a5e-966a-110951607c3f START
+2022-08-04T01:08:24.374032+00:00 app[web.1]: [{'id': 'gs_wqRxMGQBtdKSrhMVqK3vTYPY', 'name': 'Constant Carter', 'latency': '', 'health': 100, 'body': [{'x': 1, 'y': 5}, {'x': 1, 'y': 5}, {'x': 1, 'y': 5}], 'head': {'x': 1, 'y': 5}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#aa66cc', 'head': 'trans-rights-scarf', 'tail': 'default'}}, {'id': 'gs_WHyFv44CC3xfPTqTHDKXDtCM', 'name': 'Devious Devin', 'latency': '', 'health': 100, 'body': [{'x': 5, 'y': 1}, {'x': 5, 'y': 1}, {'x': 5, 'y': 1}], 'head': {'x': 5, 'y': 1}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}, {'id': 'gs_c3CjgpdFXKv8cPvkrMf6vM4f', 'name': 'ExpT4', 'latency': '', 'health': 100, 'body': [{'x': 5, 'y': 9}, {'x': 5, 'y': 9}, {'x': 5, 'y': 9}], 'head': {'x': 5, 'y': 9}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}]
+2022-08-04T01:08:24.374257+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '#', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['*', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:08:24.377198+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=865ea43a-6ff8-417e-9c52-a63bf7f6512e fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-04T01:08:24.377475+00:00 app[web.1]: [('down', 97), ('up', 11), ('right', 5), ('left', 5)]
+2022-08-04T01:08:24.377505+00:00 app[web.1]: b66e5c3c-5f64-4a5e-966a-110951607c3f MOVE 0: left picked from all valid options in ['down', 'right', 'up', 'left']
+2022-08-04T01:08:24.825434+00:00 app[web.1]: [{'id': 'gs_wqRxMGQBtdKSrhMVqK3vTYPY', 'name': 'Constant Carter', 'latency': '17', 'health': 99, 'body': [{'x': 2, 'y': 5}, {'x': 1, 'y': 5}, {'x': 1, 'y': 5}], 'head': {'x': 2, 'y': 5}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#aa66cc', 'head': 'trans-rights-scarf', 'tail': 'default'}}, {'id': 'gs_WHyFv44CC3xfPTqTHDKXDtCM', 'name': 'Devious Devin', 'latency': '437', 'health': 99, 'body': [{'x': 6, 'y': 1}, {'x': 5, 'y': 1}, {'x': 5, 'y': 1}], 'head': {'x': 6, 'y': 1}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}, {'id': 'gs_c3CjgpdFXKv8cPvkrMf6vM4f', 'name': 'ExpT4', 'latency': '28', 'health': 99, 'body': [{'x': 5, 'y': 8}, {'x': 5, 'y': 9}, {'x': 5, 'y': 9}], 'head': {'x': 5, 'y': 8}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}]
+2022-08-04T01:08:24.825606+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '*', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '#', '#', '0', '0', '*', '0', '0', '0', '0', '0'], ['*', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:08:24.828698+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=d640c609-765f-4172-8d54-c9ec2ba2434e fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-04T01:08:24.828810+00:00 app[web.1]: [('down', 84), ('right', 16), ('left', 15), ('up', 0)]
+2022-08-04T01:08:24.828834+00:00 app[web.1]: b66e5c3c-5f64-4a5e-966a-110951607c3f MOVE 1: left picked from all valid options in ['down', 'right', 'left']
+2022-08-04T01:08:25.265346+00:00 app[web.1]: [{'id': 'gs_wqRxMGQBtdKSrhMVqK3vTYPY', 'name': 'Constant Carter', 'latency': '26', 'health': 98, 'body': [{'x': 3, 'y': 5}, {'x': 2, 'y': 5}, {'x': 1, 'y': 5}], 'head': {'x': 3, 'y': 5}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#aa66cc', 'head': 'trans-rights-scarf', 'tail': 'default'}}, {'id': 'gs_WHyFv44CC3xfPTqTHDKXDtCM', 'name': 'Devious Devin', 'latency': '423', 'health': 100, 'body': [{'x': 6, 'y': 0}, {'x': 6, 'y': 1}, {'x': 5, 'y': 1}, {'x': 5, 'y': 1}], 'head': {'x': 6, 'y': 0}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}, {'id': 'gs_c3CjgpdFXKv8cPvkrMf6vM4f', 'name': 'ExpT4', 'latency': '27', 'health': 98, 'body': [{'x': 5, 'y': 7}, {'x': 5, 'y': 8}, {'x': 5, 'y': 9}], 'head': {'x': 5, 'y': 7}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}]
+2022-08-04T01:08:25.265508+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '#', '#', '#', '0', '*', '0', '0', '0', '0', '0'], ['*', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '&', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:08:25.268351+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c82c8ced-e4f8-4c19-9493-18cf46c1d30d fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-04T01:08:25.268633+00:00 app[web.1]: [('down', 71), ('right', 21), ('left', 20), ('up', 0)]
+2022-08-04T01:08:25.268663+00:00 app[web.1]: b66e5c3c-5f64-4a5e-966a-110951607c3f MOVE 2: right picked from all valid options in ['down', 'right', 'left']
+2022-08-04T01:08:25.775236+00:00 app[web.1]: [{'id': 'gs_wqRxMGQBtdKSrhMVqK3vTYPY', 'name': 'Constant Carter', 'latency': '18', 'health': 97, 'body': [{'x': 4, 'y': 5}, {'x': 3, 'y': 5}, {'x': 2, 'y': 5}], 'head': {'x': 4, 'y': 5}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#aa66cc', 'head': 'trans-rights-scarf', 'tail': 'default'}}, {'id': 'gs_WHyFv44CC3xfPTqTHDKXDtCM', 'name': 'Devious Devin', 'latency': '481', 'health': 99, 'body': [{'x': 5, 'y': 0}, {'x': 6, 'y': 0}, {'x': 6, 'y': 1}, {'x': 5, 'y': 1}], 'head': {'x': 5, 'y': 0}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}, {'id': 'gs_c3CjgpdFXKv8cPvkrMf6vM4f', 'name': 'ExpT4', 'latency': '27', 'health': 97, 'body': [{'x': 5, 'y': 6}, {'x': 5, 'y': 7}, {'x': 5, 'y': 8}], 'head': {'x': 5, 'y': 6}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}]
+2022-08-04T01:08:25.775412+00:00 app[web.1]: [['0', '0', '0', '0', '0', '#', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '#', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '0', '#', '#', '#', '*', '0', '0', '0', '0', '0'], ['*', '0', '0', '0', '0', '&', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '#', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '*', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:08:25.778127+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b9b71f05-3a04-4654-8b7f-c87127d7eab2 fwd="143.198.42.44" dyno=web.1 connect=0ms service=5ms status=200 bytes=235 protocol=https
+2022-08-04T01:08:25.778362+00:00 app[web.1]: [('down', 57), ('right', 27), ('left', 27), ('up', 0)]
+2022-08-04T01:08:25.778396+00:00 app[web.1]: b66e5c3c-5f64-4a5e-966a-110951607c3f MOVE 3: down picked from all valid options in ['down', 'right', 'left']
+2022-08-04T01:08:26.288487+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=2d125a19-0396-4ed0-87ce-7df55da2365c fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=223 protocol=https
+2022-08-04T01:08:26.288895+00:00 app[web.1]: b66e5c3c-5f64-4a5e-966a-110951607c3f END
+2022-08-04T01:10:12.000000+00:00 app[api]: Build started by user abdelmoniemmmh@gmail.com
+2022-08-04T01:10:35.988404+00:00 heroku[web.1]: Restarting
+2022-08-04T01:10:35.990905+00:00 heroku[web.1]: State changed from up to starting
+2022-08-04T01:10:36.759273+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-08-04T01:10:36.963458+00:00 heroku[web.1]: Process exited with status 0
+2022-08-04T01:10:39.105900+00:00 heroku[web.1]: Starting process with command `python src/main.py`
+2022-08-04T01:10:40.256442+00:00 app[web.1]: 
+2022-08-04T01:10:40.256455+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:30349
+2022-08-04T01:10:40.256601+00:00 app[web.1]: * Serving Flask app 'main' (lazy loading)
+2022-08-04T01:10:40.256619+00:00 app[web.1]: * Environment: development
+2022-08-04T01:10:40.256633+00:00 app[web.1]: * Debug mode: on
+2022-08-04T01:10:40.445273+00:00 app[web.1]: 
+2022-08-04T01:10:40.445276+00:00 app[web.1]: Running Battlesnake server at http://0.0.0.0:30349
+2022-08-04T01:10:40.746220+00:00 heroku[web.1]: State changed from starting to up
+2022-08-04T01:11:02.153065+00:00 heroku[router]: at=info method=POST path="/start" host=battlesnake-summer.herokuapp.com request_id=264baaa6-07fb-43ab-8ef2-aaf4c50f0f6f fwd="143.198.42.44" dyno=web.1 connect=0ms service=2ms status=200 bytes=223 protocol=https
+2022-08-04T01:11:02.286869+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=1805789c-f42a-415a-9dda-2192e3ff73d4 fwd="143.198.42.44" dyno=web.1 connect=0ms service=12ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:02.154020+00:00 app[web.1]: a0d3875c-9a1d-4b84-b710-35f65777cdff START
+2022-08-04T01:11:02.276913+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '', 'health': 100, 'body': [{'x': 9, 'y': 1}, {'x': 9, 'y': 1}, {'x': 9, 'y': 1}], 'head': {'x': 9, 'y': 1}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '', 'health': 100, 'body': [{'x': 1, 'y': 1}, {'x': 1, 'y': 1}, {'x': 1, 'y': 1}], 'head': {'x': 1, 'y': 1}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}, {'id': 'gs_WTFFw4Jjtk9J8hYGfhBXhVKF', 'name': 'Constant Carter', 'latency': '', 'health': 100, 'body': [{'x': 9, 'y': 9}, {'x': 9, 'y': 9}, {'x': 9, 'y': 9}], 'head': {'x': 9, 'y': 9}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#aa66cc', 'head': 'trans-rights-scarf', 'tail': 'default'}}]
+2022-08-04T01:11:02.277092+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '#', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['*', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:02.280561+00:00 app[web.1]: [('up', 99), ('down', 11), ('left', 7), ('right', 1)]
+2022-08-04T01:11:02.288383+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:02.288385+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:02.288386+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:02.288386+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:02.288386+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:02.288386+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:02.288387+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:02.288388+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:02.288388+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:02.288388+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:02.288388+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:02.288389+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:02.288389+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:02.288389+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:02.288389+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:02.288390+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:02.288392+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:02.288392+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:02.288393+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:02.288393+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:02.288393+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:02.288396+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:02.713457+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=c0d2a3dc-fb22-44f2-b398-c8cef6541428 fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:02.706498+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '54', 'health': 99, 'body': [{'x': 9, 'y': 2}, {'x': 9, 'y': 1}, {'x': 9, 'y': 1}], 'head': {'x': 9, 'y': 2}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '420', 'health': 99, 'body': [{'x': 1, 'y': 2}, {'x': 1, 'y': 1}, {'x': 1, 'y': 1}], 'head': {'x': 1, 'y': 2}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}, {'id': 'gs_WTFFw4Jjtk9J8hYGfhBXhVKF', 'name': 'Constant Carter', 'latency': '23', 'health': 99, 'body': [{'x': 10, 'y': 9}, {'x': 9, 'y': 9}, {'x': 9, 'y': 9}], 'head': {'x': 10, 'y': 9}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#aa66cc', 'head': 'trans-rights-scarf', 'tail': 'default'}}]
+2022-08-04T01:11:02.706662+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '#', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['*', '#', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '#'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:02.709678+00:00 app[web.1]: [('up', 88), ('left', 23), ('right', 4), ('down', 0)]
+2022-08-04T01:11:02.715026+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:02.715027+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:02.715027+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:02.715028+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:02.715028+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:02.715028+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:02.715029+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:02.715030+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:02.715030+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:02.715030+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:02.715031+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:02.715031+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:02.715031+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:02.715031+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:02.715032+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:02.715032+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:02.715032+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:02.715033+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:02.715033+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:02.715033+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:02.715033+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:02.715034+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:03.175148+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=28efed87-fb89-4487-9267-109dac88e1c0 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:03.601798+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '32', 'health': 97, 'body': [{'x': 9, 'y': 4}, {'x': 9, 'y': 3}, {'x': 9, 'y': 2}], 'head': {'x': 9, 'y': 4}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '414', 'health': 99, 'body': [{'x': 0, 'y': 1}, {'x': 0, 'y': 2}, {'x': 1, 'y': 2}, {'x': 1, 'y': 1}], 'head': {'x': 0, 'y': 1}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:03.602056+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['#', '#', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['#', '#', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:03.605108+00:00 app[web.1]: [('up', 66), ('left', 41), ('right', 7), ('down', 0)]
+2022-08-04T01:11:03.610577+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:03.610578+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:03.610578+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:03.610578+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:03.610579+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:03.610579+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:03.610579+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:03.610580+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:03.610580+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:03.610580+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:03.610581+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:03.610581+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:03.610581+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:03.610581+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:03.610582+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:03.610582+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:03.610582+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:03.610582+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:03.610583+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:03.610583+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:03.610583+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:03.610584+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:03.609007+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=6358685c-7e32-4e8d-90db-5c4672ed0998 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:03.167226+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '31', 'health': 98, 'body': [{'x': 9, 'y': 3}, {'x': 9, 'y': 2}, {'x': 9, 'y': 1}], 'head': {'x': 9, 'y': 3}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '420', 'health': 100, 'body': [{'x': 0, 'y': 2}, {'x': 1, 'y': 2}, {'x': 1, 'y': 1}, {'x': 1, 'y': 1}], 'head': {'x': 0, 'y': 2}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:03.167382+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '#', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['#', '#', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:03.170365+00:00 app[web.1]: [('up', 77), ('left', 33), ('right', 5), ('down', 0)]
+2022-08-04T01:11:03.175715+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:03.175716+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:03.175716+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:03.175717+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:03.175717+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:03.175717+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:03.175717+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:03.175719+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:03.175719+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:03.175719+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:03.175719+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:03.175720+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:03.175720+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:03.175721+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:03.175721+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:03.175722+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:03.175723+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:03.175723+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:03.175723+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:03.175723+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:03.175724+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:03.175724+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:04.036272+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '32', 'health': 96, 'body': [{'x': 9, 'y': 5}, {'x': 9, 'y': 4}, {'x': 9, 'y': 3}], 'head': {'x': 9, 'y': 5}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '413', 'health': 98, 'body': [{'x': 1, 'y': 1}, {'x': 0, 'y': 1}, {'x': 0, 'y': 2}, {'x': 1, 'y': 2}], 'head': {'x': 1, 'y': 1}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:04.036447+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['#', '#', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['#', '#', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:04.039621+00:00 app[web.1]: [('up', 55), ('left', 50), ('right', 9), ('down', 0)]
+2022-08-04T01:11:04.045079+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:04.045080+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:04.045080+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:04.045080+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:04.045081+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:04.045081+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:04.045081+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:04.045082+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:04.045082+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:04.045082+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:04.045082+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:04.045083+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:04.045083+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:04.045083+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:04.045083+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:04.045084+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:04.045084+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:04.045084+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:04.045084+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:04.045085+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:04.045085+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:04.045086+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:04.043501+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=5db5a789-d7d1-4da9-8df6-3e7c02e05a93 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:04.452519+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '31', 'health': 95, 'body': [{'x': 9, 'y': 6}, {'x': 9, 'y': 5}, {'x': 9, 'y': 4}], 'head': {'x': 9, 'y': 6}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '418', 'health': 97, 'body': [{'x': 2, 'y': 1}, {'x': 1, 'y': 1}, {'x': 0, 'y': 1}, {'x': 0, 'y': 2}], 'head': {'x': 2, 'y': 1}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:04.452697+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['#', '#', '#', '0', '0', '0', '0', '0', '0', '0', '0'], ['#', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:04.455836+00:00 app[web.1]: [('left', 59), ('up', 44), ('right', 11), ('down', 0)]
+2022-08-04T01:11:04.461191+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:04.461191+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:04.461192+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:04.461192+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:04.461192+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:04.461192+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:04.461193+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:04.461193+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:04.461194+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:04.461194+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:04.461194+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:04.461194+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:04.461195+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:04.461195+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:04.461195+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:04.461195+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:04.461196+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:04.461196+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:04.461196+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:04.461197+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:04.461197+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:04.461198+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:04.459672+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=b81236ff-817c-46d5-bbde-918a5e172c3d fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:04.899981+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=94865147-35be-49c0-8558-1b8807ce5e06 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:04.892029+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '31', 'health': 94, 'body': [{'x': 9, 'y': 7}, {'x': 9, 'y': 6}, {'x': 9, 'y': 5}], 'head': {'x': 9, 'y': 7}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '412', 'health': 96, 'body': [{'x': 3, 'y': 1}, {'x': 2, 'y': 1}, {'x': 1, 'y': 1}, {'x': 0, 'y': 1}], 'head': {'x': 3, 'y': 1}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:04.893295+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['#', '#', '#', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:04.896181+00:00 app[web.1]: [('left', 68), ('up', 33), ('right', 13), ('down', 0)]
+2022-08-04T01:11:04.901427+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:04.901428+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:04.901428+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:04.901429+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:04.901429+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:04.901430+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:04.901430+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:04.901431+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:04.901432+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:04.901432+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:04.901433+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:04.901433+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:04.901433+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:04.901434+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:04.901434+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:04.901434+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:04.901435+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:04.901435+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:04.901436+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:04.901436+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:04.901437+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:04.901437+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:05.426410+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=61b9334b-2e21-41d9-b7ec-a017a1eed443 fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:05.419646+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '32', 'health': 93, 'body': [{'x': 9, 'y': 8}, {'x': 9, 'y': 7}, {'x': 9, 'y': 6}], 'head': {'x': 9, 'y': 8}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '412', 'health': 95, 'body': [{'x': 3, 'y': 2}, {'x': 3, 'y': 1}, {'x': 2, 'y': 1}, {'x': 1, 'y': 1}], 'head': {'x': 3, 'y': 2}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:05.419793+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '#', '#', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:05.422698+00:00 app[web.1]: [('left', 77), ('up', 22), ('right', 15), ('down', 0)]
+2022-08-04T01:11:05.427978+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:05.427978+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:05.427978+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:05.427979+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:05.427979+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:05.427979+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:05.427980+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:05.427980+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:05.427980+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:05.427981+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:05.427981+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:05.427982+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:05.427982+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:05.427982+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:05.427983+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:05.427983+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:05.427984+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:05.427984+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:05.427984+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:05.427984+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:05.427985+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:05.427985+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:05.751666+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '32', 'health': 92, 'body': [{'x': 9, 'y': 9}, {'x': 9, 'y': 8}, {'x': 9, 'y': 7}], 'head': {'x': 9, 'y': 9}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '414', 'health': 94, 'body': [{'x': 3, 'y': 3}, {'x': 3, 'y': 2}, {'x': 3, 'y': 1}, {'x': 2, 'y': 1}], 'head': {'x': 3, 'y': 3}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:05.751874+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '0', '#', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']]
+2022-08-04T01:11:05.755098+00:00 app[web.1]: [('left', 86), ('right', 17), ('up', 11), ('down', 0)]
+2022-08-04T01:11:05.760996+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:05.760997+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:05.760997+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:05.760999+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:05.761000+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:05.761000+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:05.761001+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:05.761002+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:05.761002+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:05.761003+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:05.761003+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:05.761004+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:05.761004+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:05.761005+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:05.761005+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:05.761005+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:05.761006+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:05.761007+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:05.761007+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:05.761008+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:05.761008+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:05.761009+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:05.761539+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=f1c1a0e6-7dbf-4d8d-a2d8-622ef9b55a61 fwd="143.198.42.44" dyno=web.1 connect=0ms service=10ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:06.220332+00:00 heroku[router]: at=info method=POST path="/move" host=battlesnake-summer.herokuapp.com request_id=cfab1712-f8e2-4213-b9a4-eba66317bd8d fwd="143.198.42.44" dyno=web.1 connect=0ms service=9ms status=500 bytes=18287 protocol=https
+2022-08-04T01:11:06.213338+00:00 app[web.1]: [{'id': 'gs_BcYKqXqWwbxbdth9ykqQRpGc', 'name': 'ExpT4', 'latency': '37', 'health': 91, 'body': [{'x': 9, 'y': 10}, {'x': 9, 'y': 9}, {'x': 9, 'y': 8}], 'head': {'x': 9, 'y': 10}, 'length': 3, 'shout': '', 'squad': '', 'customizations': {'color': '#888888', 'head': 'default', 'tail': 'default'}}, {'id': 'gs_HSMVhh8SMtyGpxB8QbwKgpYH', 'name': 'Devious Devin', 'latency': '422', 'health': 93, 'body': [{'x': 3, 'y': 4}, {'x': 3, 'y': 3}, {'x': 3, 'y': 2}, {'x': 3, 'y': 1}], 'head': {'x': 3, 'y': 4}, 'length': 4, 'shout': '', 'squad': '', 'customizations': {'color': '#99cc00', 'head': 'trans-rights-scarf', 'tail': 'rbc-necktie'}}]
+2022-08-04T01:11:06.213598+00:00 app[web.1]: [['0', '0', '0', '0', '0', '0', '0', '0', '*', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '#', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '*', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '*'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '#', '0'], ['0', '0', '0', '0', '0', '0', '0', '0', '0', '&', '0']]
+2022-08-04T01:11:06.216669+00:00 app[web.1]: [('left', 95), ('right', 19), ('up', 0), ('down', 0)]
+2022-08-04T01:11:06.221965+00:00 app[web.1]: Traceback (most recent call last):
+2022-08-04T01:11:06.221965+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2091, in __call__
+2022-08-04T01:11:06.221968+00:00 app[web.1]: return self.wsgi_app(environ, start_response)
+2022-08-04T01:11:06.221968+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2076, in wsgi_app
+2022-08-04T01:11:06.221969+00:00 app[web.1]: response = self.handle_exception(e)
+2022-08-04T01:11:06.221969+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+2022-08-04T01:11:06.221969+00:00 app[web.1]: response = self.full_dispatch_request()
+2022-08-04T01:11:06.221970+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+2022-08-04T01:11:06.221970+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2022-08-04T01:11:06.221971+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+2022-08-04T01:11:06.221971+00:00 app[web.1]: rv = self.dispatch_request()
+2022-08-04T01:11:06.221971+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+2022-08-04T01:11:06.221972+00:00 app[web.1]: return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+2022-08-04T01:11:06.221972+00:00 app[web.1]: File "/app/src/main.py", line 45, in handle_move
+2022-08-04T01:11:06.221972+00:00 app[web.1]: move = logic.choose_move(data)
+2022-08-04T01:11:06.221973+00:00 app[web.1]: File "/app/src/logic.py", line 137, in choose_move
+2022-08-04T01:11:06.221973+00:00 app[web.1]: agressive_moves = beAggressive(data['board']['snakes'], my_snake)
+2022-08-04T01:11:06.221973+00:00 app[web.1]: File "/app/src/logic.py", line 228, in beAggressive
+2022-08-04T01:11:06.221974+00:00 app[web.1]: snake = nearest_food(smaller_snakes(all_snakes, me['length']+3), me['head'])
+2022-08-04T01:11:06.221974+00:00 app[web.1]: File "/app/src/logic.py", line 210, in nearest_food
+2022-08-04T01:11:06.221974+00:00 app[web.1]: dist.append(math.sqrt(((food['x'] - head['x']) ** 2) + ((food['y'] - head['y']) ** 2)))
+2022-08-04T01:11:06.221975+00:00 app[web.1]: KeyError: 'x'
+2022-08-04T01:11:06.667650+00:00 heroku[router]: at=info method=POST path="/end" host=battlesnake-summer.herokuapp.com request_id=f69da808-7144-4b04-bfe1-778e5c30e891 fwd="143.198.42.44" dyno=web.1 connect=0ms service=1ms status=200 bytes=223 protocol=https
+2022-08-04T01:11:06.668871+00:00 app[web.1]: a0d3875c-9a1d-4b84-b710-35f65777cdff END
+2022-08-04T01:10:35.465201+00:00 app[api]: Deploy d656828b by user abdelmoniemmmh@gmail.com
+2022-08-04T01:10:35.465201+00:00 app[api]: Release v38 created by user abdelmoniemmmh@gmail.com
+2022-08-04T01:10:44.000000+00:00 app[api]: Build succeeded
