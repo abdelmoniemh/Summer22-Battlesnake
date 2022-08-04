@@ -191,8 +191,9 @@ def choose_move(data: dict) -> str:
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
         possibleLocation = headLocationAfterMove(my_head)
-        if possibleLocation[possibleMove] not in cellsToAvoid:
-          print(f"{data['game']['id']} MOVE {data['turn']}: {possibleMove} picked from all valid options in {possible_moves} avoiding")
+        tupleToAvoid = (possibleLocation[possibleMove]['x'],possibleLocation[possibleMove]['y'])
+        if tupleToAvoid not in cellsToAvoid:
+          print(f"{data['game']['id']} MOVE {data['turn']}: {possibleMove} picked from all valid options in {possible_moves} not avoiding")
           return possibleMove
         else:
           print(f"avoided move {possibleMove} because of danger in cell {possibleLocation[possibleMove]}")
