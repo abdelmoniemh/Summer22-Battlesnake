@@ -22,9 +22,9 @@ def get_info() -> dict:
     return {
         "apiversion": "1",
         "author": "",  # TODO: Your Battlesnake Username
-        "color": "#888888",  # TODO: Personalize
-        "head": "default",  # TODO: Personalize
-        "tail": "default",  # TODO: Personalize
+        "color": "#fc9803",  # TODO: Personalize
+        "head": "tiger-king",  # TODO: Personalize
+        "tail": "rbc-necktie",  # TODO: Personalize
     }
 
 
