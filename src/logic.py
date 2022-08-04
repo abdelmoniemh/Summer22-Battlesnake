@@ -163,8 +163,10 @@ def choose_move(data: dict) -> str:
       # Choose a random direction from the remaining possible_moves to move in, and then return that move
     cellsToAvoid = []
     for snake in data['board']['snakes']:
-      if snake['length'] >= my_snake['length']:
+      
+      if snake['length'] < my_snake['length']:
         continue
+
       allPossibleMoves=headLocationAfterMove(snake['head'])
       for move in allPossibleMoves:
         cellsToAvoid.append((allPossibleMoves[move]['x'], allPossibleMoves[move]['y']))
@@ -178,7 +180,7 @@ def choose_move(data: dict) -> str:
       if possibleMove in possible_moves:
         possibleLocation = headLocationAfterMove(my_head)
         if possibleLocation[possibleMove] not in cellsToAvoid:
-          print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves}")
+          print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves} avoiding")
           return possibleMove
 
     for possibleMove, space in movesWithMostSpace:
