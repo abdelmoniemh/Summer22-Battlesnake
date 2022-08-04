@@ -188,7 +188,7 @@ def choose_move(data: dict) -> str:
       if possibleMove in possible_moves:
         possibleLocation = headLocationAfterMove(my_head)
         if possibleLocation[possibleMove] not in cellsToAvoid:
-          print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves} avoiding")
+          print(f"{data['game']['id']} MOVE {data['turn']}: {possibleMove} picked from all valid options in {possible_moves} avoiding")
           return possibleMove
         else:
           print(f"avoided move {possibleMove} because of danger in cell {possibleLocation[possibleMove]}")
@@ -196,7 +196,7 @@ def choose_move(data: dict) -> str:
   #will run only if there are no possible moves when avoiding
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
-        print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves} in cells to avoid")
+        print(f"{data['game']['id']} MOVE {data['turn']}: {possibleMove} picked from all valid options in {possible_moves} in cells to avoid")
         return possibleMove
     
     # TODO: Explore new strategies for picking a move that are better than random
