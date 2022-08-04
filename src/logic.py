@@ -160,7 +160,14 @@ def choose_move(data: dict) -> str:
         possible_moves = tail_moves
         print(f"chasing tail : {tail_moves}")
     
-      # Choose a random direction from the remaining possible_moves to move in, and then return that move
+
+    if my_health < 10:
+      for move in possible_moves:
+        if movesWithMostSpace > 0:
+          return move
+    
+    
+    #We want to avoid certain cells around snakes that are longer than us
     cellsToAvoid = []
     for snake in data['board']['snakes']:
       if snake['length'] < my_snake['length'] + 2:
@@ -174,6 +181,8 @@ def choose_move(data: dict) -> str:
     # movesWithMostSpace is a sorted list of tuples with each move and how much space it has
     # ideally instead of a random move we want to take the move that will put us in the most space
 
+
+    #if we can avoid certain cells we should
     move = random.choice(possible_moves)
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
@@ -184,6 +193,7 @@ def choose_move(data: dict) -> str:
         else:
           print(f"avoided move {possibleMove} because of danger in cell {possibleLocation[possibleMove]}")
 
+  #will run only if there are no possible moves when avoiding
     for possibleMove, space in movesWithMostSpace:
       if possibleMove in possible_moves:
         print(f"{data['game']['id']} MOVE {data['turn']}: {move} picked from all valid options in {possible_moves} in cells to avoid")
