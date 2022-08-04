@@ -163,7 +163,7 @@ def choose_move(data: dict) -> str:
 
     if my_health < 10:
       for move in possible_moves:
-        if movesWithMostSpace > 0:
+        if movesWithMostSpace[move] > 0:
           print(f"{data['game']['id']} MOVE {data['turn']}: {possibleMove} picked from all valid options in {possible_moves} agressive eating")
           return move
     
